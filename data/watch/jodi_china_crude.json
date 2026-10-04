@@ -69,8 +69,7 @@
   },
   {
    "url": "https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/primaryyear2026.csv",
-   "archive": null,
-   "error": "<urlopen error [Errno 111] Connection refused>"
+   "archive": "https://web.archive.org/web/20261004160341/https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/primaryyear2026.csv"
   }
  ]
 }

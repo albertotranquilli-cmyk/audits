@@ -95,8 +95,7 @@
  "wayback": [
   {
    "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WCESTUS1&f=W",
-   "archive": null,
-   "error": "HTTP Error 520: UNKNOWN"
+   "archive": "https://web.archive.org/web/20261004150914/https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WCESTUS1&f=W"
   }
  ]
 }
