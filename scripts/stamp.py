@@ -39,6 +39,7 @@ def proof_digest(path):
 def targets():
     fs = [p for p in glob.glob(os.path.join(ROOT, "prereg", "**", "*"), recursive=True)]
     fs += glob.glob(os.path.join(ROOT, "data", "watch", "*"))
+    fs += glob.glob(os.path.join(ROOT, "engine", "PROTOCOL*.md"))
     return sorted(p for p in fs if os.path.isfile(p) and not p.endswith((".ots", ".bak"))
                   and os.path.basename(p) not in SKIP)
 
