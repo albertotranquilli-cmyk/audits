@@ -1,3 +1,5 @@
 {
- "consecutive_failures": 0
+ "portwatch_hormuz": {
+  "consecutive_failures": 0
+ }
 }

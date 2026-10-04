@@ -1,1 +1,3 @@
 data/watch/.summary.md
+__pycache__/
+*.ots.bak

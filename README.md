@@ -10,6 +10,10 @@ Code: MIT. Source data is not redistributed here; `run.sh --fresh` downloads it 
 
 ## Watch
 
-A scheduled GitHub Actions job ([`.github/workflows/watch.yml`](.github/workflows/watch.yml)) checks IMF PortWatch's
-Strait of Hormuz daily transits every weekday, stores a compact snapshot in [`data/watch/`](data/watch/) and opens an
-issue when new data or a revision of already-published days appears. Summary page: https://albertotranquilli-cmyk.github.io/audits/
+A scheduled GitHub Actions job ([`.github/workflows/watch.yml`](.github/workflows/watch.yml)) checks every weekday:
+IMF PortWatch daily transits through the Strait of Hormuz, JODI Oil World Database China crude (production,
+imports, exports, refinery intake) and EIA weekly US commercial crude stocks (WCESTUS1). It stores compact
+snapshots in [`data/watch/`](data/watch/) and opens an issue when new data or a revision of already-published values
+appears. Snapshots and files under `prereg/` get [OpenTimestamps](https://opentimestamps.org) proofs (`.ots`, verify
+with `ots verify <file>.ots`); source URLs are saved to the Wayback Machine when they change.
+Summary page: https://albertotranquilli-cmyk.github.io/audits/

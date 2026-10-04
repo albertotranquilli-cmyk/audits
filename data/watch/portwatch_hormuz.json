@@ -1,9 +1,9 @@
 {
  "source": "IMF PortWatch, Daily Chokepoints Data, Strait of Hormuz (chokepoint6)",
  "source_url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
- "portwatch_data_last_edit_utc": "2026-09-29T12:20:57Z",
+ "publisher_last_edit": "2026-09-29T12:20:57Z",
  "checked_at_utc": "2026-10-04T14:48:23Z",
- "n_days": 2827,
+ "n_periods": 2827,
  "first_date": "2019-01-01",
  "latest_date": "2026-09-27",
  "latest": {
@@ -24,7 +24,7 @@
   "2025": "544161411c04bc47851f8175a8948cd00f4c1d25abf29228c08392c545460950",
   "2026": "f6df5ef8b53dcaba142629f7c3234a0981bfcd3834eb784a0836f45439500450"
  },
- "recent_days": [
+ "recent": [
   {
    "date": "2026-08-31",
    "n_tanker": 1,
