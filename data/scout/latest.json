@@ -1,0 +1,1064 @@
+{
+ "generated_at_utc": "2026-10-04T15:53:37Z",
+ "week": "2026-W40",
+ "window_start": "2026-09-27",
+ "sources": {
+  "github_repos": {
+   "ok": true,
+   "items": 10
+  },
+  "github_code": {
+   "ok": true,
+   "items": 19
+  },
+  "hn": {
+   "ok": true,
+   "items": 10
+  },
+  "zenodo": {
+   "ok": true,
+   "items": 25
+  },
+  "arxiv": {
+   "ok": true,
+   "items": 3
+  },
+  "ckan": {
+   "ok": true,
+   "items": 5
+  },
+  "wayback_cdx": {
+   "ok": true,
+   "items": 11
+  },
+  "awesome_public_datasets": {
+   "ok": true,
+   "items": 0
+  }
+ },
+ "dark_corners_sources": {
+  "listings": {
+   "ok": true,
+   "items": 0
+  },
+  "ia": {
+   "ok": true,
+   "items": 1
+  },
+  "commoncrawl": {
+   "ok": true,
+   "items": 0
+  },
+  "removed": {
+   "ok": true,
+   "items": 5
+  }
+ },
+ "dark_corners": [
+  {
+   "module": "ia",
+   "url": "https://archive.org/details/tank_20261001",
+   "archive": "https://archive.org/download/tank_20261001",
+   "why": "Internet Archive data upload 2026-10-01, 0 downloads, described: Tanker Wagon"
+  },
+  {
+   "module": "removed",
+   "url": "https://iea.blob.core.windows.net/assets/23af92ae-0cd4-4e6c-a06b-957b0688f0ed/TheStateofEnergyInnovation2026.pdf",
+   "archive": "https://web.archive.org/web/20260217053756id_/https://iea.blob.core.windows.net/assets/23af92ae-0cd4-4e6c-a06b-957b0688f0ed/TheStateofEnergyInnovation2026.pdf",
+   "why": "archived OK on 20260217, archived as missing on 20261003, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
+  },
+  {
+   "module": "removed",
+   "url": "https://iea.blob.core.windows.net/assets/601eaec9-ba91-4623-819b-4ded331ec9e8/EnergyandAI.pdf",
+   "archive": "https://web.archive.org/web/20250703025329id_/https://iea.blob.core.windows.net/assets/601eaec9-ba91-4623-819b-4ded331ec9e8/EnergyandAI.pdf",
+   "why": "archived OK on 20250703, archived as missing on 20261003, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
+  },
+  {
+   "module": "removed",
+   "url": "https://iea.blob.core.windows.net/assets/4fda38df-523c-46f5-ae75-49481abdc8fc/WorldEnergyInvestment2026.pdf",
+   "archive": "https://web.archive.org/web/20260528043821id_/https://iea.blob.core.windows.net/assets/4fda38df-523c-46f5-ae75-49481abdc8fc/WorldEnergyInvestment2026.pdf",
+   "why": "archived OK on 20260528, archived as missing on 20261002, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
+  },
+  {
+   "module": "removed",
+   "url": "https://iea.blob.core.windows.net/assets/203eb8eb-2147-4c99-af07-2d3804b8db3f/StraitofHormuzFactsheet.pdf",
+   "archive": "https://web.archive.org/web/20240415083941id_/https://iea.blob.core.windows.net/assets/203eb8eb-2147-4c99-af07-2d3804b8db3f/StraitofHormuzFactsheet.pdf",
+   "why": "archived OK on 20240415, archived as missing on 20261002, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
+  },
+  {
+   "module": "removed",
+   "url": "https://iea.blob.core.windows.net/assets/2831e0dc-f030-4d14-985c-d26d1af4430f/GlobalCriticalMineralsOutlook2026.pdf",
+   "archive": "https://web.archive.org/web/20260716073828id_/https://iea.blob.core.windows.net/assets/2831e0dc-f030-4d14-985c-d26d1af4430f/GlobalCriticalMineralsOutlook2026.pdf",
+   "why": "archived OK on 20260716, archived as missing on 20260930, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
+  }
+ ],
+ "top": [
+  {
+   "kind": "hn",
+   "title": "When oil prices spike, where does the money go?",
+   "url": "https://theconversation.com/when-oil-prices-spike-where-does-the-money-go-280763",
+   "score": 176,
+   "why": "HN 171 points, 194 comments (https://news.ycombinator.com/item?id=49888182)",
+   "source": "hn",
+   "id": "hn:49888182"
+  },
+  {
+   "kind": "hn",
+   "title": "Sustainable energy without the hot air (2008)",
+   "url": "https://www.withouthotair.com/",
+   "score": 155,
+   "why": "HN 150 points, 92 comments (https://news.ycombinator.com/item?id=49892175)",
+   "source": "hn",
+   "id": "hn:49892175"
+  },
+  {
+   "kind": "hn",
+   "title": "Canada fast-tracks Pacific oil pipeline to reduce US dependence",
+   "url": "https://apnews.com/article/alberta-canada-carney-pipeline-68539133d6e0245fad3622263afd4aeb",
+   "score": 88,
+   "why": "HN 83 points, 96 comments (https://news.ycombinator.com/item?id=49923575)",
+   "source": "hn",
+   "id": "hn:49923575"
+  },
+  {
+   "kind": "hn",
+   "title": "Moist-Electric Wallpaper for Indoor Energy Harvesting and Humidity Management",
+   "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71603",
+   "score": 74,
+   "why": "HN 69 points, 37 comments (https://news.ycombinator.com/item?id=49910613)",
+   "source": "hn",
+   "id": "hn:49910613"
+  },
+  {
+   "kind": "repo",
+   "title": "keithligh/hk-traffic-intelligence",
+   "url": "https://github.com/keithligh/hk-traffic-intelligence",
+   "score": 57,
+   "why": "★57, topic open-data: A live Hong Kong smart-city dashboard on public APIs. Harbour crossing minutes, strategic-road speed, street cameras, wo",
+   "source": "github_repos",
+   "id": "gh:keithligh/hk-traffic-intelligence"
+  },
+  {
+   "kind": "repo",
+   "title": "Kerlooo/FreeOSINTUI",
+   "url": "https://github.com/Kerlooo/FreeOSINTUI",
+   "score": 56,
+   "why": "★51, topic osint: Free alternative to https://osint-ui.com",
+   "source": "github_repos",
+   "id": "gh:Kerlooo/FreeOSINTUI"
+  },
+  {
+   "kind": "repo",
+   "title": "MetalTakip/closing-straits",
+   "url": "https://github.com/MetalTakip/closing-straits",
+   "score": 26,
+   "why": "★1, topic oil: Satellite radar ship counts, gas flaring and GDELT news indices for the 2026 Strait of Hormuz closures. Code (MIT) and d",
+   "source": "github_repos",
+   "id": "gh:MetalTakip/closing-straits"
+  },
+  {
+   "kind": "repo",
+   "title": "SamratSKEvents/sih-guardians",
+   "url": "https://github.com/SamratSKEvents/sih-guardians",
+   "score": 20,
+   "why": "★0, topic ais: Oil spill intelligence from satellite radar: detect slicks, trace their origin, attribute vessels, forecast drift and pl",
+   "source": "github_repos",
+   "id": "gh:SamratSKEvents/sih-guardians"
+  },
+  {
+   "kind": "dataset",
+   "title": "Does oil dependence weaken the link between foreign direct investment ‎‎and renewable energy? Panel evidence from twelve oil-producing ‎‎economies",
+   "url": "https://zenodo.org/records/23137379",
+   "score": 20,
+   "why": "Zenodo dataset, published 2026-10-04",
+   "source": "zenodo",
+   "id": "zenodo:23137379"
+  },
+  {
+   "kind": "dataset",
+   "title": "Code and figure data for: Daily Northern Sea Route accessibility for an Arc7-class LNG carrier in a high-resolution climate projection",
+   "url": "https://zenodo.org/records/23137796",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-10-04",
+   "source": "zenodo",
+   "id": "zenodo:23137796"
+  },
+  {
+   "kind": "dataset",
+   "title": "Theoretical biomass potential of residues from vegetable oil production across EU27",
+   "url": "https://zenodo.org/records/23136257",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-10-04",
+   "source": "zenodo",
+   "id": "zenodo:23136257"
+  },
+  {
+   "kind": "dataset",
+   "title": "VIIRS Nightfire upstream gas-flaring volumes, 2012–2025: annual site, country and global records and monthly series (MYC25Q4)",
+   "url": "https://zenodo.org/records/23091822",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-10-01",
+   "source": "zenodo",
+   "id": "zenodo:23091822"
+  },
+  {
+   "kind": "notebook",
+   "title": "worldbank/alternative-data-for-crisis: notebooks/disruptions-business-trade/maritime-port-activity.ipynb",
+   "url": "https://github.com/worldbank/alternative-data-for-crisis/blob/c0bc8886cb976ad89ee9f92fdbf9a9d8edc5c0ef/notebooks/disruptions-business-trade/maritime-port-activity.ipynb",
+   "score": 9,
+   "why": "public notebook using portwatch.imf.org",
+   "source": "github_code",
+   "id": "code:worldbank/alternative-data-for-crisis/notebooks/disruptions-business-trade/maritime-port-activity.ipynb"
+  },
+  {
+   "kind": "notebook",
+   "title": "bdecon/US-chartbook: notebooks/Energy.ipynb",
+   "url": "https://github.com/bdecon/US-chartbook/blob/2f97c5ba33b0ae07dfaee49af4d2e5479c780cb2/notebooks/Energy.ipynb",
+   "score": 9,
+   "why": "public notebook using api.eia.gov",
+   "source": "github_code",
+   "id": "code:bdecon/US-chartbook/notebooks/Energy.ipynb"
+  },
+  {
+   "kind": "notebook",
+   "title": "jhellingsdata/RADataHub: ChartOfTheDay/gas-storage/gas.ipynb",
+   "url": "https://github.com/jhellingsdata/RADataHub/blob/13aa1b4eca905bcb9daa3463b28ebe550607b7a7/ChartOfTheDay/gas-storage/gas.ipynb",
+   "score": 9,
+   "why": "public notebook using agsi.gie.eu",
+   "source": "github_code",
+   "id": "code:jhellingsdata/RADataHub/ChartOfTheDay/gas-storage/gas.ipynb"
+  }
+ ],
+ "candidates": [
+  {
+   "kind": "hn",
+   "title": "When oil prices spike, where does the money go?",
+   "url": "https://theconversation.com/when-oil-prices-spike-where-does-the-money-go-280763",
+   "score": 176,
+   "why": "HN 171 points, 194 comments (https://news.ycombinator.com/item?id=49888182)",
+   "source": "hn",
+   "id": "hn:49888182",
+   "new": true
+  },
+  {
+   "kind": "hn",
+   "title": "Sustainable energy without the hot air (2008)",
+   "url": "https://www.withouthotair.com/",
+   "score": 155,
+   "why": "HN 150 points, 92 comments (https://news.ycombinator.com/item?id=49892175)",
+   "source": "hn",
+   "id": "hn:49892175",
+   "new": true
+  },
+  {
+   "kind": "hn",
+   "title": "Canada fast-tracks Pacific oil pipeline to reduce US dependence",
+   "url": "https://apnews.com/article/alberta-canada-carney-pipeline-68539133d6e0245fad3622263afd4aeb",
+   "score": 88,
+   "why": "HN 83 points, 96 comments (https://news.ycombinator.com/item?id=49923575)",
+   "source": "hn",
+   "id": "hn:49923575",
+   "new": true
+  },
+  {
+   "kind": "hn",
+   "title": "Moist-Electric Wallpaper for Indoor Energy Harvesting and Humidity Management",
+   "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71603",
+   "score": 74,
+   "why": "HN 69 points, 37 comments (https://news.ycombinator.com/item?id=49910613)",
+   "source": "hn",
+   "id": "hn:49910613",
+   "new": true
+  },
+  {
+   "kind": "hn",
+   "title": "New Cyber-OSINT model released",
+   "url": "https://twitter.com/0x0SojalSec/status/2104736980768866439",
+   "score": 58,
+   "why": "HN 53 points, 16 comments (https://news.ycombinator.com/item?id=49890829)",
+   "source": "hn",
+   "id": "hn:49890829",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "keithligh/hk-traffic-intelligence",
+   "url": "https://github.com/keithligh/hk-traffic-intelligence",
+   "score": 57,
+   "why": "★57, topic open-data: A live Hong Kong smart-city dashboard on public APIs. Harbour crossing minutes, strategic-road speed, street cameras, wo",
+   "source": "github_repos",
+   "id": "gh:keithligh/hk-traffic-intelligence",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "Kerlooo/FreeOSINTUI",
+   "url": "https://github.com/Kerlooo/FreeOSINTUI",
+   "score": 56,
+   "why": "★51, topic osint: Free alternative to https://osint-ui.com",
+   "source": "github_repos",
+   "id": "gh:Kerlooo/FreeOSINTUI",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "MetalTakip/closing-straits",
+   "url": "https://github.com/MetalTakip/closing-straits",
+   "score": 26,
+   "why": "★1, topic oil: Satellite radar ship counts, gas flaring and GDELT news indices for the 2026 Strait of Hormuz closures. Code (MIT) and d",
+   "source": "github_repos",
+   "id": "gh:MetalTakip/closing-straits",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "SamratSKEvents/sih-guardians",
+   "url": "https://github.com/SamratSKEvents/sih-guardians",
+   "score": 20,
+   "why": "★0, topic ais: Oil spill intelligence from satellite radar: detect slicks, trace their origin, attribute vessels, forecast drift and pl",
+   "source": "github_repos",
+   "id": "gh:SamratSKEvents/sih-guardians",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "dheeraj-7ty/ocean-sentinel",
+   "url": "https://github.com/dheeraj-7ty/ocean-sentinel",
+   "score": 20,
+   "why": "★0, topic ais: AI-powered Earth observation and maritime intelligence platform for satellite analysis, change detection, vessel correla",
+   "source": "github_repos",
+   "id": "gh:dheeraj-7ty/ocean-sentinel",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Does oil dependence weaken the link between foreign direct investment ‎‎and renewable energy? Panel evidence from twelve oil-producing ‎‎economies",
+   "url": "https://zenodo.org/records/23137379",
+   "score": 20,
+   "why": "Zenodo dataset, published 2026-10-04",
+   "source": "zenodo",
+   "id": "zenodo:23137379",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "kaifcodec/phonsint",
+   "url": "https://github.com/kaifcodec/phonsint",
+   "score": 18,
+   "why": "★13, topic osint: 🕵️‍♂️ Advanced phone number OSINT suite engineered for silent reconnaissance. Extracts masked emails, profile avatars an",
+   "source": "github_repos",
+   "id": "gh:kaifcodec/phonsint",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "mohammadrezwankhan/zephyrtrade",
+   "url": "https://github.com/mohammadrezwankhan/zephyrtrade",
+   "score": 17,
+   "why": "★7, topic forecasting: Research application that generates synthetic wind/weather/price tables, compares wind-forecast and direct-offer strateg",
+   "source": "github_repos",
+   "id": "gh:mohammadrezwankhan/zephyrtrade",
+   "new": true
+  },
+  {
+   "kind": "hn",
+   "title": "Energy Timelines Photovoltaic",
+   "url": "https://www.eia.gov/kids/history-of-energy/timelines/photovoltaic.php",
+   "score": 17,
+   "why": "HN 12 points, 4 comments (https://news.ycombinator.com/item?id=49888039)",
+   "source": "hn",
+   "id": "hn:49888039",
+   "new": true
+  },
+  {
+   "kind": "hn",
+   "title": "Electrification efficiency: The world will need less energy after the transition",
+   "url": "https://hannahritchie.substack.com/p/electrification-energy-efficiency",
+   "score": 16,
+   "why": "HN 11 points, 6 comments (https://news.ycombinator.com/item?id=49898301)",
+   "source": "hn",
+   "id": "hn:49898301",
+   "new": true
+  },
+  {
+   "kind": "hn",
+   "title": "Hackers breached propulsion system of US-bound oil tanker",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-02/hackers-breached-propulsion-system-of-us-bound-oil-tanker",
+   "score": 16,
+   "why": "HN 6 points, 0 comments (https://news.ycombinator.com/item?id=49941730)",
+   "source": "hn",
+   "id": "hn:49941730",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "darkanalytica1/ais-spoof-check",
+   "url": "https://github.com/darkanalytica1/ais-spoof-check",
+   "score": 15,
+   "why": "★0, topic ais: Tests AIS vessel tracks against physics, land and the ships around them. Code behind the DarkAnalytica investigation 'Po",
+   "source": "github_repos",
+   "id": "gh:darkanalytica1/ais-spoof-check",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "Verisonder/SonderEye",
+   "url": "https://github.com/Verisonder/SonderEye",
+   "score": 15,
+   "why": "★0, topic ais: The planet's live traffic on a 3D globe, on your phone: earthquakes, aircraft, satellites, ships, fires and weather. Nat",
+   "source": "github_repos",
+   "id": "gh:Verisonder/SonderEye",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Code and figure data for: Daily Northern Sea Route accessibility for an Arc7-class LNG carrier in a high-resolution climate projection",
+   "url": "https://zenodo.org/records/23137796",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-10-04",
+   "source": "zenodo",
+   "id": "zenodo:23137796",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Theoretical biomass potential of residues from vegetable oil production across EU27",
+   "url": "https://zenodo.org/records/23136257",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-10-04",
+   "source": "zenodo",
+   "id": "zenodo:23136257",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "VIIRS Nightfire upstream gas-flaring volumes, 2012–2025: annual site, country and global records and monthly series (MYC25Q4)",
+   "url": "https://zenodo.org/records/23091822",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-10-01",
+   "source": "zenodo",
+   "id": "zenodo:23091822",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "A Dataset of Predicted Cytochrome P450 Interactions and Chemical Scaffolds for the Blood Exposome",
+   "url": "https://zenodo.org/records/23091606",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-10-01",
+   "source": "zenodo",
+   "id": "zenodo:23091606",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Kompolti hemp essential oil: GC–MS composition data and analysis script",
+   "url": "https://zenodo.org/records/23080480",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-10-01",
+   "source": "zenodo",
+   "id": "zenodo:23080480",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Dataset of the article: Optimization of a Solvent Exchange Method Enabling the Use of Dehydrated Cellulose Nanofibers as the Thickener in Lubricating Oleogelsor",
+   "url": "https://zenodo.org/records/23080261",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-10-01",
+   "source": "zenodo",
+   "id": "zenodo:23080261",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Seismic attenuation imaging of free gas distribution reveals a structural uplift-controlled methane migration system in the Qiongdongnan Basin, South China Sea",
+   "url": "https://zenodo.org/records/23077480",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-10-01",
+   "source": "zenodo",
+   "id": "zenodo:23077480",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Unified machine learning dataset for hydrogen yield prediction from microwave-assisted pyrolysis of waste",
+   "url": "https://zenodo.org/records/23025946",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-09-30",
+   "source": "zenodo",
+   "id": "zenodo:23025946",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "ADAM Methane-Monitoring Evaluation Dataset: Labeled Exposure Trials (D1) and Live Deployment Traces (D2) from a Four-Node Edge Multi-Agent Testbed",
+   "url": "https://zenodo.org/records/23064199",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-09-30",
+   "source": "zenodo",
+   "id": "zenodo:23064199",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Impact of rice bran wax composition and oleogelation conditions on the structural stability of sunflower oil-based oleogels",
+   "url": "https://zenodo.org/records/23057795",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-09-30",
+   "source": "zenodo",
+   "id": "zenodo:23057795",
+   "new": true
+  },
+  {
+   "kind": "hn",
+   "title": "Canada to fast track oil pipeline designed to diversify economy away from US",
+   "url": "https://www.reuters.com/business/energy/canada-fast-track-oil-pipeline-designed-diversify-economy-away-us-2026-10-01/",
+   "score": 14,
+   "why": "HN 9 points, 7 comments (https://news.ycombinator.com/item?id=49926893)",
+   "source": "hn",
+   "id": "hn:49926893",
+   "new": true
+  },
+  {
+   "kind": "hn",
+   "title": "U.S.-Russia Talks on Ukraine Now Involve an Oil Deal Tied to Trump Allies",
+   "url": "https://www.nytimes.com/2026/10/03/us/politics/kushner-witkoff-russia-oil-deal.html",
+   "score": 14,
+   "why": "HN 9 points, 0 comments (https://news.ycombinator.com/item?id=49951910)",
+   "source": "hn",
+   "id": "hn:49951910",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "afsh4ck/panoptes",
+   "url": "https://github.com/afsh4ck/panoptes",
+   "score": 13,
+   "why": "★3, topic osint: Open Source Spy Satellite Emulator",
+   "source": "github_repos",
+   "id": "gh:afsh4ck/panoptes",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Theoretical biomass potential of residues from maize starch production across EU27",
+   "url": "https://zenodo.org/records/23136128",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-04",
+   "source": "zenodo",
+   "id": "zenodo:23136128",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "PHASED study archive | NREL ATB | 2020-ATB-Data.xlsm",
+   "url": "https://zenodo.org/records/23128744",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-04",
+   "source": "zenodo",
+   "id": "zenodo:23128744",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "CHIQINDILARNI BIOGAZGA AYLANTIRISH ORQALI ISSIQXONA GAZLARI EMISSIYASINI KAMAYTIRISH IMKONIYATLARI",
+   "url": "https://zenodo.org/records/23121107",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-03",
+   "source": "zenodo",
+   "id": "zenodo:23121107",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Data and code for Peak-discharge bounds under incomplete geometry and rate-limited breach erosion",
+   "url": "https://zenodo.org/records/23118724",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-03",
+   "source": "zenodo",
+   "id": "zenodo:23118724",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Larval English sole growth and diet data from the northern California Current (2018, 2019, 2022, and 2023)",
+   "url": "https://zenodo.org/records/23044821",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-09-29",
+   "source": "zenodo",
+   "id": "zenodo:23044821",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "CMAQ Model Version 5.5 CRACMM2 CAP-HAP Emissions and Other Input Data – 01/01/2025 – 1/13/2025 4km California",
+   "url": "https://zenodo.org/records/22902386",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-02",
+   "source": "zenodo",
+   "id": "zenodo:22902386",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Data and scripts for \"Deep-Strong Light–Matter Coupling in 3D Kane Fermions without Dicke Criticality\"",
+   "url": "https://zenodo.org/records/23104117",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-02",
+   "source": "zenodo",
+   "id": "zenodo:23104117",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Title Index of Swiss agents representing United Kingdom firms / British Chamber of Commerce for Switzerland (1951)",
+   "url": "https://zenodo.org/records/23097397",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-02",
+   "source": "zenodo",
+   "id": "zenodo:23097397",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "PUDL Raw EIA Bulk API Data",
+   "url": "https://zenodo.org/records/23022968",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-01",
+   "source": "zenodo",
+   "id": "zenodo:23022968",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "PMR AND X-RAY STRUCTURAL STUDY OF Ni(II) COMPLEXES BASED ON BENZOYLACETALDEHYDE DERIVATIVES",
+   "url": "https://zenodo.org/records/23084637",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-01",
+   "source": "zenodo",
+   "id": "zenodo:23084637",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Data and Mathematica notebooks supporting \"Nonlinear phononic slidetronics\"",
+   "url": "https://zenodo.org/records/23079647",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-01",
+   "source": "zenodo",
+   "id": "zenodo:23079647",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Data and code for Extreme NO₂ at Global Maritime Chokepoints: Regional Atmospheric Background, Maritime Activity, and Temporal Validation",
+   "url": "https://zenodo.org/records/23075917",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-01",
+   "source": "zenodo",
+   "id": "zenodo:23075917",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Reproduction archive: GAMLSS density forecasts and tail-risk backtests for agricultural futures",
+   "url": "https://zenodo.org/records/23058428",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-09-30",
+   "source": "zenodo",
+   "id": "zenodo:23058428",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Co-occurrence of seal foraging behaviour and offshore set-net fisheries in the north-east Atlantic",
+   "url": "https://zenodo.org/records/23042767",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-09-29",
+   "source": "zenodo",
+   "id": "zenodo:23042767",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "worldbank/alternative-data-for-crisis: notebooks/disruptions-business-trade/maritime-port-activity.ipynb",
+   "url": "https://github.com/worldbank/alternative-data-for-crisis/blob/c0bc8886cb976ad89ee9f92fdbf9a9d8edc5c0ef/notebooks/disruptions-business-trade/maritime-port-activity.ipynb",
+   "score": 9,
+   "why": "public notebook using portwatch.imf.org",
+   "source": "github_code",
+   "id": "code:worldbank/alternative-data-for-crisis/notebooks/disruptions-business-trade/maritime-port-activity.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "bdecon/US-chartbook: notebooks/Energy.ipynb",
+   "url": "https://github.com/bdecon/US-chartbook/blob/2f97c5ba33b0ae07dfaee49af4d2e5479c780cb2/notebooks/Energy.ipynb",
+   "score": 9,
+   "why": "public notebook using api.eia.gov",
+   "source": "github_code",
+   "id": "code:bdecon/US-chartbook/notebooks/Energy.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "jhellingsdata/RADataHub: ChartOfTheDay/gas-storage/gas.ipynb",
+   "url": "https://github.com/jhellingsdata/RADataHub/blob/13aa1b4eca905bcb9daa3463b28ebe550607b7a7/ChartOfTheDay/gas-storage/gas.ipynb",
+   "score": 9,
+   "why": "public notebook using agsi.gie.eu",
+   "source": "github_code",
+   "id": "code:jhellingsdata/RADataHub/ChartOfTheDay/gas-storage/gas.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "e-coucou/Machine-Learning: 1-Projet/Achats/Gas-Stock-Corr/ttf-stock-corr.ipynb",
+   "url": "https://github.com/e-coucou/Machine-Learning/blob/a31a8338a12af40f0d7fa5bf8a8af9649a99bb55/1-Projet/Achats/Gas-Stock-Corr/ttf-stock-corr.ipynb",
+   "score": 9,
+   "why": "public notebook using agsi.gie.eu",
+   "source": "github_code",
+   "id": "code:e-coucou/Machine-Learning/1-Projet/Achats/Gas-Stock-Corr/ttf-stock-corr.ipynb",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/C320040001a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/C320040001a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004082449/https://www.eia.gov/dnav/pet/hist_xls/C320040001a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/C320040001a.xls:25LF5Y3PUBDWJ372G47PI7FNUGOM77PD",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/C900020181m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/C900020181m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004075749/https://www.eia.gov/dnav/pet/hist_xls/C900020181m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/C900020181m.xls:QJD4ZMG7G7MSWWCQG6BFPZJGN4NBCV6H",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/EMA_EPD2_PTA_SID_DPGa.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPD2_PTA_SID_DPGa.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004074142/https://www.eia.gov/dnav/pet/hist_xls/EMA_EPD2_PTA_SID_DPGa.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/EMA_EPD2_PTA_SID_DPGa.xls:VELXIQRUZLW2X33UIYR6AGBNYTYCHXC5",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KDRVISSOR1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KDRVISSOR1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004081818/https://www.eia.gov/dnav/pet/hist_xls/KDRVISSOR1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KDRVISSOR1a.xls:SBEYVO5D6OOMR3FGANJQKHEWLL7RT3YF",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MPRRP3D2m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MPRRP3D2m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004072003/https://www.eia.gov/dnav/pet/hist_xls/MPRRP3D2m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MPRRP3D2m.xls:DAXG3INLOFOR2DH4OZ5SQBZSNGLG7CSI",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EP00_EEX_R10-NFG_1m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EP00_EEX_R10-NFG_1m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261002: https://web.archive.org/web/20261002032251/https://www.eia.gov/dnav/pet/hist_xls/M_EP00_EEX_R10-NFG_1m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EP00_EEX_R10-NFG_1m.xls:IK5YRGPHFA5NBQULWLXBIT2F2GE47377",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPL2_EEX_NUS-NLG_MBBLDm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_EEX_NUS-NLG_MBBLDm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004095155/https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_EEX_NUS-NLG_MBBLDm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_EEX_NUS-NLG_MBBLDm.xls:5S6S37QJWVBRB67LP7HIM5H6YA3RP2TU",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2016/2016_08_10/csv/table2.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2016/2016_08_10/csv/table2.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20260929: https://web.archive.org/web/20260929090821/https://www.eia.gov/petroleum/supply/weekly/archive/2016/2016_08_10/csv/table2.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2016/2016_08_10/csv/table2.csv:QDDQNSSIHPM24BA2CJTOLGTL3LZ6G5N5",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2017/2017_08_02/pdf/table4.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_08_02/pdf/table4.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261001: https://web.archive.org/web/20261001053926/https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_08_02/pdf/table4.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_08_02/pdf/table4.pdf:C6FK7IFP6PR7ASNNYO6XAYHXE6FZV74N",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2021/2021_06_30/pdf/table6.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_06_30/pdf/table6.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004081503/https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_06_30/pdf/table6.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_06_30/pdf/table6.pdf:3OWL7DEAC57NGGF47QIGV34KITILLSRJ",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2022/2022_10_05/pdf/figure7_8.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_05/pdf/figure7_8.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004082721/https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_05/pdf/figure7_8.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_05/pdf/figure7_8.pdf:ZVQNXEDIWYSNPOYL6I7ZNG2TUAWWL2PM",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "datapartnership/red-sea-monitoring: notebooks/spill/spill.ipynb",
+   "url": "https://github.com/datapartnership/red-sea-monitoring/blob/7f2da156e6bb7509c398df8173355c101238e1c6/notebooks/spill/spill.ipynb",
+   "score": 8,
+   "why": "public notebook using portwatch.imf.org",
+   "source": "github_code",
+   "id": "code:datapartnership/red-sea-monitoring/notebooks/spill/spill.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "datapartnership/red-sea-monitoring: notebooks/ports/red-sea-ports-weekly.ipynb",
+   "url": "https://github.com/datapartnership/red-sea-monitoring/blob/7f2da156e6bb7509c398df8173355c101238e1c6/notebooks/ports/red-sea-ports-weekly.ipynb",
+   "score": 8,
+   "why": "public notebook using portwatch.imf.org",
+   "source": "github_code",
+   "id": "code:datapartnership/red-sea-monitoring/notebooks/ports/red-sea-ports-weekly.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "cherrylchico/tanker_port_calls: portwatch_tanker_update.ipynb",
+   "url": "https://github.com/cherrylchico/tanker_port_calls/blob/adc2c8b8f3f4744d9331b2957222fc74f9a1a3e5/portwatch_tanker_update.ipynb",
+   "score": 8,
+   "why": "public notebook using portwatch.imf.org",
+   "source": "github_code",
+   "id": "code:cherrylchico/tanker_port_calls/portwatch_tanker_update.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "johanness-o/oil-inflation-hormuz: notebook3_hormuz_arrivals.ipynb",
+   "url": "https://github.com/johanness-o/oil-inflation-hormuz/blob/b7b7418b1b196ab25657564a97c749955c1cecaf/notebook3_hormuz_arrivals.ipynb",
+   "score": 8,
+   "why": "public notebook using portwatch.imf.org",
+   "source": "github_code",
+   "id": "code:johanness-o/oil-inflation-hormuz/notebook3_hormuz_arrivals.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "alo-ngh/iea_scraper_limited: notebooks/Alert_New_Data.ipynb",
+   "url": "https://github.com/alo-ngh/iea_scraper_limited/blob/e06d7af8cbe35d12f8d64ccc27ff8ac424dda030/notebooks/Alert_New_Data.ipynb",
+   "score": 8,
+   "why": "public notebook using jodidata.org",
+   "source": "github_code",
+   "id": "code:alo-ngh/iea_scraper_limited/notebooks/Alert_New_Data.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "gridstatus/gridstatus: docs/Examples/EIA/Interchange Data.ipynb",
+   "url": "https://github.com/gridstatus/gridstatus/blob/29bc95b0b02b5210019d5c0063bf94b24c5786ba/docs/Examples/EIA/Interchange Data.ipynb",
+   "score": 8,
+   "why": "public notebook using api.eia.gov",
+   "source": "github_code",
+   "id": "code:gridstatus/gridstatus/docs/Examples/EIA/Interchange Data.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "bdecon/econ_data: APIs/EIA.ipynb",
+   "url": "https://github.com/bdecon/econ_data/blob/c2a6a10005f214fb085e0a35de653ce783ce4d09/APIs/EIA.ipynb",
+   "score": 8,
+   "why": "public notebook using api.eia.gov",
+   "source": "github_code",
+   "id": "code:bdecon/econ_data/APIs/EIA.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "bbcho/risktools-dev: notebooks/scratchpad.ipynb",
+   "url": "https://github.com/bbcho/risktools-dev/blob/1d11115807c79f7393c47fac4ce66f2dca2c6491/notebooks/scratchpad.ipynb",
+   "score": 8,
+   "why": "public notebook using api.eia.gov",
+   "source": "github_code",
+   "id": "code:bbcho/risktools-dev/notebooks/scratchpad.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "QuantConnect/Lean.DataSource.USEnergy: process.ipynb",
+   "url": "https://github.com/QuantConnect/Lean.DataSource.USEnergy/blob/5f7f85848436cec52076df92720956d963c420b7/process.ipynb",
+   "score": 8,
+   "why": "public notebook using api.eia.gov",
+   "source": "github_code",
+   "id": "code:QuantConnect/Lean.DataSource.USEnergy/process.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "maziez11-lgtm/eu-gas-storage-analysis: notebooks/01_data_ingestion.ipynb",
+   "url": "https://github.com/maziez11-lgtm/eu-gas-storage-analysis/blob/31d387268b26e39d8813da07a55284ea07852583/notebooks/01_data_ingestion.ipynb",
+   "score": 8,
+   "why": "public notebook using agsi.gie.eu",
+   "source": "github_code",
+   "id": "code:maziez11-lgtm/eu-gas-storage-analysis/notebooks/01_data_ingestion.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "Open-Power-System-Data/time_series: main.ipynb",
+   "url": "https://github.com/Open-Power-System-Data/time_series/blob/e1d671dbddf222dbaeb80cf7c4fa8d56b25fa365/main.ipynb",
+   "score": 8,
+   "why": "public notebook using transparency.entsoe.eu",
+   "source": "github_code",
+   "id": "code:Open-Power-System-Data/time_series/main.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "Open-Power-System-Data/time_series: processing.ipynb",
+   "url": "https://github.com/Open-Power-System-Data/time_series/blob/e1d671dbddf222dbaeb80cf7c4fa8d56b25fa365/processing.ipynb",
+   "score": 8,
+   "why": "public notebook using transparency.entsoe.eu",
+   "source": "github_code",
+   "id": "code:Open-Power-System-Data/time_series/processing.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "Open-Power-System-Data/national_generation_capacity: main.ipynb",
+   "url": "https://github.com/Open-Power-System-Data/national_generation_capacity/blob/9a404fd9cda6bef7e6a826e4ebc73dbb0e5591b2/main.ipynb",
+   "score": 8,
+   "why": "public notebook using transparency.entsoe.eu",
+   "source": "github_code",
+   "id": "code:Open-Power-System-Data/national_generation_capacity/main.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "inwe-boku/lecture-scientific-programming: homework04.ipynb",
+   "url": "https://github.com/inwe-boku/lecture-scientific-programming/blob/c56aeafa80204b0269307aede2e698cbc19cf6db/homework04.ipynb",
+   "score": 8,
+   "why": "public notebook using transparency.entsoe.eu",
+   "source": "github_code",
+   "id": "code:inwe-boku/lecture-scientific-programming/homework04.ipynb",
+   "new": true
+  },
+  {
+   "kind": "notebook",
+   "title": "HEIG-VD-Building-LCA/EcoDynElec: examples/downloading.ipynb",
+   "url": "https://github.com/HEIG-VD-Building-LCA/EcoDynElec/blob/b7794cef2eaf61dd5cb8b98e7d4376f40c266255/examples/downloading.ipynb",
+   "score": 8,
+   "why": "public notebook using transparency.entsoe.eu",
+   "source": "github_code",
+   "id": "code:HEIG-VD-Building-LCA/EcoDynElec/examples/downloading.ipynb",
+   "new": true
+  },
+  {
+   "kind": "paper",
+   "title": "Can LLMs Reliably Annotate Bioassay Metadata to Improve Data Readiness?",
+   "url": "http://arxiv.org/abs/2610.01616v1",
+   "score": 6,
+   "why": "arXiv 2026-10-01: The emergence of foundation models for molecular property prediction requires a high degree of AI data readine",
+   "source": "arxiv",
+   "id": "arxiv:2610.01616",
+   "new": true
+  },
+  {
+   "kind": "paper",
+   "title": "Harbormaster: Evidence-Gated, Replay-Safe Maritime Anomaly Detection on AWS",
+   "url": "http://arxiv.org/abs/2610.00519v1",
+   "score": 6,
+   "why": "arXiv 2026-09-30: Ships broadcast their positions through the Automatic Identification System (AIS), and those reports can be fa",
+   "source": "arxiv",
+   "id": "arxiv:2610.00519",
+   "new": true
+  },
+  {
+   "kind": "paper",
+   "title": "She Spoofed Sea Ships by the Sea Shore: Measuring Large-Scale GPS Spoofing in Global Maritime Traffic",
+   "url": "http://arxiv.org/abs/2609.37676v1",
+   "score": 6,
+   "why": "arXiv 2026-09-29: GPS spoofing has emerged as a serious threat to maritime security, yet its global prevalence, persistence, and",
+   "source": "arxiv",
+   "id": "arxiv:2609.37676",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Monatsstatistik im Gastgewerbe",
+   "url": "https://data.europa.eu/data/datasets/https-metaver-de-search-st-opensearch-query-format-rdf-h-100-monatsstatistik-im-gastgewerbeaa5db",
+   "score": 5,
+   "why": "new on data.europa.eu (2026-10-03), query 'gas storage'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:https-metaver-de-search-st-opensearch-query-format-rdf-h-100-monatsstatistik-im-gastgewerbeaa5db",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "",
+   "url": "https://data.europa.eu/data/datasets/f6a252a6-1bde-43a8-9e6a-f58146fd691e",
+   "score": 5,
+   "why": "new on data.europa.eu (2026-10-04), query 'gas storage'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:f6a252a6-1bde-43a8-9e6a-f58146fd691e",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "",
+   "url": "https://data.europa.eu/data/datasets/8aaef1c9-09d6-4995-a6e8-94ca43bccf25",
+   "score": 5,
+   "why": "new on data.europa.eu (2026-09-30), query 'shipping'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:8aaef1c9-09d6-4995-a6e8-94ca43bccf25",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "2026, Taqa Bratani Ltd, Braemar, East Brae, and Devenick; Blocks 16 & 9, Site Survey, DECC Reference Number GS_2043",
+   "url": "https://www.data.gov.uk/dataset/2026-taqa-bratani-ltd-braemar-east-brae-and-devenick-blocks-16-9-site-survey-decc-referenc-2043",
+   "score": 5,
+   "why": "new on data.gov.uk (2026-10-02), query 'oil'",
+   "source": "ckan",
+   "id": "ckan:data.gov.uk:27a7c812-4c37-4d23-92c0-c7bdb31be472",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "2026, Taqa Bratani Ltd, Central Brae, West Brae, and Brae Alpha; Block 16, Site Survey, DECC Reference Number GS_2042",
+   "url": "https://www.data.gov.uk/dataset/2026-taqa-bratani-ltd-central-brae-west-brae-and-brae-alpha-block-16-site-survey-decc-refe-2042",
+   "score": 5,
+   "why": "new on data.gov.uk (2026-10-02), query 'oil'",
+   "source": "ckan",
+   "id": "ckan:data.gov.uk:7c3b164f-6b00-4a3f-a30f-2ce07f4004fa",
+   "new": true
+  }
+ ]
+}

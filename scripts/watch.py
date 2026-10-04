@@ -301,6 +301,12 @@ def main():
             changed = True
     except Exception as e:  # noqa: BLE001
         print(f"::warning::stamping skipped: {e}")
+    try:
+        import scout  # Mondays (UTC) only, or SCOUT_FORCE=1
+        if scout.run():
+            changed = True
+    except Exception as e:  # noqa: BLE001
+        print(f"::warning::scout failed: {e}")
     open(SUMMARY, "w").write(("\n".join(summary) or "No change.") + f"\n\nChecked: {now}.\n")
     out(changed=str(changed).lower(), notable=str(notable_any).lower(), failure_issue=str(fail_issue).lower())
 
