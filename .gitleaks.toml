@@ -1,0 +1,7 @@
+# Wayback CDX content digests (base32 SHA-1) trigger generic-api-key; they are public hashes, not secrets.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "public archive digests"
+paths = ['''data/scout/cdx_digests\.json''']
