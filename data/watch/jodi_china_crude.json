@@ -1,0 +1,76 @@
+{
+ "source": "JODI Oil World Database, China crude oil, kb/d",
+ "source_url": "https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/",
+ "publisher_last_edit": null,
+ "checked_at_utc": "2026-10-04T15:02:45Z",
+ "n_periods": 19,
+ "first_date": "2025-01",
+ "latest_date": "2026-07",
+ "latest": {
+  "production": 4313.1329,
+  "imports": 8435.9458,
+  "exports": 57.4185,
+  "refinery_intake": 12691.6994
+ },
+ "raw_sha256": "b336ef1c4cb9b0750a1e826b30c78f4831811c29c099b0be56e341c5eb4f5a73",
+ "series_sha256": "945ab76888fe44d34919fac484c63840731f9a8de15d536634fdf1e931aa9d31",
+ "year_sha256": {
+  "2025": "6a1c2d653a939c78e7cb4405cb6233848679fa66ecca6fd9a0e0646e7016960a",
+  "2026": "3638d44aa07a0478fa92fd9f3ac0c22395b79930460355fb3634d0c0ce519406"
+ },
+ "recent": [
+  {
+   "date": "2026-02",
+   "production": 4439.58,
+   "imports": 12043.4914,
+   "exports": 24.2597,
+   "refinery_intake": 16458.7586
+  },
+  {
+   "date": "2026-03",
+   "production": 4502.2723,
+   "imports": 11802.2013,
+   "exports": 46.8677,
+   "refinery_intake": 16257.4839
+  },
+  {
+   "date": "2026-04",
+   "production": 4378.092,
+   "imports": 9386.924,
+   "exports": 71.492,
+   "refinery_intake": 13693.768
+  },
+  {
+   "date": "2026-05",
+   "production": 4384.4439,
+   "imports": 7811.3845,
+   "exports": 88.8747,
+   "refinery_intake": 12106.8077
+  },
+  {
+   "date": "2026-06",
+   "production": 4420.548,
+   "imports": 7142.368,
+   "exports": 61.6392,
+   "refinery_intake": 11501.184
+  },
+  {
+   "date": "2026-07",
+   "production": 4313.1329,
+   "imports": 8435.9458,
+   "exports": 57.4185,
+   "refinery_intake": 12691.6994
+  }
+ ],
+ "wayback": [
+  {
+   "url": "https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/2025.csv",
+   "archive": "https://web.archive.org/web/20261004150307/https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/2025.csv"
+  },
+  {
+   "url": "https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/primaryyear2026.csv",
+   "archive": null,
+   "error": "<urlopen error [Errno 111] Connection refused>"
+  }
+ ]
+}

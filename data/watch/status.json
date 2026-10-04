@@ -1,5 +1,11 @@
 {
  "portwatch_hormuz": {
   "consecutive_failures": 0
+ },
+ "jodi_china_crude": {
+  "consecutive_failures": 0
+ },
+ "eia_us_crude_stocks": {
+  "consecutive_failures": 0
  }
 }
