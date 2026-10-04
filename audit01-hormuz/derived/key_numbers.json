@@ -1,0 +1,97 @@
+{
+ "window": "2026-03-01..2026-09-25",
+ "n_ports_inside": 45,
+ "baseline_months": 86,
+ "baseline_rho_max": 0.9443760768455849,
+ "baseline_rho_max_month": 201902,
+ "baseline_rho_median": 0.5836984574114483,
+ "baseline_violations_rho_gt_1": 0,
+ "E_minus_I_Mt": 33.658322,
+ "C_Mt": 23.428172,
+ "ratio": 1.4366601884261392,
+ "ratio_excl_BandarEPars": 1.2112482783547944,
+ "L_Mt": 10.23015,
+ "L_share_pct": 30.39411768655609,
+ "L_excl_BandarEPars_Mt": 4.949,
+ "L_excl_Iran_Mt": 4.21,
+ "BandarEPars_net_in_window_Mt": 5.280989,
+ "BandarEPars_share_of_L_pct": 51.62181395189709,
+ "BandarEPars_median_calls_2019_2024": 5.0,
+ "BandarEPars_202506_calls": 677,
+ "BandarEPars_202506_export_Mt": 42.808013,
+ "BandarEPars_burst_days": {
+  "3": {
+   "days": 8,
+   "net_Mt": 4.354712,
+   "L_without_burst_days_Mt": 5.875438
+  },
+  "5": {
+   "days": 6,
+   "net_Mt": 4.192844,
+   "L_without_burst_days_Mt": 6.037306
+  },
+  "10": {
+   "days": 4,
+   "net_Mt": 3.855353,
+   "L_without_burst_days_Mt": 6.374797
+  }
+ },
+ "L_excl_BandarEPars_excess_over_median_Mt": 5.62555,
+ "L_range_Mt": [
+  4.21,
+  6.374797
+ ],
+ "L_window_from_second_month_Mt": -1.917,
+ "monthly_L_all45_Mt": {
+  "202603": 12.147,
+  "202604": -0.395,
+  "202605": 0.299,
+  "202606": -3.763,
+  "202607": -2.813,
+  "202608": 2.154,
+  "202609": 2.602
+ },
+ "C_by_month_Mt": {
+  "202603": 0.836,
+  "202604": 2.39,
+  "202605": 2.386,
+  "202606": 8.363,
+  "202607": 8.588,
+  "202608": 0.498,
+  "202609": 0.367
+ },
+ "BandarEPars_top_days_2025_2026": [
+  {
+   "date": "2025-08-16",
+   "tanker_calls": 97,
+   "net_Mt": 3.224
+  },
+  {
+   "date": "2026-02-28",
+   "tanker_calls": 89,
+   "net_Mt": 4.104
+  },
+  {
+   "date": "2025-09-30",
+   "tanker_calls": 88,
+   "net_Mt": 3.34
+  },
+  {
+   "date": "2025-07-01",
+   "tanker_calls": 76,
+   "net_Mt": 4.459
+  },
+  {
+   "date": "2025-06-15",
+   "tanker_calls": 69,
+   "net_Mt": 3.441
+  }
+ ],
+ "anomaly_screen_ports": [
+  "port105"
+ ],
+ "portwatch_last_edit": {
+  "Daily_Ports_Data": "2026-09-29 16:43 UTC",
+  "Daily_Chokepoints_Data": "2026-09-29 12:20 UTC"
+ }
+}

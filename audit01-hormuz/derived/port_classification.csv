@@ -1,0 +1,69 @@
+portid,portname,ISO3,inside
+port362,Fujairah,ARE,False
+port561,Khor Fakkan,ARE,False
+port226,Chabahar,IRN,False
+port2486,Jask,IRN,False
+port43,Amirabad Port,IRN,False
+port58,Bandar-e Anzali,IRN,False
+port834,Nowshahr Port,IRN,False
+fso151,Oman - Offshore Oil Terminal 1,OMN,False
+port1068,Qalhat LNG Terminal,OMN,False
+port745,Port Sultan Qaboos,OMN,False
+port746,Salalah,OMN,False
+port984,Duqm,OMN,False
+port988,Port of Sohar,OMN,False
+port1081,Rabigh,SAU,False
+port1408,Yanbu (Yanbu city),SAU,False
+port2031,King Abdullah Port,SAU,False
+port2074,Jazan,SAU,False
+port2218,Shuqaiq,SAU,False
+port304,Duba (Port of Neom),SAU,False
+port305,Duba Bulk Plant Tanker Terminal,SAU,False
+port518,Jeddah,SAU,False
+port519,Shoaiba,SAU,False
+port570,Yanbu (King Fahd Port),SAU,False
+port13,Ajman,ARE,True
+port1340,Umm al Qaiwain,ARE,True
+port2025,Khalifa Port,ARE,True
+port22,Al Hamriyah LPG Terminal,ARE,True
+port2235,Zirku Island,ARE,True
+port2236,Jebel Dhanna,ARE,True
+port2237,Das Island,ARE,True
+port306,Dubai,ARE,True
+port5,Abu Dhabi,ARE,True
+port512,Jabal Az Zannah-Ruways,ARE,True
+port72,Sharjah,ARE,True
+port744,Jebel Ali,ARE,True
+port747,Mina Saqr,ARE,True
+port1203,Sitrah,BHR,True
+port2012,Khalifa Bin Salman,BHR,True
+port2060,Mina Salman,BHR,True
+port105,Bandar-E Pars Terminal,IRN,True
+port106,Bandar Shahid Rajaee,IRN,True
+port107,Bandar Abbas,IRN,True
+port108,Bandar Khomeini,IRN,True
+port196,Bushehr,IRN,True
+port2164,Kharg Island,IRN,True
+port2165,Lavan,IRN,True
+port2477,Abadan,IRN,True
+port2478,Bahregan,IRN,True
+port563,Khorramshahr,IRN,True
+port1341,Umm Qasr,IRQ,True
+port20,Al Basrah,IRQ,True
+port2479,Basrah Oil Terminal,IRQ,True
+port2067,Shuaiba,KWT,True
+port2493,Mina Al Zour,KWT,True
+port25,Shuwaikh,KWT,True
+port743,Mina Al Ahmadi,KWT,True
+port1090,Ras Laffan,QAT,True
+port1117,Al Ruwais,QAT,True
+port1342,Doha-Umm Said,QAT,True
+port2026,Hamad Port,QAT,True
+fso158,Saudi Arabia - Offshore Oil Terminal 1,SAU,True
+port1088,Ras Al Mishab,SAU,True
+port1089,Ras Al-Khair,SAU,True
+port1091,Ras Tanura,SAU,True
+port2217,Ras Al Khafji,SAU,True
+port24,Jubail,SAU,True
+port275,Dammam,SAU,True
+port526,Juaymah,SAU,True

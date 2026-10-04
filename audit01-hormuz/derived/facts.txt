@@ -1,0 +1,13 @@
+=== AUDIT #1: PortWatch internal tanker mass balance, Strait of Hormuz ===
+Ports inside the Strait: 45 | window 2026-03-01..2026-09-25 (chokepoint series cut at the last port day)
+Baseline 2019-01..2026-02: 86 months, rho=(E-I)/C max 0.944 (201902), median 0.584, months with rho>1: 0
+Window: E-I = 33.66 Mt, C = 23.43 Mt, ratio 1.44 (without Bandar-E Pars 1.21), L = 10.23 Mt
+Without Bandar-E Pars: 4.95 Mt | without all Iranian ports: 4.21 Mt
+Without Bandar-E Pars burst days (>= 3 calls/day): 8 days, 4.35 Mt removed, L = 5.88 Mt
+Without Bandar-E Pars burst days (>= 5 calls/day): 6 days, 4.19 Mt removed, L = 6.04 Mt
+Without Bandar-E Pars burst days (>= 10 calls/day): 4 days, 3.86 Mt removed, L = 6.37 Mt
+Without Bandar-E Pars excess over its 2019-2024 monthly median: L = 5.63 Mt
+Range across these filters: 4.2 to 6.4 Mt (this window only; see window_sensitivity.csv)
+Window starting 202604: L = -1.92 Mt
+PortWatch release in use (layer lastEditDate): {'Daily_Ports_Data': '2026-09-29 16:43 UTC', 'Daily_Chokepoints_Data': '2026-09-29 12:20 UTC'}
+Anomaly screen (calls > 10x median and > 30): ['port105']

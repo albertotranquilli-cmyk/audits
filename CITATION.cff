@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or its derived tables, please cite it as below. Cite IMF PortWatch for the underlying data."
+title: "AUDIT #1: Strait of Hormuz, IMF PortWatch tanker mass balance"
+type: software
+authors:
+  - family-names: Tranquilli
+    given-names: Alberto
+version: "1.0.0"
+license: MIT
+keywords:
+  - IMF PortWatch
+  - AIS
+  - Strait of Hormuz
+  - data quality
+  - GNSS interference
+abstract: >-
+  Internal consistency check between IMF PortWatch's port and chokepoint tanker series at the Strait of
+  Hormuz, 1 Mar to 25 Sep 2026. One terminal with implausible port-call bursts accounts for about half of a
+  10.23 Mt gap. The license covers the code only, not PortWatch data.
+references:
+  - type: data
+    title: "IMF PortWatch: Daily Port Activity and Trade Estimates; Daily Chokepoint Transit Calls and Trade Volume Estimates"
+    authors:
+      - name: "International Monetary Fund, PortWatch (sources: Kpler; UN Global Platform)"
+    url: "https://portwatch.imf.org"
