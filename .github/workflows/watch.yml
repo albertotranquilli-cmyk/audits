@@ -1,0 +1,60 @@
+name: watch
+
+on:
+  schedule:
+    - cron: "37 5 * * 1-5"   # weekdays 05:37 UTC
+    - cron: "47 14 * * 2"    # Tuesday 14:47 UTC, after PortWatch's weekly update (~13:00 UTC)
+    - cron: "47 18 * * 2"    # Tuesday 18:47 UTC, second try in case the update is late
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check IMF PortWatch (Hormuz)
+        id: watch
+        run: python scripts/watch.py
+
+      - name: Rebuild Pages
+        run: python scripts/build_pages.py
+
+      - name: Commit snapshot
+        if: steps.watch.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/watch docs
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "watch: PortWatch Hormuz snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+
+      - name: Open issue (new data / revision)
+        if: steps.watch.outputs.notable == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --title "PortWatch Hormuz: new data / revision detected ($(date -u +%Y-%m-%d))" \
+            --body-file data/watch/.summary.md
+
+      - name: Open issue (3 consecutive failures)
+        if: steps.watch.outputs.failure_issue == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create --title "PortWatch Hormuz watch: source failing (3 consecutive runs)" \
+            --body-file data/watch/.summary.md
