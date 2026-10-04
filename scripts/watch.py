@@ -169,19 +169,25 @@ def out(**kw):
                 f.write(f"{k}={v}\n")
 
 
-def wayback(urls, pause=15):
+def wayback(urls, pause=30):
+    """Save Page Now (anonymous, free): one URL at a time, one retry, failures recorded and non-fatal."""
     res = []
     for i, u in enumerate(urls):
         if i:
             time.sleep(pause)
-        try:
-            req = urllib.request.Request("https://web.archive.org/save/" + u, headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=180) as r:
-                loc = r.headers.get("Content-Location") or r.geturl()
+        for attempt in (0, 1):
+            try:
+                if attempt:
+                    time.sleep(60)
+                req = urllib.request.Request("https://web.archive.org/save/" + u, headers={"User-Agent": UA})
+                with urllib.request.urlopen(req, timeout=180) as r:
+                    loc = r.headers.get("Content-Location") or r.geturl()
                 res.append({"url": u, "archive": urllib.parse.urljoin("https://web.archive.org", loc)})
-        except Exception as e:  # noqa: BLE001
-            print(f"::warning::Wayback save failed for {u[:80]}: {e}")
-            res.append({"url": u, "archive": None, "error": str(e)[:120]})
+                break
+            except Exception as e:  # noqa: BLE001
+                if attempt:
+                    print(f"::warning::Wayback save failed for {u[:80]}: {e}")
+                    res.append({"url": u, "archive": None, "error": str(e)[:120]})
     return res
 
 
@@ -262,10 +268,14 @@ def main():
             snap.pop("wayback", None)
         if notable:
             archive_queue.append((snap, urls))
+        elif any(not w.get("archive") for w in snap.get("wayback") or []):  # retry failed saves on later runs
+            archive_queue.append((snap, None))
+            snap["_path"] = path
+            changed = True
         if prev is None or prev.get("series_sha256") != snap["series_sha256"] or "recent_days" in prev:
             changed = True
             snap["_path"] = path
-        else:
+        elif "_path" not in snap:
             snap["_path"] = None
         src["snap"] = snap
         if prev is not None and notable:
@@ -274,7 +284,11 @@ def main():
         print(f"{sid}: " + (" ".join(lines) if lines else "no change"))
     if os.environ.get("WATCH_NO_WAYBACK") != "1":
         for snap, urls in archive_queue:
-            snap["wayback"] = wayback(urls)
+            if urls is None:  # retry only the failed ones
+                ok = [w for w in snap["wayback"] if w.get("archive")]
+                snap["wayback"] = ok + wayback([w["url"] for w in snap["wayback"] if not w.get("archive")])
+            else:
+                snap["wayback"] = wayback(urls)
     for src in SOURCES:
         snap = src.get("snap")
         if snap and snap.pop("_path", None):
