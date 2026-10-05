@@ -18,7 +18,7 @@
 "https://www.eia.gov/opendata/bulk/AEO2025.zip#2025-06-04T20:56:41-04:00",
 "https://www.eia.gov/opendata/bulk/AEO2026.zip#2026-03-26T17:48:03-04:00",
 "https://www.eia.gov/opendata/bulk/COAL.zip#2026-09-28T16:28:08-04:00",
-"https://www.eia.gov/opendata/bulk/EBA.zip#2026-10-04T05:04:11-04:00",
+"https://www.eia.gov/opendata/bulk/EBA.zip#2026-10-05T05:04:15-04:00",
 "https://www.eia.gov/opendata/bulk/ELEC.zip#2026-09-23T17:01:12-04:00",
 "https://www.eia.gov/opendata/bulk/EMISS.zip#2023-07-12T08:06:37-04:00",
 "https://www.eia.gov/opendata/bulk/IEO.zip#2026-09-25T18:29:56-04:00",
@@ -28,7 +28,7 @@
 "https://www.eia.gov/opendata/bulk/IEO2023.zip#2023-08-29T08:49:47-04:00",
 "https://www.eia.gov/opendata/bulk/INTL.zip#2026-09-30T21:20:54-04:00",
 "https://www.eia.gov/opendata/bulk/NG.zip#2026-10-01T16:00:15-04:00",
-"https://www.eia.gov/opendata/bulk/NUC_STATUS.zip#2026-10-02T08:05:53-04:00",
+"https://www.eia.gov/opendata/bulk/NUC_STATUS.zip#2026-10-05T08:06:33-04:00",
 "https://www.eia.gov/opendata/bulk/PET.zip#2026-10-01T21:04:04-04:00",
 "https://www.eia.gov/opendata/bulk/PET_IMPORTS.zip#2026-09-29T19:32:50-04:00",
 "https://www.eia.gov/opendata/bulk/SEDS.zip#2026-06-26T15:32:24-04:00",
@@ -98,10 +98,20 @@
 "https://www.stats.gov.cn/english/PressRelease/": []
 },
 "removed": [
+"https://iea.blob.core.windows.net/assets/130be844-3b4b-4e2e-b6f4-0f217929e9ae/StateofEnergyPolicy2026.pdf",
+"https://iea.blob.core.windows.net/assets/1703ccaa-a558-4874-a93b-29cc2281618b/GlobalEVOutlook2026.pdf",
 "https://iea.blob.core.windows.net/assets/203eb8eb-2147-4c99-af07-2d3804b8db3f/StraitofHormuzFactsheet.pdf",
 "https://iea.blob.core.windows.net/assets/23af92ae-0cd4-4e6c-a06b-957b0688f0ed/TheStateofEnergyInnovation2026.pdf",
 "https://iea.blob.core.windows.net/assets/2831e0dc-f030-4d14-985c-d26d1af4430f/GlobalCriticalMineralsOutlook2026.pdf",
+"https://iea.blob.core.windows.net/assets/3718cf37-fac6-4ee2-aeb0-1546e6222cfc/GlobalEVOutlook2026.pdf",
 "https://iea.blob.core.windows.net/assets/4fda38df-523c-46f5-ae75-49481abdc8fc/WorldEnergyInvestment2026.pdf",
-"https://iea.blob.core.windows.net/assets/601eaec9-ba91-4623-819b-4ded331ec9e8/EnergyandAI.pdf"
+"https://iea.blob.core.windows.net/assets/5ad737ee-750d-460e-8c33-fb9140f1043d/AssessingemissionsfromLNGsupplyandabatementoptions.pdf",
+"https://iea.blob.core.windows.net/assets/601eaec9-ba91-4623-819b-4ded331ec9e8/EnergyandAI.pdf",
+"https://iea.blob.core.windows.net/assets/8b462840-c9a6-4f71-81eb-d5acd1213e68/Estonia2023.pdf",
+"https://www.eia.gov/petroleum/drilling/archive/2014/01/pdf/dpr_methodology.pdf",
+"https://www.eia.gov/petroleum/drilling/archive/2014/10/pdf/dpr_methodology.pdf",
+"https://www.eia.gov/petroleum/drilling/archive/2014/12/pdf/duc_supplement.pdf",
+"https://www.eia.gov/petroleum/drilling/archive/2015/03/pdf/dpr_methodology.pdf",
+"https://www.eia.gov/petroleum/drilling/archive/2015/04/xls/duc-data.xlsx"
 ]
 }

@@ -12,7 +12,7 @@
         
 * |OK_ICON| `DEL - Domestic Electrical Load study datsets for South Africa (1994 - 2014) <https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/DELS>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/DEL.yml>`_]
         
-* |FIXME_ICON| `ECO - The ECO data set is a comprehensive data set for non-intrusive load monitoring and [...] <http://www.vs.inf.ethz.ch/res/show.html?what=eco-data>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/ECO.yml>`_]
+* |OK_ICON| `ECO - The ECO data set is a comprehensive data set for non-intrusive load monitoring and [...] <http://www.vs.inf.ethz.ch/res/show.html?what=eco-data>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/ECO.yml>`_]
         
 * |OK_ICON| `U.S. Energy Information Administration (EIA) <https://www.eia.gov/electricity/data/eia923/>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/EIA.yml>`_]
         
@@ -25,6 +25,8 @@
 * |OK_ICON| `MORED: a Moroccan Buildings’ Electricity Consumption Dataset - Since spring of 2019, a data [...] <https://github.com/MOREDataset/MORED>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/MORED.yml>`_]
         
 * |OK_ICON| `Marktstammdatenregister - The German Marktstammdatenregister (MaStR) is a database of all [...] <https://www.marktstammdatenregister.de/MaStR/Datendownload>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/MaStR.yml>`_]
+        
+* |OK_ICON| `OpenVan Daily Retail Fuel Prices, 170+ Countries - Daily snapshot of retail fuel prices in [...] <https://github.com/openvancamp/openvan-travel-data>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/OpenVan-Daily-Retail-Fuel-Prices-170-Countries.yml>`_]
         
 * |OK_ICON| `PEM1 - Proton Exchange Membrane (PEM) Fuel Cell Dataset <https://github.com/ECSIM/pem-dataset1>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/PEM1.yml>`_]
         
