@@ -1,0 +1,168 @@
+{
+ "schema": "audit01-forensic-manifest/1",
+ "created_utc": "2026-10-07T21:50:58Z",
+ "command": "python3 forensic/run_forensic.py --raw data/raw --out forensic/out --fetch-docs --compare 2026-10-04_release-2026-09-29=data/compare/2026-10-04_release-2026-09-29 --compare 2026-10-07T0852Z_release-2026-10-06=data/compare/2026-10-07T0852Z_release-2026-10-06",
+ "code": {
+  "git_head": "0e601dbcb4c15a213534f2a8462c5baf91be205b",
+  "git_dirty": false,
+  "files": {
+   "forensic/core.py": "4a7bbd7bc2f02ee898b3583695162a69fd0f939f798a042783272699e9150a56",
+   "forensic/run_forensic.py": "16631ad68d8a9ef10b6deb7172826f6f11535ff54f30e64a8ba2ce4438dc300c",
+   "forensic/tests/make_fixtures.py": "f84502f1b84ead5b6d21cd8d18e82cd830a3f9fdb4214236cfdc472224d15e03",
+   "forensic/tests/test_forensic.py": "bc3321abf9ddeb0afdb7d95cb653aaf2cd6a1df37157a3778669baf6d12885a0"
+  }
+ },
+ "dependencies": {
+  "python": "3.13.5",
+  "implementation": "CPython",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "forensic_requires": "stdlib only",
+  "pipeline_packages_installed": {
+   "pandas": "3.0.6",
+   "numpy": "2.5.3",
+   "matplotlib": null
+  }
+ },
+ "portwatch_release": {
+  "Daily_Chokepoints_Data": "2026-10-06 12:09 UTC",
+  "Daily_Ports_Data": "2026-10-06 18:41 UTC"
+ },
+ "inputs": [
+  {
+   "name": "chokepoint6_daily_p00.json",
+   "bytes": 100587,
+   "sha256": "811dc92e02987a128ca2705f19a76fa33eb0c4a4c999110797abd8e17c6b36d6",
+   "records_sha256": "9723d37c1512646e6b9c2c20fea8863f889abcac211242cf3c8118f2b2997c71",
+   "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query?f=json&returnGeometry=false&where=portid%3D%27chokepoint6%27+AND+date+%3E%3D+DATE+%272019-01-01%27+AND+date+%3C%3D+DATE+%272026-09-25%27&outFields=date%2Cportid%2Cn_tanker%2Ccapacity_tanker&outFieldAliases=date%3Adate&orderByFields=date&resultOffset=0&resultRecordCount=1000",
+   "retrieved_at_utc": "2026-10-07T21:48:35Z",
+   "provenance_sha256_match": true
+  },
+  {
+   "name": "chokepoint6_daily_p01.json",
+   "bytes": 100700,
+   "sha256": "affc54ec830a39254141ebb1c3228221b3284270c56e9a4319461dcf01166b29",
+   "records_sha256": "08b99b61ab53bee7a6e5209d260a042504142caa95d8cbf1a0052138dd86206c",
+   "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query?f=json&returnGeometry=false&where=portid%3D%27chokepoint6%27+AND+date+%3E%3D+DATE+%272019-01-01%27+AND+date+%3C%3D+DATE+%272026-09-25%27&outFields=date%2Cportid%2Cn_tanker%2Ccapacity_tanker&outFieldAliases=date%3Adate&orderByFields=date&resultOffset=1000&resultRecordCount=1000",
+   "retrieved_at_utc": "2026-10-07T21:48:42Z",
+   "provenance_sha256_match": true
+  },
+  {
+   "name": "chokepoint6_daily_p02.json",
+   "bytes": 82205,
+   "sha256": "dd9f4fc425b09543feb5af6f36793f5bdd397b07bb8d7ea87a3770db12ade373",
+   "records_sha256": "972fbfd26ec63e46cc95c1411afdd744f23be7d86cd7ec28ff963c4317222632",
+   "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query?f=json&returnGeometry=false&where=portid%3D%27chokepoint6%27+AND+date+%3E%3D+DATE+%272019-01-01%27+AND+date+%3C%3D+DATE+%272026-09-25%27&outFields=date%2Cportid%2Cn_tanker%2Ccapacity_tanker&outFieldAliases=date%3Adate&orderByFields=date&resultOffset=2000&resultRecordCount=1000",
+   "retrieved_at_utc": "2026-10-07T21:48:48Z",
+   "provenance_sha256_match": true
+  },
+  {
+   "name": "layerinfo_Daily_Chokepoints_Data.json",
+   "bytes": 9558,
+   "sha256": "bcaaf9409825bef07ef57723712aee003e187151e94ee8f9b76d6b53aa6da939",
+   "records_sha256": "a90b8b207fd2da363d3bdb0318a33d0def38fae72509cb69bbfa8ae1e28b147f",
+   "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0?f=json",
+   "retrieved_at_utc": "2026-10-07T21:48:23Z",
+   "provenance_sha256_match": true
+  },
+  {
+   "name": "layerinfo_Daily_Ports_Data.json",
+   "bytes": 11386,
+   "sha256": "ff0ce1ec2bcb4c91a5ae559e98e784813fe563c4b1fd644826ae0eaad8156ffb",
+   "records_sha256": "16fd0860c510ce0348b145ba1d4142767155b8613c7aad37958c605d91cad4e1",
+   "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0?f=json",
+   "retrieved_at_utc": "2026-10-07T21:48:16Z",
+   "provenance_sha256_match": true
+  },
+  {
+   "name": "port105_daily_p00.json",
+   "bytes": 114856,
+   "sha256": "5da08e104ad0a7f1066b91d9ad9c54fb49ec85ca36a54be01320d1a28c1d507b",
+   "records_sha256": "c0b0d878d2197aad4d15ddf22e0296c28037d72e1844eb8a566e7f7244d47201",
+   "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query?f=json&returnGeometry=false&where=portid%3D%27port105%27+AND+date+%3E%3D+DATE+%272024-01-01%27+AND+date+%3C%3D+DATE+%272026-09-25%27&outFields=date%2Cportid%2Cportcalls_tanker%2Cexport_tanker%2Cimport_tanker&outFieldAliases=date%3Adate&orderByFields=date&resultOffset=0&resultRecordCount=1000",
+   "retrieved_at_utc": "2026-10-07T21:49:39Z",
+   "provenance_sha256_match": true
+  },
+  {
+   "name": "ports_db_gulf_p00.json",
+   "bytes": 10397,
+   "sha256": "0dfb0e0f5c03aa5d5f2b596f45ec0f00fe07a22a208cf80d886b6367fc7e41fa",
+   "records_sha256": "282865f7ae2bc3c4d00f60778b17683f18c5087a254c08edaa1b91b24fcb414d",
+   "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/PortWatch_ports_database/FeatureServer/0/query?f=json&returnGeometry=false&where=ISO3+IN+%28%27ARE%27%2C%27SAU%27%2C%27QAT%27%2C%27KWT%27%2C%27BHR%27%2C%27IRQ%27%2C%27IRN%27%2C%27OMN%27%29&outFields=portid%2Cportname%2Ccountry%2CISO3%2Clat%2Clon&orderByFields=portid&resultOffset=0&resultRecordCount=1000",
+   "retrieved_at_utc": "2026-10-07T21:48:29Z",
+   "provenance_sha256_match": true
+  },
+  {
+   "name": "ports_monthly_gulf_p00.json",
+   "bytes": 179763,
+   "sha256": "ee6088b9464fd44ccb2828af3f60dff0b9569f69c06d0d99cc3aa5933cec1b00",
+   "records_sha256": "4135431228d0a73b12bc6c3a588ad8e68457b4308a13335d88167c19583e5cd7",
+   "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query?f=json&returnGeometry=false&where=ISO3+IN+%28%27ARE%27%2C%27SAU%27%2C%27QAT%27%2C%27KWT%27%2C%27BHR%27%2C%27IRQ%27%2C%27IRN%27%2C%27OMN%27%29+AND+date+%3E%3D+DATE+%272019-01-01%27+AND+date+%3C%3D+DATE+%272026-09-25%27&outStatistics=%5B%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22portcalls_tanker%22%2C+%22outStatisticFieldName%22%3A+%22portcalls_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22export_tanker%22%2C+%22outStatisticFieldName%22%3A+%22export_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22import_tanker%22%2C+%22outStatisticFieldName%22%3A+%22import_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22ObjectId%22%2C+%22outStatisticFieldName%22%3A+%22n_days%22%7D%5D&groupByFieldsForStatistics=portid%2Cportname%2CISO3%2Cyear%2Cmonth&orderByFields=portid%2Cyear%2Cmonth&resultOffset=0&resultRecordCount=1000",
+   "retrieved_at_utc": "2026-10-07T21:48:54Z",
+   "provenance_sha256_match": true
+  },
+  {
+   "name": "ports_monthly_gulf_p01.json",
+   "bytes": 171832,
+   "sha256": "1a3c8dcd18019088812dd4ded177d09666bd5471e34d0378c8e685197b6768d6",
+   "records_sha256": "813bdbe0d16e6b1bcaee9870950e5794ec6d54cd2af24476d0b1c5ce3f3c2094",
+   "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query?f=json&returnGeometry=false&where=ISO3+IN+%28%27ARE%27%2C%27SAU%27%2C%27QAT%27%2C%27KWT%27%2C%27BHR%27%2C%27IRQ%27%2C%27IRN%27%2C%27OMN%27%29+AND+date+%3E%3D+DATE+%272019-01-01%27+AND+date+%3C%3D+DATE+%272026-09-25%27&outStatistics=%5B%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22portcalls_tanker%22%2C+%22outStatisticFieldName%22%3A+%22portcalls_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22export_tanker%22%2C+%22outStatisticFieldName%22%3A+%22export_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22import_tanker%22%2C+%22outStatisticFieldName%22%3A+%22import_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22ObjectId%22%2C+%22outStatisticFieldName%22%3A+%22n_days%22%7D%5D&groupByFieldsForStatistics=portid%2Cportname%2CISO3%2Cyear%2Cmonth&orderByFields=portid%2Cyear%2Cmonth&resultOffset=1000&resultRecordCount=1000",
+   "retrieved_at_utc": "2026-10-07T21:49:01Z",
+   "provenance_sha256_match": true
+  },
+  {
+   "name": "ports_monthly_gulf_p02.json",
+   "bytes": 171918,
+   "sha256": "8f555074bed9058d079be2449934ffc59cab912a97ec3c6006d65486500a34cc",
+   "records_sha256": "cd46ffc45ac24c4c9a221f22b81c1a4ec71ba427b0b34075531be92bcb0d9a14",
+   "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query?f=json&returnGeometry=false&where=ISO3+IN+%28%27ARE%27%2C%27SAU%27%2C%27QAT%27%2C%27KWT%27%2C%27BHR%27%2C%27IRQ%27%2C%27IRN%27%2C%27OMN%27%29+AND+date+%3E%3D+DATE+%272019-01-01%27+AND+date+%3C%3D+DATE+%272026-09-25%27&outStatistics=%5B%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22portcalls_tanker%22%2C+%22outStatisticFieldName%22%3A+%22portcalls_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22export_tanker%22%2C+%22outStatisticFieldName%22%3A+%22export_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22import_tanker%22%2C+%22outStatisticFieldName%22%3A+%22import_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22ObjectId%22%2C+%22outStatisticFieldName%22%3A+%22n_days%22%7D%5D&groupByFieldsForStatistics=portid%2Cportname%2CISO3%2Cyear%2Cmonth&orderByFields=portid%2Cyear%2Cmonth&resultOffset=2000&resultRecordCount=1000",
+   "retrieved_at_utc": "2026-10-07T21:49:07Z",
+   "provenance_sha256_match": true
+  },
+  {
+   "name": "ports_monthly_gulf_p03.json",
+   "bytes": 169557,
+   "sha256": "a373a4432dcb23cd0b6c9172182bf44700deb8c902764e0cfb9a49fe8e194dca",
+   "records_sha256": "56827d8c80ed43997aba21a433d3583c2601f95aeaf303dba5a9ad2d3652f23a",
+   "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query?f=json&returnGeometry=false&where=ISO3+IN+%28%27ARE%27%2C%27SAU%27%2C%27QAT%27%2C%27KWT%27%2C%27BHR%27%2C%27IRQ%27%2C%27IRN%27%2C%27OMN%27%29+AND+date+%3E%3D+DATE+%272019-01-01%27+AND+date+%3C%3D+DATE+%272026-09-25%27&outStatistics=%5B%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22portcalls_tanker%22%2C+%22outStatisticFieldName%22%3A+%22portcalls_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22export_tanker%22%2C+%22outStatisticFieldName%22%3A+%22export_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22import_tanker%22%2C+%22outStatisticFieldName%22%3A+%22import_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22ObjectId%22%2C+%22outStatisticFieldName%22%3A+%22n_days%22%7D%5D&groupByFieldsForStatistics=portid%2Cportname%2CISO3%2Cyear%2Cmonth&orderByFields=portid%2Cyear%2Cmonth&resultOffset=3000&resultRecordCount=1000",
+   "retrieved_at_utc": "2026-10-07T21:49:13Z",
+   "provenance_sha256_match": true
+  },
+  {
+   "name": "ports_monthly_gulf_p04.json",
+   "bytes": 174389,
+   "sha256": "04821735eb15a9821f1ca7ec8334ef042ff14b01052485fa4ec89019e266875a",
+   "records_sha256": "37a6e854c137513c376473ce8fdde6c453df939c2009393420d7498b7c9c8f43",
+   "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query?f=json&returnGeometry=false&where=ISO3+IN+%28%27ARE%27%2C%27SAU%27%2C%27QAT%27%2C%27KWT%27%2C%27BHR%27%2C%27IRQ%27%2C%27IRN%27%2C%27OMN%27%29+AND+date+%3E%3D+DATE+%272019-01-01%27+AND+date+%3C%3D+DATE+%272026-09-25%27&outStatistics=%5B%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22portcalls_tanker%22%2C+%22outStatisticFieldName%22%3A+%22portcalls_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22export_tanker%22%2C+%22outStatisticFieldName%22%3A+%22export_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22import_tanker%22%2C+%22outStatisticFieldName%22%3A+%22import_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22ObjectId%22%2C+%22outStatisticFieldName%22%3A+%22n_days%22%7D%5D&groupByFieldsForStatistics=portid%2Cportname%2CISO3%2Cyear%2Cmonth&orderByFields=portid%2Cyear%2Cmonth&resultOffset=4000&resultRecordCount=1000",
+   "retrieved_at_utc": "2026-10-07T21:49:20Z",
+   "provenance_sha256_match": true
+  },
+  {
+   "name": "ports_monthly_gulf_p05.json",
+   "bytes": 174886,
+   "sha256": "7e108bd13ac742c2af3ebd51f8be6212bc15eedc68db1638ffe4885d4cb732e2",
+   "records_sha256": "cd5c9fc83603437ba3c05cf583df7291817b38bee1084fbf3745ce39cde6bb09",
+   "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query?f=json&returnGeometry=false&where=ISO3+IN+%28%27ARE%27%2C%27SAU%27%2C%27QAT%27%2C%27KWT%27%2C%27BHR%27%2C%27IRQ%27%2C%27IRN%27%2C%27OMN%27%29+AND+date+%3E%3D+DATE+%272019-01-01%27+AND+date+%3C%3D+DATE+%272026-09-25%27&outStatistics=%5B%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22portcalls_tanker%22%2C+%22outStatisticFieldName%22%3A+%22portcalls_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22export_tanker%22%2C+%22outStatisticFieldName%22%3A+%22export_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22import_tanker%22%2C+%22outStatisticFieldName%22%3A+%22import_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22ObjectId%22%2C+%22outStatisticFieldName%22%3A+%22n_days%22%7D%5D&groupByFieldsForStatistics=portid%2Cportname%2CISO3%2Cyear%2Cmonth&orderByFields=portid%2Cyear%2Cmonth&resultOffset=5000&resultRecordCount=1000",
+   "retrieved_at_utc": "2026-10-07T21:49:26Z",
+   "provenance_sha256_match": true
+  },
+  {
+   "name": "ports_monthly_gulf_p06.json",
+   "bytes": 56889,
+   "sha256": "0a0995c2de5acf76028fbc4e27503a9d4ae8a1df81ae30386ecdc42a6cdd7d4a",
+   "records_sha256": "0b2f0a49ee7cea8469533e7cb2f91ddc1f70de46ba068672a347b0bef9c2da59",
+   "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query?f=json&returnGeometry=false&where=ISO3+IN+%28%27ARE%27%2C%27SAU%27%2C%27QAT%27%2C%27KWT%27%2C%27BHR%27%2C%27IRQ%27%2C%27IRN%27%2C%27OMN%27%29+AND+date+%3E%3D+DATE+%272019-01-01%27+AND+date+%3C%3D+DATE+%272026-09-25%27&outStatistics=%5B%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22portcalls_tanker%22%2C+%22outStatisticFieldName%22%3A+%22portcalls_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22export_tanker%22%2C+%22outStatisticFieldName%22%3A+%22export_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22sum%22%2C+%22onStatisticField%22%3A+%22import_tanker%22%2C+%22outStatisticFieldName%22%3A+%22import_tanker%22%7D%2C+%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22ObjectId%22%2C+%22outStatisticFieldName%22%3A+%22n_days%22%7D%5D&groupByFieldsForStatistics=portid%2Cportname%2CISO3%2Cyear%2Cmonth&orderByFields=portid%2Cyear%2Cmonth&resultOffset=6000&resultRecordCount=1000",
+   "retrieved_at_utc": "2026-10-07T21:49:32Z",
+   "provenance_sha256_match": true
+  }
+ ],
+ "outputs": {
+  "results.json": "f0e13e3175c370e0824a9bdc38e755fe9f0e92b1e2d0515046f46af3438e1a1d",
+  "docs/item_3da2b9ca97684916b75c4013f95d18ab.json": "d0326835b99b49cabfd5afc445f4cfc38e1ac442a4513483adb475265d7e1ebc",
+  "docs/item_83b1bbc7b3354c5fb1f40673bb8f852e.json": "c47b7e00b60d7b984d640ac138b2f29b3746b666282043c3da0a364dba954725"
+ },
+ "status_counts": {
+  "PASS": 12,
+  "FAIL": 4,
+  "UNKNOWN": 3
+ }
+}
