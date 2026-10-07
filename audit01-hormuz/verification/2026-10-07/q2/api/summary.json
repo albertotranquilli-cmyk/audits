@@ -1,0 +1,23 @@
+{
+ "net_Mt": 33.650798,
+ "C_Mt": 23.428172,
+ "gap_Mt": 10.222626,
+ "BP_net_Mt": 5.280989,
+ "gap_excl_BP_Mt": 4.941637,
+ "gap_excl_IRN_Mt": 4.203422,
+ "BP_202506": {
+  "sum_export_tanker": 42808013,
+  "sum_import_tanker": 7602760,
+  "sum_portcalls_tanker": 677
+ },
+ "BP_20260228": [
+  {
+   "date": "2026-02-28",
+   "portcalls_tanker": 89,
+   "export_tanker": 5130295,
+   "import_tanker": 1026399
+  }
+ ],
+ "BP_months_2019_2024": 72,
+ "BP_median_calls_2019_2024": 5.0
+}

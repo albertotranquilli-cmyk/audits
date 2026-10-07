@@ -1,0 +1,151 @@
+{
+ "n_inside": 45,
+ "inside_ports": [
+  "ARE:port1340:Umm al Qaiwain",
+  "ARE:port13:Ajman",
+  "ARE:port2025:Khalifa Port",
+  "ARE:port2235:Zirku Island",
+  "ARE:port2236:Jebel Dhanna",
+  "ARE:port2237:Das Island",
+  "ARE:port22:Al Hamriyah LPG Terminal",
+  "ARE:port306:Dubai",
+  "ARE:port512:Jabal Az Zannah-Ruways",
+  "ARE:port5:Abu Dhabi",
+  "ARE:port72:Sharjah",
+  "ARE:port744:Jebel Ali",
+  "ARE:port747:Mina Saqr",
+  "BHR:port1203:Sitrah",
+  "BHR:port2012:Khalifa Bin Salman",
+  "BHR:port2060:Mina Salman",
+  "IRN:port105:Bandar-E Pars Terminal",
+  "IRN:port106:Bandar Shahid Rajaee",
+  "IRN:port107:Bandar Abbas",
+  "IRN:port108:Bandar Khomeini",
+  "IRN:port196:Bushehr",
+  "IRN:port2164:Kharg Island",
+  "IRN:port2165:Lavan",
+  "IRN:port2477:Abadan",
+  "IRN:port2478:Bahregan",
+  "IRN:port563:Khorramshahr",
+  "IRQ:port1341:Umm Qasr",
+  "IRQ:port20:Al Basrah",
+  "IRQ:port2479:Basrah Oil Terminal",
+  "KWT:port2067:Shuaiba",
+  "KWT:port2493:Mina Al Zour",
+  "KWT:port25:Shuwaikh",
+  "KWT:port743:Mina Al Ahmadi",
+  "QAT:port1090:Ras Laffan",
+  "QAT:port1117:Al Ruwais",
+  "QAT:port1342:Doha-Umm Said",
+  "QAT:port2026:Hamad Port",
+  "SAU:fso158:Saudi Arabia - Offshore Oil Terminal 1",
+  "SAU:port1088:Ras Al Mishab",
+  "SAU:port1089:Ras Al-Khair",
+  "SAU:port1091:Ras Tanura",
+  "SAU:port2217:Ras Al Khafji",
+  "SAU:port24:Jubail",
+  "SAU:port275:Dammam",
+  "SAU:port526:Juaymah"
+ ],
+ "ch_date_range": [
+  "2019-01-01",
+  "2026-09-25"
+ ],
+ "pm_last_ym": 202609,
+ "pm_last_month_ndays_max": 25,
+ "inside_ports_with_rows": 45,
+ "inside_portmonth_rows": 4185,
+ "E_Mt": 54.554485,
+ "I_Mt": 20.903687,
+ "net_Mt": 33.650798,
+ "C_Mt": 23.428172,
+ "gap_Mt": 10.222626,
+ "ratio": 1.436339036609429,
+ "ratio_excl_BP": 1.210927126538084,
+ "BP_net_window_Mt": 5.280989,
+ "BP_share_of_gap_pct": 51.65980835061363,
+ "gap_excl_BP_Mt": 4.941637,
+ "gap_excl_IRN_Mt": 4.203422,
+ "ch_days_in_window": 209,
+ "baseline_months": 86,
+ "baseline_rho_max": 0.9443592780474732,
+ "baseline_rho_max_month": 201902,
+ "baseline_rho_gt1": 0,
+ "BP_months_2019_2024_present": 72,
+ "BP_median_calls_2019_2024": 5.0,
+ "BP_mean_calls_2019_2024": 8.625,
+ "BP_202506_calls": 677,
+ "BP_202506_export_Mt": 42.808013,
+ "BP_202506_import_Mt": 7.60276,
+ "BP_20260228_calls": 89,
+ "BP_top5_days_since_2025": [
+  [
+   97,
+   "2025-08-16"
+  ],
+  [
+   89,
+   "2026-02-28"
+  ],
+  [
+   88,
+   "2025-09-30"
+  ],
+  [
+   76,
+   "2025-07-01"
+  ],
+  [
+   69,
+   "2025-06-15"
+  ]
+ ],
+ "BP_daily_vs_monthly_net_diff_t": 0,
+ "burst": {
+  "3": {
+   "days": 8,
+   "removed_Mt": 4.354712,
+   "gap_without_Mt": 5.867914,
+   "dates": [
+    "2026-03-01",
+    "2026-03-06",
+    "2026-03-07",
+    "2026-03-08",
+    "2026-05-26",
+    "2026-05-27",
+    "2026-05-28",
+    "2026-05-29"
+   ]
+  },
+  "5": {
+   "days": 6,
+   "removed_Mt": 4.192844,
+   "gap_without_Mt": 6.029782,
+   "dates": [
+    "2026-03-01",
+    "2026-03-07",
+    "2026-03-08",
+    "2026-05-26",
+    "2026-05-27",
+    "2026-05-28"
+   ]
+  },
+  "10": {
+   "days": 4,
+   "removed_Mt": 3.855353,
+   "gap_without_Mt": 6.367273,
+   "dates": [
+    "2026-03-07",
+    "2026-05-26",
+    "2026-05-27",
+    "2026-05-28"
+   ]
+  }
+ },
+ "gap_excl_BP_excess_over_median_Mt": 5.618026,
+ "range_Mt": [
+  4.203422,
+  6.367273
+ ],
+ "gap_from_Apr_Mt": -1.922012
+}
