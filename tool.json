@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "capability_id": "forensic-audits",
+  "entrypoint": "cd audit01-hormuz && bash run.sh --fresh",
+  "network": {
+    "required": true,
+    "endpoints": [
+      {
+        "purpose": "IMF PortWatch public ArcGIS REST API (layers Daily_Ports_Data, Daily_Chokepoints_Data, PortWatch_ports_database); base B at audit01-hormuz/scripts/get_data.py:12, query/layerinfo URLs at get_data.py:22,27, fetched via urllib in scripts/fetch.py:35; --fresh forces re-download",
+        "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services"
+      },
+      {
+        "purpose": "pip default package index, used only when audit01-hormuz/.venv/bin/python is absent (run.sh:10-11 installs audit01-hormuz/requirements.txt)",
+        "url": "https://pypi.org/simple"
+      }
+    ]
+  },
+  "outputs": [
+    {
+      "path": "audit01-hormuz/out/key_numbers.json",
+      "format": "json",
+      "validation": [
+        "file exists and is non-empty",
+        "parses as strict JSON object; NaN/Infinity forbidden (json.dump at scripts/analysis.py:163 does not set allow_nan=False)",
+        "contains keys written at scripts/analysis.py:134-162 including window, n_ports_inside, E_minus_I_Mt, C_Mt, ratio, L_Mt, L_range_Mt, portwatch_last_edit",
+        "no error field and no placeholder values"
+      ]
+    },
+    {
+      "path": "audit01-hormuz/out/monthly_mass_balance.csv",
+      "format": "csv",
+      "validation": [
+        "file exists and is non-empty",
+        "header row exactly: ym,E_Mt,I_Mt,net_Mt,C_Mt,rho,n_transits,calls,port_days (scripts/analysis.py:129-132, index ym)",
+        "at least one data row"
+      ]
+    },
+    {
+      "path": "audit01-hormuz/out/audit01_chart.png",
+      "format": "png",
+      "validation": [
+        "file exists and is non-empty",
+        "valid PNG signature",
+        "1600x900 pixels (figsize=(16, 9), dpi=100 at scripts/make_chart.py:21,61)"
+      ]
+    }
+  ],
+  "provenance": {
+    "input_log": "audit01-hormuz/data/provenance.jsonl",
+    "output_hash_manifest": "audit01-hormuz/out/SHA256SUMS",
+    "commit_sha": null,
+    "commit_sha_status": "missing: the pipeline (run.sh, scripts/*.py) does not record the git commit SHA"
+  }
+}
