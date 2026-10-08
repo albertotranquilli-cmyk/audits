@@ -1,16 +1,16 @@
 {
  "source": "EIA weekly US commercial crude stocks excl. SPR (WCESTUS1), kb",
  "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WCESTUS1&f=W",
- "publisher_last_edit": "9/30/2026",
- "checked_at_utc": "2026-10-04T15:02:45Z",
- "n_periods": 2296,
+ "publisher_last_edit": "10/7/2026",
+ "checked_at_utc": "2026-10-08T12:12:15Z",
+ "n_periods": 2297,
  "first_date": "1982-08-20",
- "latest_date": "2026-09-25",
+ "latest_date": "2026-10-02",
  "latest": {
-  "stocks_kbbl": 427320
+  "stocks_kbbl": 424134
  },
- "raw_sha256": "188d28d39bb61e979e03345e4d05055ec393dc51aa84f01434f4d2ca0a05825d",
- "series_sha256": "f70092f7fce017039d3b3c312c5dfad64e066cefec6c7ef2cd3f901a94b40fcb",
+ "raw_sha256": "0861b33528dee4ceca8616d1553f58ad4d6c8a944c686638ac6a69c51ced8164",
+ "series_sha256": "388f33fe9370c4217cabb7e18c385e4453986a1642ce113ae0c5b1dff6c55c59",
  "year_sha256": {
   "1982": "d428318bdd832d66bf2d998b67e6caccae2ba91f68acf7712f13fef9ae9227ac",
   "1983": "c15a92e299eea97c4849ef416fccefb0feac8ff8b65bf5d27d54ebed6e1a5bb8",
@@ -56,13 +56,9 @@
   "2023": "fc215b9e94df9ca61ee9f417b6877889e3c43ec155c259f2106e8e8fe8c44fbc",
   "2024": "b1a62e15a51baf47079867e0c069fad2940f4ba2f3c38faff78d69ba0d9d023c",
   "2025": "15d3b52a9432fc853f6b4d93206014f837db9e31476cb474ca062a40f055581f",
-  "2026": "f87a3675eb0122266feec84bd15075352dc22cc12b70ee8a0d7d7d498bb598df"
+  "2026": "86c221a02e45c3492c614e6452953f6b85ba67cbde53bff5ecb2f1050a803201"
  },
  "recent": [
-  {
-   "date": "2026-08-07",
-   "stocks_kbbl": 424410
-  },
   {
    "date": "2026-08-14",
    "stocks_kbbl": 428815
@@ -90,6 +86,10 @@
   {
    "date": "2026-09-25",
    "stocks_kbbl": 427320
+  },
+  {
+   "date": "2026-10-02",
+   "stocks_kbbl": 424134
   }
  ],
  "wayback": [
