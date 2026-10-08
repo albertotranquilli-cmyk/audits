@@ -1,0 +1,865 @@
+{
+ "schema": "audit01-forensic-results/1",
+ "started_utc": "2026-10-07T21:50:41Z",
+ "finished_utc": "2026-10-07T21:50:58Z",
+ "data_end": "2026-09-25",
+ "status_counts": {
+  "PASS": 12,
+  "FAIL": 4,
+  "UNKNOWN": 3
+ },
+ "checks": [
+  {
+   "id": "capacity_field_schema",
+   "question": "Do the summed fields exist as integer fields in the layer schema?",
+   "hypothesis": "all 5 fields present, esriFieldTypeInteger",
+   "observed": {
+    "fields": {
+     "Daily_Chokepoints_Data": {
+      "capacity_tanker": {
+       "type": "esriFieldTypeInteger",
+       "alias": "capacity_tanker",
+       "description": null
+      },
+      "n_tanker": {
+       "type": "esriFieldTypeInteger",
+       "alias": "n_tanker",
+       "description": null
+      }
+     },
+     "Daily_Ports_Data": {
+      "export_tanker": {
+       "type": "esriFieldTypeInteger",
+       "alias": "export_tanker",
+       "description": null
+      },
+      "import_tanker": {
+       "type": "esriFieldTypeInteger",
+       "alias": "import_tanker",
+       "description": null
+      },
+      "portcalls_tanker": {
+       "type": "esriFieldTypeInteger",
+       "alias": "portcalls_tanker",
+       "description": null
+      }
+     }
+    },
+    "layer_schema_has_no_field_descriptions": true
+   },
+   "status": "PASS",
+   "evidence": null
+  },
+  {
+   "id": "capacity_field_definition",
+   "question": "What does PortWatch say capacity_tanker / export_tanker / import_tanker measure?",
+   "hypothesis": "item descriptions define them as model-estimated cargo in metric tons (payload share x DWT), not DWT",
+   "observed": {
+    "Daily_Chokepoints_Data": {
+     "url": "https://www.arcgis.com/sharing/rest/content/items/3da2b9ca97684916b75c4013f95d18ab?f=json",
+     "retrieved_at_utc": "2026-10-07T21:50:44Z",
+     "sha256": "d0326835b99b49cabfd5afc445f4cfc38e1ac442a4513483adb475265d7e1ebc",
+     "bytes": 12621,
+     "strings_found": {
+      "capacity_tanker: total trade volume (in metric tons) of all tankers transiting through the chokepoint at this date.": true,
+      "deadweight tonnage (the maximum carrying capacity) in metric tons is the resulting trade volume estimate in metric tons carried by the ship": true,
+      "to estimate the payload (or utilization rate) of the vessel when transiting through the chokepoint": true
+     },
+     "cites_WP21_225": true,
+     "cites_WP25_93": false
+    },
+    "Daily_Ports_Data": {
+     "url": "https://www.arcgis.com/sharing/rest/content/items/83b1bbc7b3354c5fb1f40673bb8f852e?f=json",
+     "retrieved_at_utc": "2026-10-07T21:50:51Z",
+     "sha256": "c47b7e00b60d7b984d640ac138b2f29b3746b666282043c3da0a364dba954725",
+     "bytes": 12484,
+     "strings_found": {
+      "export_tanker: total export volume (in metric tons) of all tankers entering the port at this date.": true,
+      "import_tanker: total import volume (in metric tons) of all tankers entering the port at this date.": true,
+      "The change in the vessel payload (in percentage points) multiplied by the vessel": true
+     },
+     "cites_WP21_225": true,
+     "cites_WP25_93": false
+    }
+   },
+   "status": "PASS",
+   "evidence": "audit01-hormuz/verification/2026-10-07/REPORT.md (Q1) and SOURCES.md: ArcGIS item descriptions 3da2b9ca... sha256 08e00ca6..., 83b1bbc7... sha256 c47b7e00...; IMF WP/25/93 Annex II eq. A2.1, sha256 28ec6524...; WP/21/225 sha256 e5e07052..."
+  },
+  {
+   "id": "ballast_zeroing_applied_to_series",
+   "question": "Are tanker transits in ballast set to zero in the published chokepoint series?",
+   "hypothesis": "WP/25/93 eq. A2.1 (2025 method) is applied to chokepoint6",
+   "observed": "documented in WP/25/93 and the PortWatch 2025 changelog; per-vessel data needed to observe it are not public",
+   "status": "UNKNOWN",
+   "evidence": "audit01-hormuz/verification/2026-10-07/REPORT.md (Q1) and SOURCES.md: ArcGIS item descriptions 3da2b9ca... sha256 08e00ca6..., 83b1bbc7... sha256 c47b7e00...; IMF WP/25/93 Annex II eq. A2.1, sha256 28ec6524...; WP/21/225 sha256 e5e07052..."
+  },
+  {
+   "id": "units_integer_tonnes",
+   "question": "Are all tonnage/count values non-negative integers (t, counts)?",
+   "hypothesis": "0 non-integer or negative values",
+   "observed": {
+    "pm.export_tanker": 0,
+    "pm.import_tanker": 0,
+    "pm.portcalls_tanker": 0,
+    "pm.n_days": 0,
+    "ch.capacity_tanker": 0,
+    "ch.n_tanker": 0,
+    "bpd.export_tanker": 0,
+    "bpd.import_tanker": 0,
+    "bpd.portcalls_tanker": 0
+   },
+   "status": "PASS",
+   "evidence": null
+  },
+  {
+   "id": "aggregation_consistency_port105",
+   "question": "Do server-side monthly sums equal the sum of daily rows (port105)?",
+   "hypothesis": "0 mismatching months",
+   "observed": {
+    "months_compared": 33,
+    "mismatching": []
+   },
+   "status": "PASS",
+   "evidence": null
+  },
+  {
+   "id": "published_numbers_reproduce",
+   "question": "Do the published thread numbers follow from the raw inputs with t -> Mt = /1e6 and the stated rounding?",
+   "hypothesis": "every published value equals the recomputed value rounded to the published decimals",
+   "observed": {
+    "net_45_ports_Mt": {
+     "published": 33.65,
+     "recomputed": 33.650798,
+     "decimals": 2,
+     "status": "PASS"
+    },
+    "C_Mt": {
+     "published": 23.43,
+     "recomputed": 23.428172,
+     "decimals": 2,
+     "status": "PASS"
+    },
+    "gap_Mt": {
+     "published": 10.22,
+     "recomputed": 10.222626,
+     "decimals": 2,
+     "status": "PASS"
+    },
+    "ratio": {
+     "published": 1.44,
+     "recomputed": 1.436339036609429,
+     "decimals": 2,
+     "status": "PASS"
+    },
+    "baseline_rho_max": {
+     "published": 0.94,
+     "recomputed": 0.9443592780474732,
+     "decimals": 2,
+     "status": "PASS"
+    },
+    "baseline_months": {
+     "published": 86,
+     "recomputed": 86,
+     "decimals": 0,
+     "status": "PASS"
+    },
+    "port105_202506_calls": {
+     "published": 677,
+     "recomputed": 677,
+     "decimals": 0,
+     "status": "PASS"
+    },
+    "port105_202506_export_gross_Mt": {
+     "published": 42.8,
+     "recomputed": 42.808013,
+     "decimals": 1,
+     "status": "PASS"
+    },
+    "port105_median_calls_2019_2024": {
+     "published": 5,
+     "recomputed": 5.0,
+     "decimals": 0,
+     "status": "PASS"
+    },
+    "port105_20260228_calls": {
+     "published": 89,
+     "recomputed": 89,
+     "decimals": 0,
+     "status": "PASS"
+    },
+    "port105_net_window_Mt": {
+     "published": 5.28,
+     "recomputed": 5.280989,
+     "decimals": 2,
+     "status": "PASS"
+    },
+    "port105_share_of_gap_pct": {
+     "published": 52,
+     "recomputed": 51.65980835061363,
+     "decimals": 0,
+     "status": "PASS"
+    },
+    "gap_excl_port105_Mt": {
+     "published": 4.94,
+     "recomputed": 4.941637,
+     "decimals": 2,
+     "status": "PASS"
+    },
+    "gap_excl_Iran_Mt": {
+     "published": 4.2,
+     "recomputed": 4.203422,
+     "decimals": 2,
+     "status": "PASS"
+    },
+    "burst_gap_min_Mt": {
+     "published": 5.9,
+     "recomputed": 5.867914,
+     "decimals": 1,
+     "status": "PASS"
+    },
+    "burst_gap_max_Mt": {
+     "published": 6.4,
+     "recomputed": 6.367273,
+     "decimals": 1,
+     "status": "PASS"
+    },
+    "burst_days_min": {
+     "published": 4,
+     "recomputed": 4,
+     "decimals": 0,
+     "status": "PASS"
+    },
+    "burst_days_max": {
+     "published": 8,
+     "recomputed": 8,
+     "decimals": 0,
+     "status": "PASS"
+    },
+    "range_low_Mt": {
+     "published": 4.2,
+     "recomputed": 4.203422,
+     "decimals": 1,
+     "status": "PASS"
+    },
+    "range_high_Mt": {
+     "published": 6.4,
+     "recomputed": 6.367273,
+     "decimals": 1,
+     "status": "PASS"
+    },
+    "gap_from_April_Mt": {
+     "published": -1.9,
+     "recomputed": -1.922012,
+     "decimals": 1,
+     "status": "PASS"
+    }
+   },
+   "status": "PASS",
+   "evidence": "42.8 Mt is gross export_tanker; net for June 2025 is reported in measurements.port105_facts"
+  },
+  {
+   "id": "duplicate_keys",
+   "question": "Any duplicate port-month keys, chokepoint dates, port105 dates or identical port-month rows?",
+   "hypothesis": "all counts 0",
+   "observed": {
+    "port_month_dup_keys": 0,
+    "chokepoint_dup_dates": 0,
+    "port105_dup_dates": 0,
+    "port_month_identical_rows": 0
+   },
+   "status": "PASS",
+   "evidence": null
+  },
+  {
+   "id": "duplicate_vessel_events",
+   "question": "Are individual vessel port calls / transits double-counted?",
+   "hypothesis": "no duplicated vessel events",
+   "observed": "public layers are daily aggregates without vessel identifiers; port105 burst days (see measurements) are consistent with, but do not prove, duplicated or spoofed events",
+   "status": "UNKNOWN",
+   "evidence": null
+  },
+  {
+   "id": "row_completeness",
+   "question": "Are daily rows missing (chokepoint6 dates; port-months with fewer rows than days)?",
+   "hypothesis": "0 missing chokepoint dates, 0 absent or short port-months for the 45 ports",
+   "observed": {
+    "chokepoint_missing_dates": 0,
+    "port_months_absent": 0,
+    "port_months_short": 0,
+    "examples_short": [],
+    "chokepoint_zero_tanker_days_total": 54,
+    "chokepoint_zero_tanker_days_in_audit_window": [
+     "2026-03-04",
+     "2026-03-06",
+     "2026-03-08",
+     "2026-03-11",
+     "2026-03-12",
+     "2026-03-13",
+     "2026-03-14",
+     "2026-03-16",
+     "2026-03-18",
+     "2026-03-19",
+     "2026-03-21",
+     "2026-03-22",
+     "2026-03-26",
+     "2026-03-27",
+     "2026-04-02",
+     "2026-04-06",
+     "2026-04-08",
+     "2026-04-10",
+     "2026-04-23",
+     "2026-05-04",
+     "2026-05-05",
+     "2026-05-06",
+     "2026-05-07",
+     "2026-05-08",
+     "2026-05-22",
+     "2026-05-25",
+     "2026-05-28",
+     "2026-05-29",
+     "2026-05-30",
+     "2026-05-31",
+     "2026-06-05",
+     "2026-06-06",
+     "2026-06-07",
+     "2026-06-10",
+     "2026-06-13",
+     "2026-06-14",
+     "2026-06-17",
+     "2026-07-23",
+     "2026-07-24",
+     "2026-07-25",
+     "2026-07-27",
+     "2026-08-02",
+     "2026-08-05",
+     "2026-08-06",
+     "2026-08-09",
+     "2026-08-28",
+     "2026-09-04",
+     "2026-09-05",
+     "2026-09-09",
+     "2026-09-14",
+     "2026-09-16",
+     "2026-09-17",
+     "2026-09-20",
+     "2026-09-21"
+    ]
+   },
+   "status": "PASS",
+   "evidence": null
+  },
+  {
+   "id": "ais_signal_gaps",
+   "question": "Are there AIS reception gaps inside the rows (days with real traffic recorded as 0)?",
+   "hypothesis": "no AIS gaps",
+   "observed": "a zero row cannot be told apart from a day without traffic in aggregated data; chokepoint6 zero-tanker days in the audit window: 54",
+   "status": "UNKNOWN",
+   "evidence": null
+  },
+  {
+   "id": "revision_sensitivity",
+   "question": "How much do weekly PortWatch revisions move the audit-window gap?",
+   "hypothesis": "|delta gap| < 0.05 Mt between complete releases",
+   "observed": {
+    "releases": {
+     "primary": {
+      "inputs_fingerprint": "032d927b33a481bbc7ff5163a0a396129474c131c08ae332b703552a1ea96053",
+      "lastEdit": {
+       "Daily_Chokepoints_Data": "2026-10-06 12:09 UTC",
+       "Daily_Ports_Data": "2026-10-06 18:41 UTC"
+      },
+      "gap_Mt": 10.222626,
+      "net_Mt": 33.650798,
+      "C_Mt": 23.428172,
+      "gap_excl_port105_Mt": 4.941637,
+      "gap_excl_Iran_Mt": 4.203422,
+      "port105_net_Mt": 5.280989,
+      "directive_gap_Mt": -247.679338
+     },
+     "2026-10-04_release-2026-09-29": {
+      "inputs_fingerprint": "25b0e56aee2486aebdb55e7eb1b5a92b40512cdbaa6df2f40431b2a12e956519",
+      "lastEdit": {
+       "Daily_Chokepoints_Data": "2026-09-29 12:20 UTC",
+       "Daily_Ports_Data": "2026-09-29 16:43 UTC"
+      },
+      "n_ports_with_rows": 45,
+      "dup": {
+       "port_month_dup_keys": 0,
+       "chokepoint_dup_dates": 0,
+       "port105_dup_dates": 0,
+       "port_month_identical_rows": 0
+      },
+      "gap_Mt": 10.23015,
+      "net_Mt": 33.658322,
+      "C_Mt": 23.428172,
+      "gap_excl_port105_Mt": 4.949161,
+      "gap_excl_Iran_Mt": 4.209638,
+      "port105_net_Mt": 5.280989,
+      "directive_gap_Mt": -247.590593
+     },
+     "2026-10-07T0852Z_release-2026-10-06": {
+      "inputs_fingerprint": "032d927b33a481bbc7ff5163a0a396129474c131c08ae332b703552a1ea96053",
+      "lastEdit": {
+       "Daily_Chokepoints_Data": "2026-10-06 12:09 UTC",
+       "Daily_Ports_Data": "2026-10-06 18:41 UTC"
+      },
+      "n_ports_with_rows": 45,
+      "dup": {
+       "port_month_dup_keys": 0,
+       "chokepoint_dup_dates": 0,
+       "port105_dup_dates": 0,
+       "port_month_identical_rows": 0
+      },
+      "gap_Mt": 10.222626,
+      "net_Mt": 33.650798,
+      "C_Mt": 23.428172,
+      "gap_excl_port105_Mt": 4.941637,
+      "gap_excl_Iran_Mt": 4.203422,
+      "port105_net_Mt": 5.280989,
+      "directive_gap_Mt": -247.679338
+     }
+    },
+    "max_abs_gap_delta_Mt": 0.007524000000000086
+   },
+   "status": "PASS",
+   "evidence": null
+  },
+  {
+   "id": "denominator_choice",
+   "question": "Does the anomaly survive a unit-free denominator (counts instead of tonnes)?",
+   "hypothesis": "window ratio exceeds the pre-crisis monthly maximum under both the tonnage and the count definition",
+   "observed": {
+    "net_over_C (audit)": {
+     "window": 1.436339036609429,
+     "baseline_monthly_max": 0.9443592780474732,
+     "baseline_monthly_median": 0.583682576427643,
+     "window_exceeds_baseline_max": true
+    },
+    "gross_export_over_C": {
+     "window": 2.3285847909943636,
+     "baseline_monthly_max": 0.9981895925108518,
+     "baseline_monthly_median": 0.6531775768808532,
+     "window_exceeds_baseline_max": true
+    },
+    "tanker_calls_over_tanker_transits (unit-free)": {
+     "window": 4.691756272401434,
+     "baseline_monthly_max": 1.0818652849740933,
+     "baseline_monthly_median": 0.7339382176577532,
+     "window_exceeds_baseline_max": true
+    },
+    "C_per_transit_t": {
+     "baseline_median": 47654.10194024101,
+     "window_months": {
+      "202603": 28823,
+      "202604": 25158,
+      "202605": 59640,
+      "202606": 51625,
+      "202607": 58028,
+      "202608": 8591,
+      "202609": 14122
+     }
+    }
+   },
+   "status": "PASS",
+   "evidence": "C has no direction split in the public layer; both directions are summed (conservative for L)"
+  },
+  {
+   "id": "falsify_port_sets",
+   "question": "Does the audit-window gap stay > 0 under alternative inside-Gulf port sets?",
+   "hypothesis": "L > 0 for every alternative set (excluding the deliberately wrong Gulf-of-Oman set)",
+   "observed": {
+    "audit_45": {
+     "n_ports": 45,
+     "audit_window_gap_Mt": 10.222626,
+     "directive_window_gap_Mt": -247.679338
+    },
+    "box_rule": {
+     "n_ports": 45,
+     "audit_window_gap_Mt": 10.222626,
+     "directive_window_gap_Mt": -247.679338
+    },
+    "excl_port105": {
+     "n_ports": 44,
+     "audit_window_gap_Mt": 4.941637,
+     "directive_window_gap_Mt": -328.815455
+    },
+    "excl_Iran": {
+     "n_ports": 35,
+     "audit_window_gap_Mt": 4.203422,
+     "directive_window_gap_Mt": -328.793547
+    },
+    "excl_UAE": {
+     "n_ports": 32,
+     "audit_window_gap_Mt": 13.489852,
+     "directive_window_gap_Mt": -259.742391
+    },
+    "excl_near_strait": {
+     "n_ports": 42,
+     "audit_window_gap_Mt": 10.353922,
+     "directive_window_gap_Mt": -246.414901
+    },
+    "arab_crude_exporters_only": {
+     "n_ports": 22,
+     "audit_window_gap_Mt": 7.470648,
+     "directive_window_gap_Mt": -340.8566
+    },
+    "plus_gulf_of_oman_ports(adversarial,wrong side)": {
+     "n_ports": 50,
+     "audit_window_gap_Mt": 17.178519,
+     "directive_window_gap_Mt": -229.592561
+    }
+   },
+   "status": "PASS",
+   "evidence": null
+  },
+  {
+   "id": "falsify_windows",
+   "question": "Does the gap stay > 0 for every window start from 2025-03 to the last month (end fixed at data end)?",
+   "hypothesis": "L > 0 for all start months",
+   "observed": {
+    "202503": {
+     "gap_Mt": -247.6793,
+     "gap_excl_port105_Mt": -328.8155,
+     "ratio": 0.7053
+    },
+    "202504": {
+     "gap_Mt": -218.5419,
+     "gap_excl_port105_Mt": -299.6371,
+     "ratio": 0.7164
+    },
+    "202505": {
+     "gap_Mt": -176.9476,
+     "gap_excl_port105_Mt": -257.899,
+     "ratio": 0.7434
+    },
+    "202506": {
+     "gap_Mt": -129.8663,
+     "gap_excl_port105_Mt": -210.3421,
+     "ratio": 0.7864
+    },
+    "202507": {
+     "gap_Mt": -116.6217,
+     "gap_excl_port105_Mt": -161.8922,
+     "ratio": 0.7783
+    },
+    "202508": {
+     "gap_Mt": -94.6171,
+     "gap_excl_port105_Mt": -123.2978,
+     "ratio": 0.7877
+    },
+    "202509": {
+     "gap_Mt": -67.8737,
+     "gap_excl_port105_Mt": -92.2253,
+     "ratio": 0.8144
+    },
+    "202510": {
+     "gap_Mt": -50.8025,
+     "gap_excl_port105_Mt": -71.7742,
+     "ratio": 0.8313
+    },
+    "202511": {
+     "gap_Mt": -31.3695,
+     "gap_excl_port105_Mt": -43.1709,
+     "ratio": 0.8617
+    },
+    "202512": {
+     "gap_Mt": -17.4718,
+     "gap_excl_port105_Mt": -29.0624,
+     "ratio": 0.8985
+    },
+    "202601": {
+     "gap_Mt": -4.4299,
+     "gap_excl_port105_Mt": -16.0205,
+     "ratio": 0.9647
+    },
+    "202602": {
+     "gap_Mt": 1.9085,
+     "gap_excl_port105_Mt": -9.7102,
+     "ratio": 1.0238
+    },
+    "202603": {
+     "gap_Mt": 10.2226,
+     "gap_excl_port105_Mt": 4.9416,
+     "ratio": 1.4363
+    },
+    "202604": {
+     "gap_Mt": -1.922,
+     "gap_excl_port105_Mt": -4.5634,
+     "ratio": 0.9149
+    },
+    "202605": {
+     "gap_Mt": -1.5252,
+     "gap_excl_port105_Mt": -3.7648,
+     "ratio": 0.9245
+    },
+    "202606": {
+     "gap_Mt": -1.8231,
+     "gap_excl_port105_Mt": -2.1874,
+     "ratio": 0.8977
+    },
+    "202607": {
+     "gap_Mt": 1.9418,
+     "gap_excl_port105_Mt": 1.5776,
+     "ratio": 1.2054
+    },
+    "202608": {
+     "gap_Mt": 4.7556,
+     "gap_excl_port105_Mt": 4.4166,
+     "ratio": 6.495
+    },
+    "202609": {
+     "gap_Mt": 2.602,
+     "gap_excl_port105_Mt": 2.2443,
+     "ratio": 8.0869
+    }
+   },
+   "status": "FAIL",
+   "evidence": "a FAIL here means the sign of L depends on the window; the published thread reports -1.9 Mt from April"
+  },
+  {
+   "id": "negative_control_pre_crisis_windows",
+   "question": "In pre-crisis 7-month windows, is (E-I)/C <= 1, as cargo conservation with full visibility requires?",
+   "hypothesis": "max ratio <= 1 in every pre-crisis 7-month window",
+   "observed": {
+    "pre_audit_window 2019-01..2026-02": {
+     "windows_7_months": 80,
+     "max_ratio": 0.7601446048459589,
+     "max_window": "201910..202004"
+    },
+    "pre_directive_window 2019-01..2025-02": {
+     "windows_7_months": 68,
+     "max_ratio": 0.7601446048459589,
+     "max_window": "201910..202004"
+    }
+   },
+   "status": "PASS",
+   "evidence": null
+  },
+  {
+   "id": "negative_control_leave_one_port_out",
+   "question": "Is the gap reduction from dropping port105 specific to it (vs dropping any other port)?",
+   "hypothesis": "port105 has the largest reduction of all 45 ports",
+   "observed": {
+    "port105_rank": 5,
+    "top5": [
+     [
+      "port526",
+      "Juaymah",
+      8.7798
+     ],
+     [
+      "port24",
+      "Jubail",
+      7.3554
+     ],
+     [
+      "port2479",
+      "Basrah Oil Terminal",
+      6.8338
+     ],
+     [
+      "port1090",
+      "Ras Laffan",
+      6.0321
+     ],
+     [
+      "port105",
+      "Bandar-E Pars Terminal",
+      5.281
+     ]
+    ]
+   },
+   "status": "FAIL",
+   "evidence": null
+  },
+  {
+   "id": "negative_control_excess_over_own_baseline",
+   "question": "Ranked by window net export minus the port's own 2019-2024 median month x 7, is port105 the most anomalous port? (post hoc, added after the absolute leave-one-out result)",
+   "hypothesis": "port105 ranks 1 of 45",
+   "observed": {
+    "port105_rank": 1,
+    "top5": [
+     [
+      "port105",
+      "Bandar-E Pars Terminal",
+      4.6046
+     ],
+     [
+      "port744",
+      "Jebel Ali",
+      4.5168
+     ],
+     [
+      "port1341",
+      "Umm Qasr",
+      0.6108
+     ],
+     [
+      "port106",
+      "Bandar Shahid Rajaee",
+      0.6104
+     ],
+     [
+      "port108",
+      "Bandar Khomeini",
+      0.5483
+     ]
+    ]
+   },
+   "status": "PASS",
+   "evidence": null
+  },
+  {
+   "id": "gap_not_single_month",
+   "question": "Is the audit-window gap spread over the window rather than produced by one month?",
+   "hypothesis": "no single month contributes more than 50% of L",
+   "observed": {
+    "monthly_gap_Mt": {
+     "202603": 12.1446,
+     "202604": -0.3968,
+     "202605": 0.2979,
+     "202606": -3.7649,
+     "202607": -2.8137,
+     "202608": 2.1535,
+     "202609": 2.602
+    },
+    "largest_month": "202603",
+    "largest_share_pct": 118.80117691872911
+   },
+   "status": "FAIL",
+   "evidence": "hypothesis (not tested here): March 2026 exports dated at port entry while transits collapsed, i.e. cargo loaded but still afloat inside the Gulf"
+  },
+  {
+   "id": "negative_control_shuffled_terminal",
+   "question": "Is port105's audit-window net export unusual relative to random draws of its own pre-crisis months?",
+   "hypothesis": "P(random 7 pre-crisis months >= observed) < 0.05",
+   "observed": {
+    "observed_Mt": 5.280989,
+    "draws": 10000,
+    "seed": 20261007,
+    "p_random_months": 0.3397660233976602,
+    "contiguous_blocks": 80,
+    "blocks_ge_observed": 16,
+    "max_block_Mt": 69.360891
+   },
+   "status": "FAIL",
+   "evidence": "contiguous-block count shows whether earlier bursts (e.g. 2025) reached the same size"
+  }
+ ],
+ "measurements": {
+  "documentation_inconsistency": {
+   "Daily_Chokepoints_Data": {
+    "cites_WP21_225": true,
+    "cites_WP25_93": false
+   },
+   "Daily_Ports_Data": {
+    "cites_WP21_225": true,
+    "cites_WP25_93": false
+   }
+  },
+  "window_audit_2026-03-01": {
+   "window": "2026-03-01..2026-09-25",
+   "n_ports": 45,
+   "E_Mt": 54.554485,
+   "I_Mt": 20.903687,
+   "net_Mt": 33.650798,
+   "C_Mt": 23.428172,
+   "gap_Mt": 10.222626,
+   "ratio": 1.436339036609429,
+   "ratio_excl_port105": 1.210927126538084,
+   "port105_net_Mt": 5.280989,
+   "port105_share_of_gap_pct": 51.65980835061363,
+   "gap_excl_port105_Mt": 4.941637,
+   "gap_excl_Iran_Mt": 4.203422,
+   "baseline": "201901..202602",
+   "baseline_months": 86,
+   "baseline_rho_max": 0.9443592780474732,
+   "baseline_rho_max_month": 201902,
+   "baseline_months_rho_gt_1": 0,
+   "burst_days": {
+    "3": {
+     "days": 8,
+     "removed_Mt": 4.354712,
+     "gap_without_Mt": 5.867914
+    },
+    "5": {
+     "days": 6,
+     "removed_Mt": 4.192844,
+     "gap_without_Mt": 6.029782
+    },
+    "10": {
+     "days": 4,
+     "removed_Mt": 3.855353,
+     "gap_without_Mt": 6.367273
+    }
+   },
+   "range_Mt": [
+    4.203422,
+    6.367273
+   ],
+   "gap_excl_port105_excess_over_2019_2024_median_Mt": 5.618026
+  },
+  "window_directive_2025-03-01": {
+   "window": "2025-03-01..2026-09-25",
+   "n_ports": 45,
+   "E_Mt": 700.79731,
+   "I_Mt": 108.052099,
+   "net_Mt": 592.745211,
+   "C_Mt": 840.424549,
+   "gap_Mt": -247.679338,
+   "ratio": 0.7052925949215698,
+   "ratio_excl_port105": 0.6087507731761891,
+   "port105_net_Mt": 81.136117,
+   "port105_share_of_gap_pct": -32.75853272831341,
+   "gap_excl_port105_Mt": -328.815455,
+   "gap_excl_Iran_Mt": -328.793547,
+   "baseline": "201901..202502",
+   "baseline_months": 74,
+   "baseline_rho_max": 0.9443592780474732,
+   "baseline_rho_max_month": 201902,
+   "baseline_months_rho_gt_1": 0,
+   "burst_days": {
+    "3": {
+     "days": 54,
+     "removed_Mt": 79.605179,
+     "gap_without_Mt": -327.284517
+    },
+    "5": {
+     "days": 47,
+     "removed_Mt": 79.134249,
+     "gap_without_Mt": -326.813587
+    },
+    "10": {
+     "days": 42,
+     "removed_Mt": 78.120934,
+     "gap_without_Mt": -325.800272
+    }
+   },
+   "range_Mt": [
+    -328.815455,
+    -325.800272
+   ],
+   "gap_excl_port105_excess_over_2019_2024_median_Mt": -326.979542
+  },
+  "port105_facts": {
+   "months_2019_2024_present": 72,
+   "median_calls_2019_2024": 5.0,
+   "calls_202506": 677,
+   "export_gross_202506_Mt": 42.808013,
+   "import_202506_Mt": 7.60276,
+   "net_202506_Mt": 35.205253,
+   "calls_20260228": 89
+  },
+  "box_rule_equals_audit_rule": true,
+  "monthly_gap_audit_window_Mt": {
+   "202603": 12.1446,
+   "202604": -0.3968,
+   "202605": 0.2979,
+   "202606": -3.7649,
+   "202607": -2.8137,
+   "202608": 2.1535,
+   "202609": 2.602
+  }
+ },
+ "note": "All values are PortWatch model estimates. PASS/FAIL refer only to the stated hypothesis on the observed inputs."
+}

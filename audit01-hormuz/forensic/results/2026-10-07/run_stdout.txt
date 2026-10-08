@@ -1,0 +1,32 @@
+{
+ "status_counts": {
+  "PASS": 12,
+  "FAIL": 4,
+  "UNKNOWN": 3
+ },
+ "checks": {
+  "capacity_field_schema": "PASS",
+  "capacity_field_definition": "PASS",
+  "ballast_zeroing_applied_to_series": "UNKNOWN",
+  "units_integer_tonnes": "PASS",
+  "aggregation_consistency_port105": "PASS",
+  "published_numbers_reproduce": "PASS",
+  "duplicate_keys": "PASS",
+  "duplicate_vessel_events": "UNKNOWN",
+  "row_completeness": "PASS",
+  "ais_signal_gaps": "UNKNOWN",
+  "revision_sensitivity": "PASS",
+  "denominator_choice": "PASS",
+  "falsify_port_sets": "PASS",
+  "falsify_windows": "FAIL",
+  "negative_control_pre_crisis_windows": "PASS",
+  "negative_control_leave_one_port_out": "FAIL",
+  "negative_control_excess_over_own_baseline": "PASS",
+  "gap_not_single_month": "FAIL",
+  "negative_control_shuffled_terminal": "FAIL"
+ },
+ "audit_window_gap_Mt": 10.2226,
+ "directive_window_gap_Mt": -247.6793,
+ "results_sha256": "f0e13e3175c370e0824a9bdc38e755fe9f0e92b1e2d0515046f46af3438e1a1d",
+ "manifest_sha256": "fe8de7e898b368a32da9a2bb2b14c1cfa29fc9affa5cec83d73d5950e44dfdb7"
+}

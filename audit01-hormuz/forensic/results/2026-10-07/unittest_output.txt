@@ -1,0 +1,17 @@
+test_runner_on_synthetic (test_forensic.EndToEnd.test_runner_on_synthetic) ... ok
+test_balance_exact (test_forensic.Synthetic.test_balance_exact) ... ok
+test_burst_days (test_forensic.Synthetic.test_burst_days) ... ok
+test_duplicate_detection (test_forensic.Synthetic.test_duplicate_detection) ... ok
+test_epoch_dates_equal_string_dates (test_forensic.Synthetic.test_epoch_dates_equal_string_dates) ... ok
+test_gap_detection (test_forensic.Synthetic.test_gap_detection) ... ok
+test_leave_one_out (test_forensic.Synthetic.test_leave_one_out) ... ok
+test_negative_control_pre_crisis_ratio_below_one (test_forensic.Synthetic.test_negative_control_pre_crisis_ratio_below_one) ... ok
+test_negative_control_shuffled_terminal (test_forensic.Synthetic.test_negative_control_shuffled_terminal) ... ok
+test_no_duplicates_and_no_gaps (test_forensic.Synthetic.test_no_duplicates_and_no_gaps) ... ok
+test_port_rule_excludes_outside (test_forensic.Synthetic.test_port_rule_excludes_outside) ... ok
+test_unit_conversion_t_to_Mt (test_forensic.Synthetic.test_unit_conversion_t_to_Mt) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.466s
+
+OK
