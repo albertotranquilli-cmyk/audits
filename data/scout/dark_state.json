@@ -1,6 +1,8 @@
 {
 "commoncrawl": [],
 "ia": [
+"jme-vol-1.-issue-1.-2026.009",
+"refined-soyabean-oil-uses-buying-guide-common-pack-sizes",
 "tank_20261001"
 ],
 "listings": {
@@ -18,7 +20,7 @@
 "https://www.eia.gov/opendata/bulk/AEO2025.zip#2025-06-04T20:56:41-04:00",
 "https://www.eia.gov/opendata/bulk/AEO2026.zip#2026-03-26T17:48:03-04:00",
 "https://www.eia.gov/opendata/bulk/COAL.zip#2026-09-28T16:28:08-04:00",
-"https://www.eia.gov/opendata/bulk/EBA.zip#2026-10-05T05:04:15-04:00",
+"https://www.eia.gov/opendata/bulk/EBA.zip#2026-10-12T05:04:08-04:00",
 "https://www.eia.gov/opendata/bulk/ELEC.zip#2026-09-23T17:01:12-04:00",
 "https://www.eia.gov/opendata/bulk/EMISS.zip#2023-07-12T08:06:37-04:00",
 "https://www.eia.gov/opendata/bulk/IEO.zip#2026-09-25T18:29:56-04:00",
@@ -27,18 +29,19 @@
 "https://www.eia.gov/opendata/bulk/IEO2021.zip#2026-09-25T18:29:56-04:00",
 "https://www.eia.gov/opendata/bulk/IEO2023.zip#2023-08-29T08:49:47-04:00",
 "https://www.eia.gov/opendata/bulk/INTL.zip#2026-09-30T21:20:54-04:00",
-"https://www.eia.gov/opendata/bulk/NG.zip#2026-10-01T16:00:15-04:00",
-"https://www.eia.gov/opendata/bulk/NUC_STATUS.zip#2026-10-05T08:06:33-04:00",
-"https://www.eia.gov/opendata/bulk/PET.zip#2026-10-01T21:04:04-04:00",
+"https://www.eia.gov/opendata/bulk/NG.zip#2026-10-08T15:05:12-04:00",
+"https://www.eia.gov/opendata/bulk/NUC_STATUS.zip#2026-10-12T08:06:08-04:00",
+"https://www.eia.gov/opendata/bulk/PET.zip#2026-10-07T17:59:25-04:00",
 "https://www.eia.gov/opendata/bulk/PET_IMPORTS.zip#2026-09-29T19:32:50-04:00",
 "https://www.eia.gov/opendata/bulk/SEDS.zip#2026-06-26T15:32:24-04:00",
-"https://www.eia.gov/opendata/bulk/STEO.zip#2026-09-09T16:03:00-04:00",
+"https://www.eia.gov/opendata/bulk/STEO.zip#2026-10-06T16:02:16-04:00",
 "https://www.eia.gov/opendata/bulk/TOTAL.zip#2026-09-30T18:31:50-04:00"
 ],
 "https://www.entsoe.eu/data/": [
 "https://eepublicdownloads.azureedge.net/clean-documents/LRG/Privacy%20policy/210617_Newsletter%20services%20data%20protection%20policy%20(clean)%20.pdf"
 ],
 "https://www.jodidata.org/oil/database/data-downloads.aspx": [
+"https://www.jodidata.org/_resources/files/downloads/jodi-rest-api-v1.2.pdf",
 "https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/2002.csv",
 "https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/2003.csv",
 "https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/2004.csv",

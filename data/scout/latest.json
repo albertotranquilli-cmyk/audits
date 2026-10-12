@@ -1,7 +1,7 @@
 {
- "generated_at_utc": "2026-10-05T12:33:38Z",
- "week": "2026-W41",
- "window_start": "2026-09-28",
+ "generated_at_utc": "2026-10-12T13:27:13Z",
+ "week": "2026-W42",
+ "window_start": "2026-10-05",
  "sources": {
   "github_repos": {
    "ok": true,
@@ -25,25 +25,25 @@
   },
   "ckan": {
    "ok": true,
-   "items": 3
+   "items": 7
   },
   "wayback_cdx": {
    "ok": true,
-   "items": 18
+   "items": 177
   },
   "awesome_public_datasets": {
    "ok": true,
-   "items": 2
+   "items": 0
   }
  },
  "dark_corners_sources": {
   "listings": {
    "ok": true,
-   "items": 2
+   "items": 6
   },
   "ia": {
    "ok": true,
-   "items": 0
+   "items": 2
   },
   "commoncrawl": {
    "ok": true,
@@ -51,940 +51,2526 @@
   },
   "removed": {
    "ok": true,
-   "items": 10
+   "items": 0
   }
  },
  "dark_corners": [
   {
    "module": "listings",
    "url": "https://www.eia.gov/opendata/bulk/EBA.zip",
-   "why": "EIA bulk dataset updated (2026-10-05T05:04:15-04:00)",
+   "why": "EIA bulk dataset updated (2026-10-12T05:04:08-04:00)",
    "archive": "https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/EBA.zip"
   },
   {
    "module": "listings",
+   "url": "https://www.eia.gov/opendata/bulk/NG.zip",
+   "why": "EIA bulk dataset updated (2026-10-08T15:05:12-04:00)",
+   "archive": "https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/NG.zip"
+  },
+  {
+   "module": "listings",
    "url": "https://www.eia.gov/opendata/bulk/NUC_STATUS.zip",
-   "why": "EIA bulk dataset updated (2026-10-05T08:06:33-04:00)",
+   "why": "EIA bulk dataset updated (2026-10-12T08:06:08-04:00)",
    "archive": "https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/NUC_STATUS.zip"
   },
   {
-   "module": "removed",
-   "url": "https://www.eia.gov/petroleum/drilling/archive/2014/01/pdf/dpr_methodology.pdf",
-   "archive": "https://web.archive.org/web/20201024042223id_/https://www.eia.gov/petroleum/drilling/archive/2014/01/pdf/dpr_methodology.pdf",
-   "why": "archived OK on 20201024, archived as missing on 20261003, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
+   "module": "listings",
+   "url": "https://www.eia.gov/opendata/bulk/PET.zip",
+   "why": "EIA bulk dataset updated (2026-10-07T17:59:25-04:00)",
+   "archive": "https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/PET.zip"
   },
   {
-   "module": "removed",
-   "url": "https://www.eia.gov/petroleum/drilling/archive/2015/04/xls/duc-data.xlsx",
-   "archive": "https://web.archive.org/web/20201023151141id_/https://www.eia.gov/petroleum/drilling/archive/2015/04/xls/duc-data.xlsx",
-   "why": "archived OK on 20201023, archived as missing on 20260914, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
+   "module": "listings",
+   "url": "https://www.eia.gov/opendata/bulk/STEO.zip",
+   "why": "EIA bulk dataset updated (2026-10-06T16:02:16-04:00)",
+   "archive": "https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/STEO.zip"
   },
   {
-   "module": "removed",
-   "url": "https://www.eia.gov/petroleum/drilling/archive/2015/03/pdf/dpr_methodology.pdf",
-   "archive": "https://web.archive.org/web/20201024075052id_/https://www.eia.gov/petroleum/drilling/archive/2015/03/pdf/dpr_methodology.pdf",
-   "why": "archived OK on 20201024, archived as missing on 20260903, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
+   "module": "listings",
+   "url": "https://www.jodidata.org/_resources/files/downloads/jodi-rest-api-v1.2.pdf",
+   "why": "new file link on https://www.jodidata.org/oil/database/data-downloads.aspx",
+   "archive": "https://web.archive.org/web/2/https://www.jodidata.org/_resources/files/downloads/jodi-rest-api-v1.2.pdf"
   },
   {
-   "module": "removed",
-   "url": "https://www.eia.gov/petroleum/drilling/archive/2014/12/pdf/duc_supplement.pdf",
-   "archive": "https://web.archive.org/web/20201027232503id_/https://www.eia.gov/petroleum/drilling/archive/2014/12/pdf/duc_supplement.pdf",
-   "why": "archived OK on 20201027, archived as missing on 20260820, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
+   "module": "ia",
+   "url": "https://archive.org/details/refined-soyabean-oil-uses-buying-guide-common-pack-sizes",
+   "archive": "https://archive.org/download/refined-soyabean-oil-uses-buying-guide-common-pack-sizes",
+   "why": "Internet Archive data upload 2026-10-06, 0 downloads, described: Refined Soyabean Oil Uses Buying Guide Common Pack Sizes"
   },
   {
-   "module": "removed",
-   "url": "https://www.eia.gov/petroleum/drilling/archive/2014/10/pdf/dpr_methodology.pdf",
-   "archive": "https://web.archive.org/web/20201029230812id_/https://www.eia.gov/petroleum/drilling/archive/2014/10/pdf/dpr_methodology.pdf",
-   "why": "archived OK on 20201029, archived as missing on 20260803, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
-  },
-  {
-   "module": "removed",
-   "url": "https://iea.blob.core.windows.net/assets/3718cf37-fac6-4ee2-aeb0-1546e6222cfc/GlobalEVOutlook2026.pdf",
-   "archive": "https://web.archive.org/web/20260531051855id_/https://iea.blob.core.windows.net/assets/3718cf37-fac6-4ee2-aeb0-1546e6222cfc/GlobalEVOutlook2026.pdf",
-   "why": "archived OK on 20260531, archived as missing on 20260927, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
-  },
-  {
-   "module": "removed",
-   "url": "https://iea.blob.core.windows.net/assets/1703ccaa-a558-4874-a93b-29cc2281618b/GlobalEVOutlook2026.pdf",
-   "archive": "https://web.archive.org/web/20260523110431id_/https://iea.blob.core.windows.net/assets/1703ccaa-a558-4874-a93b-29cc2281618b/GlobalEVOutlook2026.pdf",
-   "why": "archived OK on 20260523, archived as missing on 20260926, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
-  },
-  {
-   "module": "removed",
-   "url": "https://iea.blob.core.windows.net/assets/8b462840-c9a6-4f71-81eb-d5acd1213e68/Estonia2023.pdf",
-   "archive": "https://web.archive.org/web/20231225181033id_/https://iea.blob.core.windows.net/assets/8b462840-c9a6-4f71-81eb-d5acd1213e68/Estonia2023.pdf",
-   "why": "archived OK on 20231225, archived as missing on 20260926, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
-  },
-  {
-   "module": "removed",
-   "url": "https://iea.blob.core.windows.net/assets/130be844-3b4b-4e2e-b6f4-0f217929e9ae/StateofEnergyPolicy2026.pdf",
-   "archive": "https://web.archive.org/web/20260410155716id_/https://iea.blob.core.windows.net/assets/130be844-3b4b-4e2e-b6f4-0f217929e9ae/StateofEnergyPolicy2026.pdf",
-   "why": "archived OK on 20260410, archived as missing on 20260922, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
-  },
-  {
-   "module": "removed",
-   "url": "https://iea.blob.core.windows.net/assets/5ad737ee-750d-460e-8c33-fb9140f1043d/AssessingemissionsfromLNGsupplyandabatementoptions.pdf",
-   "archive": "https://web.archive.org/web/20250702110145id_/https://iea.blob.core.windows.net/assets/5ad737ee-750d-460e-8c33-fb9140f1043d/AssessingemissionsfromLNGsupplyandabatementoptions.pdf",
-   "why": "archived OK on 20250702, archived as missing on 20260922, live check 404: a file the publisher no longer serves; the archived copy can show what changed"
+   "module": "ia",
+   "url": "https://archive.org/details/jme-vol-1.-issue-1.-2026.009",
+   "archive": "https://archive.org/download/jme-vol-1.-issue-1.-2026.009",
+   "why": "Internet Archive data upload 2026-10-06, 0 downloads, described: Adsorptive Desulfurization of Model Oil and Commercial Diesel Using Acid-‎ Activated Libyan Bentonit"
   }
  ],
  "top": [
   {
-   "kind": "dataset",
-   "title": "ECO - The ECO data set is a comprehensive data set for non-intrusive load monitoring and [...]",
-   "url": "http://www.vs.inf.ethz.ch/res/show.html?what=eco-data",
+   "kind": "hn",
+   "title": "4-hour battery storage is cheaper to install than gas turbines all across globe",
+   "url": "https://www.solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe/",
+   "score": 266,
+   "why": "HN 261 points, 164 comments (https://news.ycombinator.com/item?id=50007519)",
+   "source": "hn",
+   "id": "hn:50007519"
+  },
+  {
+   "kind": "hn",
+   "title": "Show HN: MailAccess – the true Email OSINT framework",
+   "url": "https://mailaccess.pro",
+   "score": 80,
+   "why": "HN 75 points, 0 comments (https://news.ycombinator.com/item?id=49977385)",
+   "source": "hn",
+   "id": "hn:49977385"
+  },
+  {
+   "kind": "hn",
+   "title": "Mathematics of Geothermal Energy",
+   "url": "https://www.ebsco.com/research-starters/power-and-energy/mathematics-geothermal-energy/",
+   "score": 79,
+   "why": "HN 74 points, 46 comments (https://news.ycombinator.com/item?id=49977819)",
+   "source": "hn",
+   "id": "hn:49977819"
+  },
+  {
+   "kind": "hn",
+   "title": "Tanker attacks in Strait of Hormuz surge to wartime high, Iran tries choking oil",
+   "url": "https://www.cnbc.com/2026/10/09/iran-war-strait-hormuz-tanker-attack-oil.html",
+   "score": 71,
+   "why": "HN 61 points, 69 comments (https://news.ycombinator.com/item?id=50026509)",
+   "source": "hn",
+   "id": "hn:50026509"
+  },
+  {
+   "kind": "repo",
+   "title": "OSINT-Experts-Society/Consensus-OSINT",
+   "url": "https://github.com/OSINT-Experts-Society/Consensus-OSINT",
+   "score": 63,
+   "why": "★58, topic osint: OSINT tool for username search, email lookup and phone intelligence. 7,900+ lookup modules standardised from 19 projects",
+   "source": "github_repos",
+   "id": "gh:OSINT-Experts-Society/Consensus-OSINT"
+  },
+  {
+   "kind": "repo",
+   "title": "croma-labs/ventanilla",
+   "url": "https://github.com/croma-labs/ventanilla",
+   "score": 26,
+   "why": "★26, topic open-data: Ventanilla: answers about the Colombian State from official sources, powered by Croma",
+   "source": "github_repos",
+   "id": "gh:croma-labs/ventanilla"
+  },
+  {
+   "kind": "repo",
+   "title": "Chatzo7/piraeus-vessel-tracker",
+   "url": "https://github.com/Chatzo7/piraeus-vessel-tracker",
    "score": 20,
-   "why": "new or changed entry in awesome-public-datasets, Energy section",
-   "source": "awesome_public_datasets",
-   "id": "apd:http://www.vs.inf.ethz.ch/res/show.html?what=eco-data"
+   "why": "★0, topic ais: Live vessel map and port-call statistics for the Port of Piraeus, built on public AIS data (Node.js, SQLite, Leaflet).",
+   "source": "github_repos",
+   "id": "gh:Chatzo7/piraeus-vessel-tracker"
   },
   {
-   "kind": "dataset",
-   "title": "OpenVan Daily Retail Fuel Prices, 170+ Countries - Daily snapshot of retail fuel prices in [...]",
-   "url": "https://github.com/openvancamp/openvan-travel-data",
+   "kind": "repo",
+   "title": "GhostPointerX/AquaTrace",
+   "url": "https://github.com/GhostPointerX/AquaTrace",
    "score": 20,
-   "why": "new or changed entry in awesome-public-datasets, Energy section",
-   "source": "awesome_public_datasets",
-   "id": "apd:https://github.com/openvancamp/openvan-travel-data"
+   "why": "★0, topic ais: AquaTrace: Advanced Satellite Oil Spill Detection & AIS Vessel Correlation Engine by Team AmongUs.",
+   "source": "github_repos",
+   "id": "gh:GhostPointerX/AquaTrace"
   },
   {
    "kind": "dataset",
-   "title": "Plant-level energy demand, production and carbon dioxide emissions for European industry in 2023",
-   "url": "https://zenodo.org/records/23158813",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-10-05",
+   "title": "Beyond the Balance Sheet: A Panel Dataset Linking Land Asset Intensity, Firm Value, and Financial Performance in Indonesian Listed Palm Oil Companies",
+   "url": "https://zenodo.org/records/23273424",
+   "score": 20,
+   "why": "Zenodo dataset, published 2026-10-11",
    "source": "zenodo",
-   "id": "zenodo:23158813"
+   "id": "zenodo:23273424"
   },
   {
    "kind": "dataset",
-   "title": "Data of the manuscript \"Deep eutectic solvents as PVDF-HFP membrane modifiers: morphology, performance and fouling impact in gas-liquid methane recovery from anaerobic effluents\". ACS Engineering AU, 2026 (open access)",
-   "url": "https://zenodo.org/records/23156385",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-10-05",
+   "title": "GulfOilSAR: an annotated Sentinel-1 dataset of oil spills and look-alikes in the Arabian/Persian Gulf (2021–2022)",
+   "url": "https://zenodo.org/records/23261453",
+   "score": 20,
+   "why": "Zenodo dataset, published 2026-10-09",
    "source": "zenodo",
-   "id": "zenodo:23156385"
+   "id": "zenodo:23261453"
   },
   {
    "kind": "dataset",
-   "title": "Chokepoint Dependence and the Price of Bypass: How Much Gulf Crude Can Avoid Hormuz, and What Limits It",
-   "url": "https://zenodo.org/records/23132082",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-10-04",
+   "title": "Supplemental material for \"A Scenario-Based Framework for Assessing Liner Shipping Network Vulnerability and Supporting Redundancy-Port Planning\"",
+   "url": "https://zenodo.org/records/23264185",
+   "score": 20,
+   "why": "Zenodo dataset, published 2026-10-09",
    "source": "zenodo",
-   "id": "zenodo:23132082"
-  },
-  {
-   "kind": "repo",
-   "title": "PedroLFerraz/DifferentialPrivacy",
-   "url": "https://github.com/PedroLFerraz/DifferentialPrivacy",
-   "score": 10,
-   "why": "★0, topic energy-data: M.Sc. thesis (TU Darmstadt) and TCC (Poli-USP): anonymizing household gas-consumption data with differential privacy and",
-   "source": "github_repos",
-   "id": "gh:PedroLFerraz/DifferentialPrivacy"
-  },
-  {
-   "kind": "repo",
-   "title": "annalehtinen/synthetic-health-data-release-criteria",
-   "url": "https://github.com/annalehtinen/synthetic-health-data-release-criteria",
-   "score": 10,
-   "why": "★0, topic energy-data: Data for: Synthetic versions of open health datasets: Success criteria and license checks for releases with a real user",
-   "source": "github_repos",
-   "id": "gh:annalehtinen/synthetic-health-data-release-criteria"
-  },
-  {
-   "kind": "repo",
-   "title": "annalehtinen/quantum-sensing-open-data-availability",
-   "url": "https://github.com/annalehtinen/quantum-sensing-open-data-availability",
-   "score": 10,
-   "why": "★0, topic energy-data: Data for: Open quantum sensing data for health and energy applications: A screening of availability and gaps",
-   "source": "github_repos",
-   "id": "gh:annalehtinen/quantum-sensing-open-data-availability"
-  },
-  {
-   "kind": "repo",
-   "title": "sdonea/holomap",
-   "url": "https://github.com/sdonea/holomap",
-   "score": 10,
-   "why": "★5, topic ais: The real ocean on a holotable, with a planner that finds the least-fuel ship route through today's currents and wind.",
-   "source": "github_repos",
-   "id": "gh:sdonea/holomap"
+   "id": "zenodo:23264185"
   },
   {
    "kind": "dataset",
-   "title": "EXIOBASE 3",
-   "url": "https://zenodo.org/records/23039074",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-09-30",
+   "title": "COMPARATIVE ASSESSMENT OF SORBENTS FOR THE REMOVAL OF PETROLEUM PRODUCTS FROM OIL-REFINERY WASTEWATER",
+   "url": "https://zenodo.org/records/23230598",
+   "score": 20,
+   "why": "Zenodo dataset, published 2026-10-08",
    "source": "zenodo",
-   "id": "zenodo:23039074"
+   "id": "zenodo:23230598"
   },
   {
    "kind": "agency-file",
-   "title": "dnav/pet/hist_xls/KD0VCSSWI1a.xls",
-   "url": "https://www.eia.gov/dnav/pet/hist_xls/KD0VCSSWI1a.xls",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004133112/https://www.eia.gov/dnav/pet/hist_xls/KD0VCSSWI1a.xls",
+   "title": "petroleum/supply/weekly/pdf/highlights.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf",
+   "score": 12,
+   "why": "file changed (new Wayback digest) on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010164140/https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf",
    "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KD0VCSSWI1a.xls:F42W34NJTDP5AX5SSBRUNS72SJPE6JJT"
-  },
-  {
-   "kind": "agency-file",
-   "title": "dnav/pet/hist_xls/KD2VISSWI1a.xls",
-   "url": "https://www.eia.gov/dnav/pet/hist_xls/KD2VISSWI1a.xls",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004133324/https://www.eia.gov/dnav/pet/hist_xls/KD2VISSWI1a.xls",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KD2VISSWI1a.xls:OT4CTJ4Y3WY22ET4KVA7AX42AKVBLE7I"
-  },
-  {
-   "kind": "agency-file",
-   "title": "dnav/pet/hist_xls/KDRVTESNH1a.xls",
-   "url": "https://www.eia.gov/dnav/pet/hist_xls/KDRVTESNH1a.xls",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004175238/https://www.eia.gov/dnav/pet/hist_xls/KDRVTESNH1a.xls",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KDRVTESNH1a.xls:IRYDYL6MOVWCD336ESGQWBEMQUUTWYL2"
-  },
-  {
-   "kind": "agency-file",
-   "title": "dnav/pet/hist_xls/KPRVCSSVT1a.xls",
-   "url": "https://www.eia.gov/dnav/pet/hist_xls/KPRVCSSVT1a.xls",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004102818/https://www.eia.gov/dnav/pet/hist_xls/KPRVCSSVT1a.xls",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KPRVCSSVT1a.xls:6V6F7TYFYC2CV2NLTTPRN7BAAVVNIEZA"
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf:VOMGQOJFVHAZBP5WGFVG3VH2MYVSUQYF"
   },
   {
    "kind": "paper",
-   "title": "How suboptimal is my stochastic network controller allowed to be? Completion certificates with application to power grids hosting AI data centers",
-   "url": "http://arxiv.org/abs/2610.03275v1",
-   "score": 6,
-   "why": "arXiv 2026-10-02: Power grids are beginning to host AI data centers whose demand can change abruptly and in a correlated way, an",
+   "title": "Probabilistic Ship Trajectory Forecasting using Transformer Models on AIS Data",
+   "url": "http://arxiv.org/abs/2610.13557v1",
+   "score": 11,
+   "why": "arXiv 2026-10-09: Anticipation of vessel trajectories is an essential task when navigating at sea. This applies to both human na",
    "source": "arxiv",
-   "id": "arxiv:2610.03275"
+   "id": "arxiv:2610.13557"
+  },
+  {
+   "kind": "paper",
+   "title": "Multi-Modal Graph Neural Network-Inspired Vessel Identification and Tracking for UAV-Based Maritime Surveillance",
+   "url": "http://arxiv.org/abs/2610.13220v1",
+   "score": 11,
+   "why": "arXiv 2026-10-09: The unmanned aerial vehicle (UAV)-based maritime surveillance is becoming an important part of maritime Intern",
+   "source": "arxiv",
+   "id": "arxiv:2610.13220"
   }
  ],
  "candidates": [
   {
    "kind": "hn",
-   "title": "When oil prices spike, where does the money go?",
-   "url": "https://theconversation.com/when-oil-prices-spike-where-does-the-money-go-280763",
-   "score": 176,
-   "why": "HN 171 points, 195 comments (https://news.ycombinator.com/item?id=49888182)",
+   "title": "4-hour battery storage is cheaper to install than gas turbines all across globe",
+   "url": "https://www.solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe/",
+   "score": 266,
+   "why": "HN 261 points, 164 comments (https://news.ycombinator.com/item?id=50007519)",
    "source": "hn",
-   "id": "hn:49888182",
-   "new": false
+   "id": "hn:50007519",
+   "new": true
   },
   {
    "kind": "hn",
-   "title": "Sustainable energy without the hot air (2008)",
-   "url": "https://www.withouthotair.com/",
-   "score": 155,
-   "why": "HN 150 points, 92 comments (https://news.ycombinator.com/item?id=49892175)",
+   "title": "Show HN: MailAccess – the true Email OSINT framework",
+   "url": "https://mailaccess.pro",
+   "score": 80,
+   "why": "HN 75 points, 0 comments (https://news.ycombinator.com/item?id=49977385)",
    "source": "hn",
-   "id": "hn:49892175",
-   "new": false
+   "id": "hn:49977385",
+   "new": true
   },
   {
    "kind": "hn",
-   "title": "Canada fast-tracks Pacific oil pipeline to reduce US dependence",
-   "url": "https://apnews.com/article/alberta-canada-carney-pipeline-68539133d6e0245fad3622263afd4aeb",
-   "score": 88,
-   "why": "HN 83 points, 96 comments (https://news.ycombinator.com/item?id=49923575)",
+   "title": "Mathematics of Geothermal Energy",
+   "url": "https://www.ebsco.com/research-starters/power-and-energy/mathematics-geothermal-energy/",
+   "score": 79,
+   "why": "HN 74 points, 46 comments (https://news.ycombinator.com/item?id=49977819)",
    "source": "hn",
-   "id": "hn:49923575",
-   "new": false
+   "id": "hn:49977819",
+   "new": true
   },
   {
    "kind": "hn",
-   "title": "Moist-Electric Wallpaper for Indoor Energy Harvesting and Humidity Management",
-   "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71603",
-   "score": 74,
-   "why": "HN 69 points, 37 comments (https://news.ycombinator.com/item?id=49910613)",
+   "title": "Tanker attacks in Strait of Hormuz surge to wartime high, Iran tries choking oil",
+   "url": "https://www.cnbc.com/2026/10/09/iran-war-strait-hormuz-tanker-attack-oil.html",
+   "score": 71,
+   "why": "HN 61 points, 69 comments (https://news.ycombinator.com/item?id=50026509)",
    "source": "hn",
-   "id": "hn:49910613",
-   "new": false
+   "id": "hn:50026509",
+   "new": true
   },
   {
    "kind": "repo",
-   "title": "keithligh/hk-traffic-intelligence",
-   "url": "https://github.com/keithligh/hk-traffic-intelligence",
-   "score": 68,
-   "why": "★68, topic open-data: A live Hong Kong smart-city dashboard on public APIs. Harbour crossing minutes, strategic-road speed, street cameras, wo",
+   "title": "OSINT-Experts-Society/Consensus-OSINT",
+   "url": "https://github.com/OSINT-Experts-Society/Consensus-OSINT",
+   "score": 63,
+   "why": "★58, topic osint: OSINT tool for username search, email lookup and phone intelligence. 7,900+ lookup modules standardised from 19 projects",
    "source": "github_repos",
-   "id": "gh:keithligh/hk-traffic-intelligence",
-   "new": false
+   "id": "gh:OSINT-Experts-Society/Consensus-OSINT",
+   "new": true
   },
   {
    "kind": "hn",
-   "title": "New Cyber-OSINT model released",
-   "url": "https://twitter.com/0x0SojalSec/status/2104736980768866439",
-   "score": 58,
-   "why": "HN 53 points, 16 comments (https://news.ycombinator.com/item?id=49890829)",
+   "title": "The world has nearly burned through its oil stockpile buffer",
+   "url": "https://www.reuters.com/business/energy/world-has-nearly-burned-through-its-oil-stockpile-buffer-executives-say-2026-10-06/",
+   "score": 50,
+   "why": "HN 45 points, 14 comments (https://news.ycombinator.com/item?id=49997175)",
    "source": "hn",
-   "id": "hn:49890829",
-   "new": false
+   "id": "hn:49997175",
+   "new": true
+  },
+  {
+   "kind": "hn",
+   "title": "Southern Olive Oil",
+   "url": "https://ambrook.com/offrange/supply-chain/southern-olive-oil",
+   "score": 36,
+   "why": "HN 31 points, 32 comments (https://news.ycombinator.com/item?id=49978316)",
+   "source": "hn",
+   "id": "hn:49978316",
+   "new": true
   },
   {
    "kind": "repo",
-   "title": "MetalTakip/closing-straits",
-   "url": "https://github.com/MetalTakip/closing-straits",
+   "title": "croma-labs/ventanilla",
+   "url": "https://github.com/croma-labs/ventanilla",
    "score": 26,
-   "why": "★1, topic oil: Satellite radar ship counts, gas flaring and GDELT news indices for the 2026 Strait of Hormuz closures. Code (MIT) and d",
+   "why": "★26, topic open-data: Ventanilla: answers about the Colombian State from official sources, powered by Croma",
    "source": "github_repos",
-   "id": "gh:MetalTakip/closing-straits",
-   "new": false
+   "id": "gh:croma-labs/ventanilla",
+   "new": true
+  },
+  {
+   "kind": "hn",
+   "title": "Trump calls for stop to attacks on Russian oil refineries, Zelenskyy replacement",
+   "url": "https://www.politico.com/news/2026/10/10/trump-zelenskyy-russia-ukraine-01115841",
+   "score": 25,
+   "why": "HN 20 points, 28 comments (https://news.ycombinator.com/item?id=50036806)",
+   "source": "hn",
+   "id": "hn:50036806",
+   "new": true
   },
   {
    "kind": "repo",
-   "title": "SamratSKEvents/sih-guardians",
-   "url": "https://github.com/SamratSKEvents/sih-guardians",
+   "title": "Chatzo7/piraeus-vessel-tracker",
+   "url": "https://github.com/Chatzo7/piraeus-vessel-tracker",
    "score": 20,
-   "why": "★0, topic ais: Oil spill intelligence from satellite radar: detect slicks, trace their origin, attribute vessels, forecast drift and pl",
+   "why": "★0, topic ais: Live vessel map and port-call statistics for the Port of Piraeus, built on public AIS data (Node.js, SQLite, Leaflet).",
    "source": "github_repos",
-   "id": "gh:SamratSKEvents/sih-guardians",
-   "new": false
+   "id": "gh:Chatzo7/piraeus-vessel-tracker",
+   "new": true
   },
   {
    "kind": "repo",
-   "title": "dheeraj-7ty/ocean-sentinel",
-   "url": "https://github.com/dheeraj-7ty/ocean-sentinel",
+   "title": "GhostPointerX/AquaTrace",
+   "url": "https://github.com/GhostPointerX/AquaTrace",
    "score": 20,
-   "why": "★0, topic ais: AI-powered Earth observation and maritime intelligence platform for satellite analysis, change detection, vessel correla",
+   "why": "★0, topic ais: AquaTrace: Advanced Satellite Oil Spill Detection & AIS Vessel Correlation Engine by Team AmongUs.",
    "source": "github_repos",
-   "id": "gh:dheeraj-7ty/ocean-sentinel",
-   "new": false
+   "id": "gh:GhostPointerX/AquaTrace",
+   "new": true
   },
   {
    "kind": "dataset",
-   "title": "Does oil dependence weaken the link between foreign direct investment ‎‎and renewable energy? Panel evidence from twelve oil-producing ‎‎economies",
-   "url": "https://zenodo.org/records/23137379",
+   "title": "Beyond the Balance Sheet: A Panel Dataset Linking Land Asset Intensity, Firm Value, and Financial Performance in Indonesian Listed Palm Oil Companies",
+   "url": "https://zenodo.org/records/23273424",
    "score": 20,
-   "why": "Zenodo dataset, published 2026-10-04",
+   "why": "Zenodo dataset, published 2026-10-11",
    "source": "zenodo",
-   "id": "zenodo:23137379",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "ECO - The ECO data set is a comprehensive data set for non-intrusive load monitoring and [...]",
-   "url": "http://www.vs.inf.ethz.ch/res/show.html?what=eco-data",
-   "score": 20,
-   "why": "new or changed entry in awesome-public-datasets, Energy section",
-   "source": "awesome_public_datasets",
-   "id": "apd:http://www.vs.inf.ethz.ch/res/show.html?what=eco-data",
+   "id": "zenodo:23273424",
    "new": true
   },
   {
    "kind": "dataset",
-   "title": "OpenVan Daily Retail Fuel Prices, 170+ Countries - Daily snapshot of retail fuel prices in [...]",
-   "url": "https://github.com/openvancamp/openvan-travel-data",
+   "title": "GulfOilSAR: an annotated Sentinel-1 dataset of oil spills and look-alikes in the Arabian/Persian Gulf (2021–2022)",
+   "url": "https://zenodo.org/records/23261453",
    "score": 20,
-   "why": "new or changed entry in awesome-public-datasets, Energy section",
-   "source": "awesome_public_datasets",
-   "id": "apd:https://github.com/openvancamp/openvan-travel-data",
+   "why": "Zenodo dataset, published 2026-10-09",
+   "source": "zenodo",
+   "id": "zenodo:23261453",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Supplemental material for \"A Scenario-Based Framework for Assessing Liner Shipping Network Vulnerability and Supporting Redundancy-Port Planning\"",
+   "url": "https://zenodo.org/records/23264185",
+   "score": 20,
+   "why": "Zenodo dataset, published 2026-10-09",
+   "source": "zenodo",
+   "id": "zenodo:23264185",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "COMPARATIVE ASSESSMENT OF SORBENTS FOR THE REMOVAL OF PETROLEUM PRODUCTS FROM OIL-REFINERY WASTEWATER",
+   "url": "https://zenodo.org/records/23230598",
+   "score": 20,
+   "why": "Zenodo dataset, published 2026-10-08",
+   "source": "zenodo",
+   "id": "zenodo:23230598",
    "new": true
   },
   {
    "kind": "hn",
-   "title": "Energy Timelines Photovoltaic",
-   "url": "https://www.eia.gov/kids/history-of-energy/timelines/photovoltaic.php",
-   "score": 17,
-   "why": "HN 12 points, 4 comments (https://news.ycombinator.com/item?id=49888039)",
+   "title": "Big Oil asks Supreme Court to kill climate lawsuits before trial",
+   "url": "https://arstechnica.com/tech-policy/2026/10/big-oil-asks-supreme-court-to-kill-climate-lawsuits-before-trial/",
+   "score": 19,
+   "why": "HN 14 points, 3 comments (https://news.ycombinator.com/item?id=49979742)",
    "source": "hn",
-   "id": "hn:49888039",
-   "new": false
+   "id": "hn:49979742",
+   "new": true
   },
   {
    "kind": "hn",
-   "title": "U.S.-Russia Talks on Ukraine Now Involve an Oil Deal Tied to Trump Allies",
-   "url": "https://www.nytimes.com/2026/10/03/us/politics/kushner-witkoff-russia-oil-deal.html",
-   "score": 17,
-   "why": "HN 12 points, 1 comments (https://news.ycombinator.com/item?id=49951910)",
+   "title": "Oversupply of oil could create glut of 4M barrels a day, says energy watchdog",
+   "url": "https://www.theguardian.com/business/2025/nov/13/oversupply-oil-barrels-energy-watchdog-iea",
+   "score": 18,
+   "why": "HN 8 points, 5 comments (https://news.ycombinator.com/item?id=50044661)",
    "source": "hn",
-   "id": "hn:49951910",
-   "new": false
+   "id": "hn:50044661",
+   "new": true
   },
   {
    "kind": "repo",
-   "title": "Verisonder/SonderEye",
-   "url": "https://github.com/Verisonder/SonderEye",
-   "score": 16,
-   "why": "★1, topic ais: The planet's live traffic on a 3D globe, on your phone: earthquakes, aircraft, satellites, ships, fires and weather. Nat",
+   "title": "netanel35001-lab/shore-camera-dri",
+   "url": "https://github.com/netanel35001-lab/shore-camera-dri",
+   "score": 15,
+   "why": "★0, topic ais: What share of real vessel traffic can a shore EO/IR camera detect, recognize and identify? Line-of-sight + Johnson-crite",
    "source": "github_repos",
-   "id": "gh:Verisonder/SonderEye",
-   "new": false
-  },
-  {
-   "kind": "hn",
-   "title": "Electrification efficiency: The world will need less energy after the transition",
-   "url": "https://hannahritchie.substack.com/p/electrification-energy-efficiency",
-   "score": 16,
-   "why": "HN 11 points, 6 comments (https://news.ycombinator.com/item?id=49898301)",
-   "source": "hn",
-   "id": "hn:49898301",
-   "new": false
-  },
-  {
-   "kind": "hn",
-   "title": "Hackers breached propulsion system of US-bound oil tanker",
-   "url": "https://www.bloomberg.com/news/articles/2026-10-02/hackers-breached-propulsion-system-of-us-bound-oil-tanker",
-   "score": 16,
-   "why": "HN 6 points, 0 comments (https://news.ycombinator.com/item?id=49941730)",
-   "source": "hn",
-   "id": "hn:49941730",
-   "new": false
-  },
-  {
-   "kind": "repo",
-   "title": "darkanalytica1/ais-spoof-check",
-   "url": "https://github.com/darkanalytica1/ais-spoof-check",
-   "score": 15,
-   "why": "★0, topic ais: Tests AIS vessel tracks against physics, land and the ships around them. Code behind the DarkAnalytica investigation 'Po",
-   "source": "github_repos",
-   "id": "gh:darkanalytica1/ais-spoof-check",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "Plant-level energy demand, production and carbon dioxide emissions for European industry in 2023",
-   "url": "https://zenodo.org/records/23158813",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-10-05",
-   "source": "zenodo",
-   "id": "zenodo:23158813",
+   "id": "gh:netanel35001-lab/shore-camera-dri",
    "new": true
   },
   {
    "kind": "dataset",
-   "title": "Data of the manuscript \"Deep eutectic solvents as PVDF-HFP membrane modifiers: morphology, performance and fouling impact in gas-liquid methane recovery from anaerobic effluents\". ACS Engineering AU, 2026 (open access)",
-   "url": "https://zenodo.org/records/23156385",
+   "title": "Cradle-to-grave life cycle assessment of an air/oil coalescing separator element in compressor and vacuum-pump service",
+   "url": "https://zenodo.org/records/23303651",
    "score": 15,
-   "why": "Zenodo dataset, published 2026-10-05",
+   "why": "Zenodo dataset, published 2026-10-11",
    "source": "zenodo",
-   "id": "zenodo:23156385",
+   "id": "zenodo:23303651",
    "new": true
   },
   {
    "kind": "dataset",
-   "title": "Chokepoint Dependence and the Price of Bypass: How Much Gulf Crude Can Avoid Hormuz, and What Limits It",
-   "url": "https://zenodo.org/records/23132082",
+   "title": "THE SIGNIFICANCE OF USING ENGINEERED BIOCHAR IN THE RECLAMATION OF SALINE SOILS FOR CARBON SEQUESTRATION AND THE REDUCTION OF GREENHOUSE GAS EMISSIONS",
+   "url": "https://zenodo.org/records/23302546",
    "score": 15,
-   "why": "Zenodo dataset, published 2026-10-04",
+   "why": "Zenodo dataset, published 2026-10-11",
    "source": "zenodo",
-   "id": "zenodo:23132082",
+   "id": "zenodo:23302546",
    "new": true
   },
   {
    "kind": "dataset",
-   "title": "Code and figure data for: Daily Northern Sea Route accessibility for an Arc7-class LNG carrier in a high-resolution climate projection",
-   "url": "https://zenodo.org/records/23137796",
+   "title": "Replication package for \"Who Pays for Secondary Sanctions? The Export Losses of Iran's East Asian Oil Customers, 2008–2025\"",
+   "url": "https://zenodo.org/records/23221383",
    "score": 15,
-   "why": "Zenodo dataset, published 2026-10-04",
+   "why": "Zenodo dataset, published 2026-10-07",
    "source": "zenodo",
-   "id": "zenodo:23137796",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "Theoretical biomass potential of residues from vegetable oil production across EU27",
-   "url": "https://zenodo.org/records/23136257",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-10-04",
-   "source": "zenodo",
-   "id": "zenodo:23136257",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "VIIRS Nightfire upstream gas-flaring volumes, 2012–2025: annual site, country and global records and monthly series (MYC25Q4)",
-   "url": "https://zenodo.org/records/23091822",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-10-01",
-   "source": "zenodo",
-   "id": "zenodo:23091822",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "A Dataset of Predicted Cytochrome P450 Interactions and Chemical Scaffolds for the Blood Exposome",
-   "url": "https://zenodo.org/records/23091606",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-10-01",
-   "source": "zenodo",
-   "id": "zenodo:23091606",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "Kompolti hemp essential oil: GC–MS composition data and analysis script",
-   "url": "https://zenodo.org/records/23080480",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-10-01",
-   "source": "zenodo",
-   "id": "zenodo:23080480",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "Dataset of the article: Optimization of a Solvent Exchange Method Enabling the Use of Dehydrated Cellulose Nanofibers as the Thickener in Lubricating Oleogelsor",
-   "url": "https://zenodo.org/records/23080261",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-10-01",
-   "source": "zenodo",
-   "id": "zenodo:23080261",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "Seismic attenuation imaging of free gas distribution reveals a structural uplift-controlled methane migration system in the Qiongdongnan Basin, South China Sea",
-   "url": "https://zenodo.org/records/23077480",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-10-01",
-   "source": "zenodo",
-   "id": "zenodo:23077480",
-   "new": false
+   "id": "zenodo:23221383",
+   "new": true
   },
   {
    "kind": "hn",
-   "title": "Canada to fast track oil pipeline designed to diversify economy away from US",
-   "url": "https://www.reuters.com/business/energy/canada-fast-track-oil-pipeline-designed-diversify-economy-away-us-2026-10-01/",
+   "title": "Gas cars fall below 50% of global new car sales for the first time",
+   "url": "https://electrek.co/2026/10/05/gas-cars-fall-below-50-percent-global-new-car-sales/",
    "score": 14,
-   "why": "HN 9 points, 7 comments (https://news.ycombinator.com/item?id=49926893)",
+   "why": "HN 9 points, 6 comments (https://news.ycombinator.com/item?id=49967371)",
    "source": "hn",
-   "id": "hn:49926893",
-   "new": false
-  },
-  {
-   "kind": "repo",
-   "title": "PedroLFerraz/DifferentialPrivacy",
-   "url": "https://github.com/PedroLFerraz/DifferentialPrivacy",
-   "score": 10,
-   "why": "★0, topic energy-data: M.Sc. thesis (TU Darmstadt) and TCC (Poli-USP): anonymizing household gas-consumption data with differential privacy and",
-   "source": "github_repos",
-   "id": "gh:PedroLFerraz/DifferentialPrivacy",
+   "id": "hn:49967371",
    "new": true
   },
   {
    "kind": "repo",
-   "title": "annalehtinen/synthetic-health-data-release-criteria",
-   "url": "https://github.com/annalehtinen/synthetic-health-data-release-criteria",
-   "score": 10,
-   "why": "★0, topic energy-data: Data for: Synthetic versions of open health datasets: Success criteria and license checks for releases with a real user",
+   "title": "jchisholm59/ais-monitor",
+   "url": "https://github.com/jchisholm59/ais-monitor",
+   "score": 12,
+   "why": "★2, topic ais: AIS marine traffic for Home Assistant: always-on aisstream.io monitor + Ships card (closest vessels to a location, map, ",
    "source": "github_repos",
-   "id": "gh:annalehtinen/synthetic-health-data-release-criteria",
+   "id": "gh:jchisholm59/ais-monitor",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/pdf/highlights.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf",
+   "score": 12,
+   "why": "file changed (new Wayback digest) on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010164140/https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/pdf/highlights.pdf:VOMGQOJFVHAZBP5WGFVG3VH2MYVSUQYF",
    "new": true
   },
   {
    "kind": "repo",
-   "title": "annalehtinen/quantum-sensing-open-data-availability",
-   "url": "https://github.com/annalehtinen/quantum-sensing-open-data-availability",
-   "score": 10,
-   "why": "★0, topic energy-data: Data for: Open quantum sensing data for health and energy applications: A screening of availability and gaps",
+   "title": "Agaba-Ed/uganda-tech-companies",
+   "url": "https://github.com/Agaba-Ed/uganda-tech-companies",
+   "score": 11,
+   "why": "★6, topic open-data: Open, searchable directory of technology companies in Uganda, built from public web data (ODbL).",
    "source": "github_repos",
-   "id": "gh:annalehtinen/quantum-sensing-open-data-availability",
+   "id": "gh:Agaba-Ed/uganda-tech-companies",
    "new": true
   },
   {
    "kind": "repo",
-   "title": "sdonea/holomap",
-   "url": "https://github.com/sdonea/holomap",
-   "score": 10,
-   "why": "★5, topic ais: The real ocean on a holotable, with a planner that finds the least-fuel ship route through today's currents and wind.",
+   "title": "0xgetz/0x-cookies",
+   "url": "https://github.com/0xgetz/0x-cookies",
+   "score": 11,
+   "why": "★6, topic osint: OpenBullet-style bulk cookie & session checker powered by real headless Chromium (Playwright). 139 platform configs, web",
    "source": "github_repos",
-   "id": "gh:sdonea/holomap",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "EXIOBASE 3",
-   "url": "https://zenodo.org/records/23039074",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-09-30",
-   "source": "zenodo",
-   "id": "zenodo:23039074",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "IZOAMILATSETAT SINTEZ JARAYONINI OʻRGANISH VA UNI FIZIK-KIMYOVIY USULLAR YORDAMIDA TAHLIL QILISH",
-   "url": "https://zenodo.org/records/23158168",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-10-05",
-   "source": "zenodo",
-   "id": "zenodo:23158168",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Structural uncertainty in global upland soil methane uptake across five oxidation schemes",
-   "url": "https://zenodo.org/records/23153234",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-10-05",
-   "source": "zenodo",
-   "id": "zenodo:23153234",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Theoretical biomass potential of residues from maize starch production across EU27",
-   "url": "https://zenodo.org/records/23136128",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-10-04",
-   "source": "zenodo",
-   "id": "zenodo:23136128",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "PHASED study archive | NREL ATB | 2020-ATB-Data.xlsm",
-   "url": "https://zenodo.org/records/23128744",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-10-04",
-   "source": "zenodo",
-   "id": "zenodo:23128744",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "CHIQINDILARNI BIOGAZGA AYLANTIRISH ORQALI ISSIQXONA GAZLARI EMISSIYASINI KAMAYTIRISH IMKONIYATLARI",
-   "url": "https://zenodo.org/records/23121107",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-10-03",
-   "source": "zenodo",
-   "id": "zenodo:23121107",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "Data and code for Peak-discharge bounds under incomplete geometry and rate-limited breach erosion",
-   "url": "https://zenodo.org/records/23118724",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-10-03",
-   "source": "zenodo",
-   "id": "zenodo:23118724",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "Larval English sole growth and diet data from the northern California Current (2018, 2019, 2022, and 2023)",
-   "url": "https://zenodo.org/records/23044821",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-09-29",
-   "source": "zenodo",
-   "id": "zenodo:23044821",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "CMAQ Model Version 5.5 CRACMM2 CAP-HAP Emissions and Other Input Data – 01/01/2025 – 1/13/2025 4km California",
-   "url": "https://zenodo.org/records/22902386",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-10-02",
-   "source": "zenodo",
-   "id": "zenodo:22902386",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "Data and scripts for \"Deep-Strong Light–Matter Coupling in 3D Kane Fermions without Dicke Criticality\"",
-   "url": "https://zenodo.org/records/23104117",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-10-02",
-   "source": "zenodo",
-   "id": "zenodo:23104117",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "Title Index of Swiss agents representing United Kingdom firms / British Chamber of Commerce for Switzerland (1951)",
-   "url": "https://zenodo.org/records/23097397",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-10-02",
-   "source": "zenodo",
-   "id": "zenodo:23097397",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "PUDL Raw EIA Bulk API Data",
-   "url": "https://zenodo.org/records/23022968",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-10-01",
-   "source": "zenodo",
-   "id": "zenodo:23022968",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "PMR AND X-RAY STRUCTURAL STUDY OF Ni(II) COMPLEXES BASED ON BENZOYLACETALDEHYDE DERIVATIVES",
-   "url": "https://zenodo.org/records/23084637",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-10-01",
-   "source": "zenodo",
-   "id": "zenodo:23084637",
-   "new": false
-  },
-  {
-   "kind": "dataset",
-   "title": "Data and Mathematica notebooks supporting \"Nonlinear phononic slidetronics\"",
-   "url": "https://zenodo.org/records/23079647",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-10-01",
-   "source": "zenodo",
-   "id": "zenodo:23079647",
-   "new": false
-  },
-  {
-   "kind": "agency-file",
-   "title": "dnav/pet/hist_xls/KD0VCSSWI1a.xls",
-   "url": "https://www.eia.gov/dnav/pet/hist_xls/KD0VCSSWI1a.xls",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004133112/https://www.eia.gov/dnav/pet/hist_xls/KD0VCSSWI1a.xls",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KD0VCSSWI1a.xls:F42W34NJTDP5AX5SSBRUNS72SJPE6JJT",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "dnav/pet/hist_xls/KD2VISSWI1a.xls",
-   "url": "https://www.eia.gov/dnav/pet/hist_xls/KD2VISSWI1a.xls",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004133324/https://www.eia.gov/dnav/pet/hist_xls/KD2VISSWI1a.xls",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KD2VISSWI1a.xls:OT4CTJ4Y3WY22ET4KVA7AX42AKVBLE7I",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "dnav/pet/hist_xls/KDRVTESNH1a.xls",
-   "url": "https://www.eia.gov/dnav/pet/hist_xls/KDRVTESNH1a.xls",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004175238/https://www.eia.gov/dnav/pet/hist_xls/KDRVTESNH1a.xls",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KDRVTESNH1a.xls:IRYDYL6MOVWCD336ESGQWBEMQUUTWYL2",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "dnav/pet/hist_xls/KPRVCSSVT1a.xls",
-   "url": "https://www.eia.gov/dnav/pet/hist_xls/KPRVCSSVT1a.xls",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004102818/https://www.eia.gov/dnav/pet/hist_xls/KPRVCSSVT1a.xls",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KPRVCSSVT1a.xls:6V6F7TYFYC2CV2NLTTPRN7BAAVVNIEZA",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "dnav/pet/hist_xls/KPRVMISKY1a.xls",
-   "url": "https://www.eia.gov/dnav/pet/hist_xls/KPRVMISKY1a.xls",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004151405/https://www.eia.gov/dnav/pet/hist_xls/KPRVMISKY1a.xls",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KPRVMISKY1a.xls:TCXYRZPCD33ASICFZAHAZD6GL35NYNP4",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "dnav/pet/hist_xls/MG5RP_RAP_1a.xls",
-   "url": "https://www.eia.gov/dnav/pet/hist_xls/MG5RP_RAP_1a.xls",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004131752/https://www.eia.gov/dnav/pet/hist_xls/MG5RP_RAP_1a.xls",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MG5RP_RAP_1a.xls:DS6IICCMNRM5N2AQDIMUCYSHZ45GSIDD",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "dnav/pet/hist_xls/MLPUPP31a.xls",
-   "url": "https://www.eia.gov/dnav/pet/hist_xls/MLPUPP31a.xls",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004150640/https://www.eia.gov/dnav/pet/hist_xls/MLPUPP31a.xls",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MLPUPP31a.xls:4BO76BXO4Z3XV2EJXWSZ77ZRVZTYDDJE",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "dnav/pet/hist_xls/MMTIMP11m.xls",
-   "url": "https://www.eia.gov/dnav/pet/hist_xls/MMTIMP11m.xls",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004130055/https://www.eia.gov/dnav/pet/hist_xls/MMTIMP11m.xls",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MMTIMP11m.xls:WOKSHBB7NA243A4VDSQYCOB7TRBRTAJ5",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "dnav/pet/hist_xls/MTTIPP5SA1m.xls",
-   "url": "https://www.eia.gov/dnav/pet/hist_xls/MTTIPP5SA1m.xls",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004171342/https://www.eia.gov/dnav/pet/hist_xls/MTTIPP5SA1m.xls",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MTTIPP5SA1m.xls:Q5DDKEGCFF6OAYEC5BUYRGFEWUVFYCII",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "dnav/pet/hist_xls/M_EPLLBYI_SAE_R10_MBBLm.xls",
-   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPLLBYI_SAE_R10_MBBLm.xls",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004143405/https://www.eia.gov/dnav/pet/hist_xls/M_EPLLBYI_SAE_R10_MBBLm.xls",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPLLBYI_SAE_R10_MBBLm.xls:JPS36YHTCS5NPYN4OTGJF52CVKFRWUKZ",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "petroleum/supply/weekly/archive/2012/2012_02_08/pdf/table8.pdf",
-   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_02_08/pdf/table8.pdf",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004160643/https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_02_08/pdf/table8.pdf",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_02_08/pdf/table8.pdf:VOCL46UC3GLT5BF2GUKTSXR2QIOAC2CI",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "petroleum/supply/weekly/archive/2012/2012_05_09/pdf/figure10.pdf",
-   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_05_09/pdf/figure10.pdf",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004130524/https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_05_09/pdf/figure10.pdf",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_05_09/pdf/figure10.pdf:2H6G4OMCCWRQXMWMYLZGT2YJAAVPRVJ2",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "petroleum/supply/weekly/archive/2012/2012_07_25/pdf/table7.pdf",
-   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_07_25/pdf/table7.pdf",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004135136/https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_07_25/pdf/table7.pdf",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_07_25/pdf/table7.pdf:NAJ5GT6THIWFMZ74JEIUQBK7SHMRRDJ2",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "petroleum/supply/weekly/archive/2013/2013_09_11/pdf/figure2.pdf",
-   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2013/2013_09_11/pdf/figure2.pdf",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004121402/https://www.eia.gov/petroleum/supply/weekly/archive/2013/2013_09_11/pdf/figure2.pdf",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2013/2013_09_11/pdf/figure2.pdf:VKMI6AZTMACECLBLSU4QPJJGCWTRRU4Y",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "petroleum/supply/weekly/archive/2014/2014_12_03/pdf/table14.pdf",
-   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2014/2014_12_03/pdf/table14.pdf",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004172435/https://www.eia.gov/petroleum/supply/weekly/archive/2014/2014_12_03/pdf/table14.pdf",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2014/2014_12_03/pdf/table14.pdf:PIX36OC3JTIFUJPGDRJZ3ENKIYNYWX36",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "petroleum/supply/weekly/archive/2021/2021_06_09/csv/table5a.csv",
-   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_06_09/csv/table5a.csv",
-   "score": 9,
-   "why": "new file on www.eia.gov, captured 20261004: https://web.archive.org/web/20261004173301/https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_06_09/csv/table5a.csv",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_06_09/csv/table5a.csv:Z3A2ZGBQGO5ZOW3R7IBYX5K6RLPYKVBI",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "_resources/files/downloads/oil-data/annual-csv/primary/2025.csv",
-   "url": "https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/2025.csv",
-   "score": 9,
-   "why": "new file on www.jodidata.org, captured 20261004: https://web.archive.org/web/20261004150307/https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/2025.csv",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/2025.csv:VOEXXKWMWXASA3MANQ6ATG5ICEISRYFT",
-   "new": true
-  },
-  {
-   "kind": "agency-file",
-   "title": "_resources/files/downloads/oil-data/annual-csv/primary/primaryyear2026.csv",
-   "url": "https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/primaryyear2026.csv",
-   "score": 9,
-   "why": "new file on www.jodidata.org, captured 20261004: https://web.archive.org/web/20261004160341/https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/primaryyear2026.csv",
-   "source": "wayback_cdx",
-   "id": "cdx:https://www.jodidata.org/_resources/files/downloads/oil-data/annual-csv/primary/primaryyear2026.csv:KUNSVDXMLCODVF4Z6LYSFOQB2LFB2JDY",
+   "id": "gh:0xgetz/0x-cookies",
    "new": true
   },
   {
    "kind": "paper",
-   "title": "How suboptimal is my stochastic network controller allowed to be? Completion certificates with application to power grids hosting AI data centers",
-   "url": "http://arxiv.org/abs/2610.03275v1",
-   "score": 6,
-   "why": "arXiv 2026-10-02: Power grids are beginning to host AI data centers whose demand can change abruptly and in a correlated way, an",
+   "title": "Probabilistic Ship Trajectory Forecasting using Transformer Models on AIS Data",
+   "url": "http://arxiv.org/abs/2610.13557v1",
+   "score": 11,
+   "why": "arXiv 2026-10-09: Anticipation of vessel trajectories is an essential task when navigating at sea. This applies to both human na",
    "source": "arxiv",
-   "id": "arxiv:2610.03275",
+   "id": "arxiv:2610.13557",
    "new": true
   },
   {
    "kind": "paper",
-   "title": "Can LLMs Reliably Annotate Bioassay Metadata to Improve Data Readiness?",
-   "url": "http://arxiv.org/abs/2610.01616v1",
-   "score": 6,
-   "why": "arXiv 2026-10-01: The emergence of foundation models for molecular property prediction requires a high degree of AI data readine",
+   "title": "Multi-Modal Graph Neural Network-Inspired Vessel Identification and Tracking for UAV-Based Maritime Surveillance",
+   "url": "http://arxiv.org/abs/2610.13220v1",
+   "score": 11,
+   "why": "arXiv 2026-10-09: The unmanned aerial vehicle (UAV)-based maritime surveillance is becoming an important part of maritime Intern",
    "source": "arxiv",
-   "id": "arxiv:2610.01616",
-   "new": false
+   "id": "arxiv:2610.13220",
+   "new": true
   },
   {
-   "kind": "paper",
-   "title": "Harbormaster: Evidence-Gated, Replay-Safe Maritime Anomaly Detection on AWS",
-   "url": "http://arxiv.org/abs/2610.00519v1",
-   "score": 6,
-   "why": "arXiv 2026-09-30: Ships broadcast their positions through the Automatic Identification System (AIS), and those reports can be fa",
-   "source": "arxiv",
-   "id": "arxiv:2610.00519",
-   "new": false
+   "kind": "repo",
+   "title": "enlilcenter/iraq-data-hub",
+   "url": "https://github.com/enlilcenter/iraq-data-hub",
+   "score": 10,
+   "why": "★0, topic energy-data: Open data on Iraq's climate, water, energy, economy and governance: CSV mirror of the Enlil Center Iraq Data Hub (enlilc",
+   "source": "github_repos",
+   "id": "gh:enlilcenter/iraq-data-hub",
+   "new": true
   },
   {
-   "kind": "paper",
-   "title": "She Spoofed Sea Ships by the Sea Shore: Measuring Large-Scale GPS Spoofing in Global Maritime Traffic",
-   "url": "http://arxiv.org/abs/2609.37676v1",
-   "score": 6,
-   "why": "arXiv 2026-09-29: GPS spoofing has emerged as a serious threat to maritime security, yet its global prevalence, persistence, and",
-   "source": "arxiv",
-   "id": "arxiv:2609.37676",
-   "new": false
+   "kind": "repo",
+   "title": "alphons3t/ercot-gas-demand-data",
+   "url": "https://github.com/alphons3t/ercot-gas-demand-data",
+   "score": 10,
+   "why": "★0, topic energy-data: Plant- and generator-level ERCOT natural-gas capacity, location, monthly EIA-923 fuel demand, and automated updates.",
+   "source": "github_repos",
+   "id": "gh:alphons3t/ercot-gas-demand-data",
+   "new": true
   },
   {
    "kind": "dataset",
-   "title": "Monatsstatistik im Gastgewerbe",
-   "url": "https://data.europa.eu/data/datasets/https-metaver-de-search-st-opensearch-query-format-rdf-h-100-monatsstatistik-im-gastgewerbeaa5db",
+   "title": "Políticas de Reparação (França)",
+   "url": "https://zenodo.org/records/23317353",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-12",
+   "source": "zenodo",
+   "id": "zenodo:23317353",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "OʻZARO DINAMIK BOGʻLANGAN GʻOVAK MUHITDA NEFT BOSIMINING GʻOVAKLIK KOEFFITSIENTIGA BOGʻLIQ OʻZGARISHINI SONLI MODELLASHTIRISH",
+   "url": "https://zenodo.org/records/23296737",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-11",
+   "source": "zenodo",
+   "id": "zenodo:23296737",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Structural and Biochemical Relationships Between the Chemical Composition and Pharmacologically Relevant Constituents of Medicinal Plant Raw Materials: A Commodity-Chemical Approach to Glycyrrhiza glabra L., Capparis spinosa L., and Hippophae rhamnoides L.",
+   "url": "https://zenodo.org/records/23279161",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-10",
+   "source": "zenodo",
+   "id": "zenodo:23279161",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "ВЛИЯНИЕ ГАММА-ОБЛУЧЕНИЯ НА ФАЗОВО-СТРУКТУРНОЕ СОСТОЯНИЕ НАНОКОМПОЗИТОВ ZNO–NIO И ZNO–NIO–CUO",
+   "url": "https://zenodo.org/records/23274274",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-10",
+   "source": "zenodo",
+   "id": "zenodo:23274274",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "AULOFORUS (AULOPHORUS FURCATUS) CHUVALCHANGINI SUN'IY KO'PAYTIRISH VA UNDAN KLARIY LAQQASI LICHINKALARINI YETISHTIRISHDA FOYDALANISH",
+   "url": "https://zenodo.org/records/23259940",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-09",
+   "source": "zenodo",
+   "id": "zenodo:23259940",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Isotopic and omics constraints on lacustrine methane oxidation by aerobic methanotrophs across the redoxcline of meromictic Lake Cadagno, Switzerland",
+   "url": "https://zenodo.org/records/23250292",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-08",
+   "source": "zenodo",
+   "id": "zenodo:23250292",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Seafloor Pockmarks in the Southern Inlets of Puget Sound",
+   "url": "https://zenodo.org/records/23246093",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-08",
+   "source": "zenodo",
+   "id": "zenodo:23246093",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "NOAN'ANAVIY SABZAVOT VA DORIVOR TIMYAN (THYMUS VULGARIS L.) O'SIMLIGINING BIOLOGIYASI, QIMMATLI XO'JALIK BELGILARI HAMDA INTRODUKSIYASI",
+   "url": "https://zenodo.org/records/23245364",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-08",
+   "source": "zenodo",
+   "id": "zenodo:23245364",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Data and software for \"Load-Bearing Reserve and Host-Rock Constraints Control Collapse and Conductance Loss in Weakened Rough Fractures\"",
+   "url": "https://zenodo.org/records/23244343",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-08",
+   "source": "zenodo",
+   "id": "zenodo:23244343",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Data, code and supplemental material for Storage memory and geometric information in breach-flood peak bounds",
+   "url": "https://zenodo.org/records/23241535",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-09",
+   "source": "zenodo",
+   "id": "zenodo:23241535",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Revealing parasitoid-pest interactions using multi-marker metabarcoding: a nationwide assessment of parasitism in cabbage stem flea beetle larvae",
+   "url": "https://zenodo.org/records/23234376",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-08",
+   "source": "zenodo",
+   "id": "zenodo:23234376",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "METALLARGA KESIB ISHLOV BERISHDAGI SOVITUVCHI MOYLOVCHI SUYUQLIKLARNING OLINISHI VA QO'LLANILISHI BO'YICHA OLIB BORILGAN ILMIY TADQIQOTLAR",
+   "url": "https://zenodo.org/records/23235776",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-08",
+   "source": "zenodo",
+   "id": "zenodo:23235776",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "PALLADIY BILAN MODIFIKATSIYALANGAN KREMNIY VA ALYUMINIY OKSIDLARI ASOSIDAGI MIKROG'OVAK KATALIZATORLARDA METANNING OKSIDLOVCHISIZ SHAROITDA YUQORI UGLEVODORODLARGA AYLANISHI",
+   "url": "https://zenodo.org/records/23235749",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-08",
+   "source": "zenodo",
+   "id": "zenodo:23235749",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Supplementary Information: Techno-economic and environmental investigation of Power-to-X at various greenfield and brownfield levels - a structured multi-level infrastructure access framework for PtX",
+   "url": "https://zenodo.org/records/23233999",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-08",
+   "source": "zenodo",
+   "id": "zenodo:23233999",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "YOG'-MOY ZAVODLARI OQOVA SUVLARINI MAHALLIY KO'MIR ADSORBENTLARI YORDAMIDA TOZALASH SAMARADORLIGINI BAHOLASH",
+   "url": "https://zenodo.org/records/23232363",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-08",
+   "source": "zenodo",
+   "id": "zenodo:23232363",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Datasets supporting \"Anthropogenic effects on elementomes across organisms, ecosystems, and the biosphere\"",
+   "url": "https://zenodo.org/records/23214154",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-07",
+   "source": "zenodo",
+   "id": "zenodo:23214154",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Spent Coffee Grounds–Alginate Leather-Like Biocomposites",
+   "url": "https://zenodo.org/records/23231694",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-08",
+   "source": "zenodo",
+   "id": "zenodo:23231694",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "VODOROD SULFID VA KARBONAT KISLOTASI MUHITIDA NEFT-GAZ QUVURLARINI KORROZIYADAN HIMOYALASHDA SOXTA KASHTAN-CHILONJIYDA EKSTRAKTINING \"YASHIL\" INGIBITORLIK SAMARADORLIGI",
+   "url": "https://zenodo.org/records/23230343",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-10-08",
+   "source": "zenodo",
+   "id": "zenodo:23230343",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/8_NA_8CDHOR_SOH_5a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/8_NA_8CDHOR_SOH_5a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007200814/https://www.eia.gov/dnav/pet/hist_xls/8_NA_8CDHOR_SOH_5a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/8_NA_8CDHOR_SOH_5a.xls:J3PQT5K7EQHADWHIUEHF5PXZS45VZSO5",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/A503640001a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/A503640001a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006015504/https://www.eia.gov/dnav/pet/hist_xls/A503640001a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/A503640001a.xls:MDFO4RNV35ZD5SOL6FUJ74IAKJIWHHUN",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/C020040301m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/C020040301m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005022459/https://www.eia.gov/dnav/pet/hist_xls/C020040301m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/C020040301m.xls:L2N4IWLQT25OISCJRIFWWYYPNMSKYSIN",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/C070040001m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/C070040001m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007063031/https://www.eia.gov/dnav/pet/hist_xls/C070040001m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/C070040001m.xls:MJADNOTR2LGQD2JYL6LWLRP4XQWE5SIA",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/C300013131m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/C300013131m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006175934/https://www.eia.gov/dnav/pet/hist_xls/C300013131m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/C300013131m.xls:47KCC7SDMYBVQ2PGWTNL5AJDI5BNEMGF",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/C300020181m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/C300020181m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006150122/https://www.eia.gov/dnav/pet/hist_xls/C300020181m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/C300020181m.xls:GPFE6RZTSJS4VE47TBJTOZFYTE5VT7G4",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/C320020551a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/C320020551a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006132539/https://www.eia.gov/dnav/pet/hist_xls/C320020551a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/C320020551a.xls:DLC23HIRT7KDRVCMMLKQD7IAHNRPL3P7",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/C320030011a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/C320030011a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261011: https://web.archive.org/web/20261011022448/https://www.eia.gov/dnav/pet/hist_xls/C320030011a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/C320030011a.xls:DKIVVT65XIHPQFYGMQJDUD7AEMTIWZRE",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/C400012001a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/C400012001a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009080851/https://www.eia.gov/dnav/pet/hist_xls/C400012001a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/C400012001a.xls:VNWZRF2RCXWKVVJ434NIUWDG4V74PKBU",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/EER_EPLLPA_PF4_Y44MB_DPGd.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/EER_EPLLPA_PF4_Y44MB_DPGd.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009210223/https://www.eia.gov/dnav/pet/hist_xls/EER_EPLLPA_PF4_Y44MB_DPGd.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/EER_EPLLPA_PF4_Y44MB_DPGd.xls:BH5NXIDJX5OJML66UGJDOMNBTCV5JDXX",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/EMA_EPD2_PTG_SAR_DPGm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPD2_PTG_SAR_DPGm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008203414/https://www.eia.gov/dnav/pet/hist_xls/EMA_EPD2_PTG_SAR_DPGm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/EMA_EPD2_PTG_SAR_DPGm.xls:H77IPI2N5OZ6L7J7M4PMRYQ76EPLS3XK",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/EMA_EPJK_PTG_R10_DPGm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPJK_PTG_R10_DPGm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010185727/https://www.eia.gov/dnav/pet/hist_xls/EMA_EPJK_PTG_R10_DPGm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/EMA_EPJK_PTG_R10_DPGm.xls:HKO274BP5OFDU7NOL7ZIUSLXD6N2NOZQ",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/EMA_EPM0R_PTA_SAR_DPGm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPM0R_PTA_SAR_DPGm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006171431/https://www.eia.gov/dnav/pet/hist_xls/EMA_EPM0R_PTA_SAR_DPGm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/EMA_EPM0R_PTA_SAR_DPGm.xls:KEPEX4IGI444TEWCZINJWTEAOCOZNRCD",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/EMA_EPM0R_PTA_SNC_DPGm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPM0R_PTA_SNC_DPGm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006002247/https://www.eia.gov/dnav/pet/hist_xls/EMA_EPM0R_PTA_SNC_DPGm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/EMA_EPM0R_PTA_SNC_DPGm.xls:FFI4L5VAQBPXOBKGUSJ3NM5VASL2QRUI",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/EMA_EPMP_PTC_R10_DPGm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMP_PTC_R10_DPGm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010163542/https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMP_PTC_R10_DPGm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMP_PTC_R10_DPGm.xls:R54V5CEFYW7RENPZRRDKPQZLIBMZSFKG",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/EMA_EPMR_PTC_NUS_DPGa.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMR_PTC_NUS_DPGa.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007061023/https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMR_PTC_NUS_DPGa.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMR_PTC_NUS_DPGa.xls:PAJFTLKYTND7PYVE5TMFU4VJB3E75AQT",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/EMM_EPMM_PTE_SCA_DPGm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMM_PTE_SCA_DPGm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008133422/https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMM_PTE_SCA_DPGm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMM_PTE_SCA_DPGm.xls:APAJ6BG2YZG2WUYQGEU3HIXBA5FO4BDC",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/EMM_EPMM_PTE_Y35NY_DPGw.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMM_PTE_Y35NY_DPGw.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005170608/https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMM_PTE_Y35NY_DPGw.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMM_PTE_Y35NY_DPGw.xls:D2BDQOY4DAPTVTUUCNQCU6PZHRE5UGN2",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/ESM_EPOORDB_RAIL_NCA-R30_MBBLm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/ESM_EPOORDB_RAIL_NCA-R30_MBBLm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008161527/https://www.eia.gov/dnav/pet/hist_xls/ESM_EPOORDB_RAIL_NCA-R30_MBBLm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/ESM_EPOORDB_RAIL_NCA-R30_MBBLm.xls:LKL63F5VGXBFBHVP2LR4GX7AY63YGDNL",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/ESM_EPOORDB_RAIL_R20-R40_MBBLa.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/ESM_EPOORDB_RAIL_R20-R40_MBBLa.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005120140/https://www.eia.gov/dnav/pet/hist_xls/ESM_EPOORDB_RAIL_R20-R40_MBBLa.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/ESM_EPOORDB_RAIL_R20-R40_MBBLa.xls:VSC4X456V3HDVRCV7V5XAHC3SSZUXVST",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/ESM_EPOORDB_RAIL_R50-R40_MBBLa.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/ESM_EPOORDB_RAIL_R50-R40_MBBLa.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005045255/https://www.eia.gov/dnav/pet/hist_xls/ESM_EPOORDB_RAIL_R50-R40_MBBLa.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/ESM_EPOORDB_RAIL_R50-R40_MBBLa.xls:RFAZI5MMA4EEFWWVIEXBWJMYE6ZS5HEM",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/ESM_EPOOXE_RAIL_R50-R20_MBBLa.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/ESM_EPOOXE_RAIL_R50-R20_MBBLa.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010052823/https://www.eia.gov/dnav/pet/hist_xls/ESM_EPOOXE_RAIL_R50-R20_MBBLa.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/ESM_EPOOXE_RAIL_R50-R20_MBBLa.xls:TSPRKCJPQMNDIOGVFKXUA6Q4KDVH4XRI",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/E_EPOBG_STR_SNH_MBBLm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/E_EPOBG_STR_SNH_MBBLm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007014356/https://www.eia.gov/dnav/pet/hist_xls/E_EPOBG_STR_SNH_MBBLm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/E_EPOBG_STR_SNH_MBBLm.xls:VIH26MOJKR32ESTTSODGCU75TBGAE5A4",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/F002031__3m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/F002031__3m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009200029/https://www.eia.gov/dnav/pet/hist_xls/F002031__3m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/F002031__3m.xls:GDO2AIOJVYYGUZT5WNGGUYAT7ATOL3KC",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/K2DVFMSHI1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/K2DVFMSHI1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008224227/https://www.eia.gov/dnav/pet/hist_xls/K2DVFMSHI1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/K2DVFMSHI1a.xls:AIZJMBU2TTKWVSPR2YO5OE74TNPKZUPD",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/K2DVHFSNM1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/K2DVHFSNM1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005194007/https://www.eia.gov/dnav/pet/hist_xls/K2DVHFSNM1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/K2DVHFSNM1a.xls:AV2BRIMAFURR3ROZSTZIRTHZFDQ2YOPZ",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KD0VCSSOK1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KD0VCSSOK1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261011: https://web.archive.org/web/20261011003053/https://www.eia.gov/dnav/pet/hist_xls/KD0VCSSOK1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KD0VCSSOK1a.xls:TRLNPWVZNQZZFYRLPMBMC66OGUGWKF3S",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KD0VOESDE1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KD0VOESDE1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006154439/https://www.eia.gov/dnav/pet/hist_xls/KD0VOESDE1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KD0VOESDE1a.xls:HFTVA3BPHUSBQ7YZCPFLSSWJWES74VKG",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KD0VOESFL1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KD0VOESFL1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008123746/https://www.eia.gov/dnav/pet/hist_xls/KD0VOESFL1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KD0VOESFL1a.xls:7GD5RPZV52VZ5PIEHO6KFE2HEZ6YTKKX",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KD0VRRSIA1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KD0VRRSIA1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006020355/https://www.eia.gov/dnav/pet/hist_xls/KD0VRRSIA1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KD0VRRSIA1a.xls:TL4VLZLOPYP2NX2EFZ3EFDVENRUH7V5E",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KD0VVBSUT1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KD0VVBSUT1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006115314/https://www.eia.gov/dnav/pet/hist_xls/KD0VVBSUT1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KD0VVBSUT1a.xls:XRJBGRISEQCNDXZ6DVGW2HYSWELVNLS5",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KD1VCSSID1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KD1VCSSID1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008201232/https://www.eia.gov/dnav/pet/hist_xls/KD1VCSSID1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KD1VCSSID1a.xls:2SNU7R4S7W4MYCSDL4DCMDEZD7OSM6MC",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KD1VRSSNE1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KD1VRSSNE1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009190423/https://www.eia.gov/dnav/pet/hist_xls/KD1VRSSNE1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KD1VRSSNE1a.xls:COGDMQOF3YZZ5DS4GGX6646D46DTVSIA",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KD2VISR501a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KD2VISR501a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008034620/https://www.eia.gov/dnav/pet/hist_xls/KD2VISR501a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KD2VISR501a.xls:SYLPSY4JZKFGBPRUTL54LEMBUQAPXURR",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KDRVRSSUT1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KDRVRSSUT1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010123932/https://www.eia.gov/dnav/pet/hist_xls/KDRVRSSUT1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KDRVRSSUT1a.xls:N2TW4QT4H7UQPELI7GHIFBJMWO75LARG",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KDRVTESNE1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KDRVTESNE1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005041529/https://www.eia.gov/dnav/pet/hist_xls/KDRVTESNE1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KDRVTESNE1a.xls:YHB5SOUDPM2Y4FDNOIMJUV6CLC43XX4M",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KDRVTESSD1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KDRVTESSD1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007163317/https://www.eia.gov/dnav/pet/hist_xls/KDRVTESSD1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KDRVTESSD1a.xls:O3763ANJATYCDWWKWIP2VXTX2SPD7TLK",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KPRVCSR0X1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KPRVCSR0X1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008234947/https://www.eia.gov/dnav/pet/hist_xls/KPRVCSR0X1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KPRVCSR0X1a.xls:L3Q5SVBBVY7KRZ65N4LGE3CWKRHWWOGR",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KPRVISSRI1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KPRVISSRI1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009115001/https://www.eia.gov/dnav/pet/hist_xls/KPRVISSRI1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KPRVISSRI1a.xls:3XHWUUUIN6EK742WBMXEHRT2YOH5DL4U",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KPRVOESAL1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KPRVOESAL1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009054512/https://www.eia.gov/dnav/pet/hist_xls/KPRVOESAL1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KPRVOESAL1a.xls:M4JVD7EGJI5O53XAAHAMNKBE2GYZJMZN",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KPRVOESMA1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KPRVOESMA1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008163324/https://www.eia.gov/dnav/pet/hist_xls/KPRVOESMA1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KPRVOESMA1a.xls:OHD665C2TT37X6MXEKNHBBLIHQJTLVGV",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/KPRVTESAZ1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/KPRVTESAZ1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008220209/https://www.eia.gov/dnav/pet/hist_xls/KPRVTESAZ1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/KPRVTESAZ1a.xls:W6MJ6S3H7Q5OWQB3RUVIIN5T3X26GAJ2",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MAPRPP41m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MAPRPP41m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010020019/https://www.eia.gov/dnav/pet/hist_xls/MAPRPP41m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MAPRPP41m.xls:WIH2DNBI4RB6KQEQJPWXS4MY57BE5ET3",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MBCSCP51a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MBCSCP51a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005101339/https://www.eia.gov/dnav/pet/hist_xls/MBCSCP51a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MBCSCP51a.xls:B26IGGKNIESQHEV54UMIBZKMK46PYESP",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MCMEX_R30-Z00_1m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MCMEX_R30-Z00_1m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010103339/https://www.eia.gov/dnav/pet/hist_xls/MCMEX_R30-Z00_1m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MCMEX_R30-Z00_1m.xls:TZ6N3I4GYP6IU6G35ZFYYL6RMQ5JXTC6",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MCREX_NUS-NDA_2m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MCREX_NUS-NDA_2m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005052652/https://www.eia.gov/dnav/pet/hist_xls/MCREX_NUS-NDA_2m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MCREX_NUS-NDA_2m.xls:UVG3PEBTHVRTCATQCAXGHVYB27RRPU5E",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MCRFPAR1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MCRFPAR1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006222545/https://www.eia.gov/dnav/pet/hist_xls/MCRFPAR1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MCRFPAR1a.xls:CI4J2J47KEQYOB5EAYDWHULK5UG7BOW2",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MCRFPP32a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MCRFPP32a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009201348/https://www.eia.gov/dnav/pet/hist_xls/MCRFPP32a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MCRFPP32a.xls:MPI2P4IV2HPIIJLBEOAN43NGX5D2EHW3",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MCRNT_NUS-NKZ_2a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MCRNT_NUS-NKZ_2a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006175459/https://www.eia.gov/dnav/pet/hist_xls/MCRNT_NUS-NKZ_2a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MCRNT_NUS-NKZ_2a.xls:GGLF55RB4MHB5EIBQHNJLBGK3D5L2GGX",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MCRRSP21a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MCRRSP21a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006125633/https://www.eia.gov/dnav/pet/hist_xls/MCRRSP21a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MCRRSP21a.xls:KTA6Q57QFNNX7FC5EMRIJYMMJXBVZRPS",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MCRRSP41a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MCRRSP41a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010153124/https://www.eia.gov/dnav/pet/hist_xls/MCRRSP41a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MCRRSP41a.xls:DVF3TSYRHMF3FLF23VOX2FITBXF5JQRC",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MCRSCP41m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MCRSCP41m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005045248/https://www.eia.gov/dnav/pet/hist_xls/MCRSCP41m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MCRSCP41m.xls:VCZKNWG7TTJT6TJE3VFELS7RZLPMBNTH",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MD0EX_NUS-NKR_1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MD0EX_NUS-NKR_1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261011: https://web.archive.org/web/20261011002835/https://www.eia.gov/dnav/pet/hist_xls/MD0EX_NUS-NKR_1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MD0EX_NUS-NKR_1a.xls:AWPJJ7BAVP3FSUXZSPIYGJHKZ2DVGSQ5",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MD0IM_R30-Z00_1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MD0IM_R30-Z00_1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009010355/https://www.eia.gov/dnav/pet/hist_xls/MD0IM_R30-Z00_1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MD0IM_R30-Z00_1a.xls:UYPNS77JZFSK6B2ZF2BUTWFSYBDA4UW2",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MD0S3_SOK_1m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MD0S3_SOK_1m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008115602/https://www.eia.gov/dnav/pet/hist_xls/MD0S3_SOK_1m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MD0S3_SOK_1m.xls:JZSVY65V2CYWOS2LNCTCSM3BSFWFCCG4",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MD0SC_R10_1m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MD0SC_R10_1m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010071853/https://www.eia.gov/dnav/pet/hist_xls/MD0SC_R10_1m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MD0SC_R10_1m.xls:HE6IBPRLWFB3YMA4AOYGZZKYRNZH3AFI",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MD0SC_R10_2a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MD0SC_R10_2a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009231540/https://www.eia.gov/dnav/pet/hist_xls/MD0SC_R10_2a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MD0SC_R10_2a.xls:WTKBMLAVEKWYEQCJ6EDKRZHYBL67CKI4",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MDGNRP11m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MDGNRP11m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005071758/https://www.eia.gov/dnav/pet/hist_xls/MDGNRP11m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MDGNRP11m.xls:SCPBBHBBG2CUVOI2GKA57ORU4ENVNGD7",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MFEIM_R10-Z00_1m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MFEIM_R10-Z00_1m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010161847/https://www.eia.gov/dnav/pet/hist_xls/MFEIM_R10-Z00_1m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MFEIM_R10-Z00_1m.xls:4JPTXKLZEJOO2PP6OGR3IH6A4XWDQDJU",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MG4RP_R50_1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MG4RP_R50_1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010024818/https://www.eia.gov/dnav/pet/hist_xls/MG4RP_R50_1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MG4RP_R50_1a.xls:GBMQOYTCNODYTO5TOW5II6YM7SYMJ5MA",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MG4SC_R20_2m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MG4SC_R20_2m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009081530/https://www.eia.gov/dnav/pet/hist_xls/MG4SC_R20_2m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MG4SC_R20_2m.xls:S6GO52GGRCC3RDGPI3YP7MWP76H636EC",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MG4UP_R40_2a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MG4UP_R40_2a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010225707/https://www.eia.gov/dnav/pet/hist_xls/MG4UP_R40_2a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MG4UP_R40_2a.xls:BKDKF25UCDAT7PUJFUOMGFTT4ZBQZDOT",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MGANRP32m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MGANRP32m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007224246/https://www.eia.gov/dnav/pet/hist_xls/MGANRP32m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MGANRP32m.xls:3EKEBCKZJWIN7OXS43ADP63XMZNE73SE",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MGANRP51m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MGANRP51m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008201444/https://www.eia.gov/dnav/pet/hist_xls/MGANRP51m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MGANRP51m.xls:3LK5V4YHE5SXRYYHCU5MGDQ7YW347N4P",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MGFEXKS2m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MGFEXKS2m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009113014/https://www.eia.gov/dnav/pet/hist_xls/MGFEXKS2m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MGFEXKS2m.xls:UOWG4WXLXF2Q5L7SRH3YGKOLH6NGVSAU",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MGFEXNA1m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MGFEXNA1m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005133910/https://www.eia.gov/dnav/pet/hist_xls/MGFEXNA1m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MGFEXNA1m.xls:NYFAEYWKVTBWFF5QMQS4FII2XIMXUPOD",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MGFIMP32m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MGFIMP32m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008083817/https://www.eia.gov/dnav/pet/hist_xls/MGFIMP32m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MGFIMP32m.xls:6XM7BYN2IAFMM6LUPY762TCFQESZR7WX",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MGFRP2A2a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MGFRP2A2a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007143440/https://www.eia.gov/dnav/pet/hist_xls/MGFRP2A2a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MGFRP2A2a.xls:KWLFOXAI7SUIFSN2C3PQ5YQAAUUQMJVS",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MGRRPP22m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MGRRPP22m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008220431/https://www.eia.gov/dnav/pet/hist_xls/MGRRPP22m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MGRRPP22m.xls:IMSPL7Y5YSUD2FIWRBAA3ASH45NWUSV3",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MGRRX_R50_2a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MGRRX_R50_2a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008062326/https://www.eia.gov/dnav/pet/hist_xls/MGRRX_R50_2a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MGRRX_R50_2a.xls:DLSJWEXAMI5IT45NYPAJG6QDTNTXNKIT",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MGRUPP32m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MGRUPP32m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009053922/https://www.eia.gov/dnav/pet/hist_xls/MGRUPP32m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MGRUPP32m.xls:W6HFU7UHRLPC2R766KUG4VXBZVXFJGPL",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MIYRPAP1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MIYRPAP1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009121447/https://www.eia.gov/dnav/pet/hist_xls/MIYRPAP1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MIYRPAP1a.xls:EPVX3TJB7CXOSQC4PWSFPBWNP2CZC37Z",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MKESCP32m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MKESCP32m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010123423/https://www.eia.gov/dnav/pet/hist_xls/MKESCP32m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MKESCP32m.xls:L4BPD5TTGG3GD3K4OTJZWOOZ3C6A2VHO",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MKJEXP32m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MKJEXP32m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006094023/https://www.eia.gov/dnav/pet/hist_xls/MKJEXP32m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MKJEXP32m.xls:VLVLJLEX4TXLUKWBHMFTYOIPUSUHDUMX",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MKJSTP11m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MKJSTP11m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007031221/https://www.eia.gov/dnav/pet/hist_xls/MKJSTP11m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MKJSTP11m.xls:6UXKKSKJJUK6LT5LSKVHBM7XABGRJIBA",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MMSSCP32m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MMSSCP32m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005034604/https://www.eia.gov/dnav/pet/hist_xls/MMSSCP32m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MMSSCP32m.xls:PFIJR73KNCTYESQJLGMLXVP27NEVHWJV",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MNSUPUS2a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MNSUPUS2a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006223036/https://www.eia.gov/dnav/pet/hist_xls/MNSUPUS2a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MNSUPUS2a.xls:SB3NV2J7H5XH2LYT4IIG72WWKGJTYHOM",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MO1RI_NUS_2a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MO1RI_NUS_2a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006104831/https://www.eia.gov/dnav/pet/hist_xls/MO1RI_NUS_2a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MO1RI_NUS_2a.xls:RDZ2J54YAK63DMO4QJZPPC2DB2JUEJS7",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MO5IM_R50-Z00_2m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MO5IM_R50-Z00_2m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008004800/https://www.eia.gov/dnav/pet/hist_xls/MO5IM_R50-Z00_2m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MO5IM_R50-Z00_2m.xls:S3HG7F557NGNV73U63FZB4HRPO6DL5EN",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MO5ST_R10_1m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MO5ST_R10_1m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008172742/https://www.eia.gov/dnav/pet/hist_xls/MO5ST_R10_1m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MO5ST_R10_1m.xls:67VFZHVKELL6G3PCR56KHUTHU2UO6MCR",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MOHEXP31m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MOHEXP31m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009222300/https://www.eia.gov/dnav/pet/hist_xls/MOHEXP31m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MOHEXP31m.xls:5BRCJETLTVU7BX4HCFX74KZEMM6CNW3D",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MOLEXP31m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MOLEXP31m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005220305/https://www.eia.gov/dnav/pet/hist_xls/MOLEXP31m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MOLEXP31m.xls:LYPCO7RO7KKQGTBOQN6XCJCBVTFLWVMO",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MOTRPP11m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MOTRPP11m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007121822/https://www.eia.gov/dnav/pet/hist_xls/MOTRPP11m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MOTRPP11m.xls:A75NBKI6KDIL3FWNIGJLROQON7AQVIJO",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MOTRPP42a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MOTRPP42a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006192618/https://www.eia.gov/dnav/pet/hist_xls/MOTRPP42a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MOTRPP42a.xls:3YJNISULO57CXWNCFNJDGSRKJTWDLKW3",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MPFRPP51a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MPFRPP51a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010062245/https://www.eia.gov/dnav/pet/hist_xls/MPFRPP51a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MPFRPP51a.xls:CM3TLMHLD2KMUGT6ATBWSEBIMHWX67AI",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MPNRX_NUS_1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MPNRX_NUS_1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006043317/https://www.eia.gov/dnav/pet/hist_xls/MPNRX_NUS_1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MPNRX_NUS_1a.xls:YQMLKEWAYIFVZLHZSOWCSCQNY5G33SM7",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MPONR_R30-Z0P_1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MPONR_R30-Z0P_1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008235225/https://www.eia.gov/dnav/pet/hist_xls/MPONR_R30-Z0P_1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MPONR_R30-Z0P_1a.xls:YGHBQO3Z2ZZ3JJ53ALFZCQ764ZNMGXXK",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MPONT_NUS-Z00_2m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MPONT_NUS-Z00_2m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010181137/https://www.eia.gov/dnav/pet/hist_xls/MPONT_NUS-Z00_2m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MPONT_NUS-Z00_2m.xls:KXMXLLCVERO33ZIMAROPU5BSLU6IIKFS",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MREIMMA1m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MREIMMA1m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008032436/https://www.eia.gov/dnav/pet/hist_xls/MREIMMA1m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MREIMMA1m.xls:Z6P4DZ5VUIIPNXEWIOHQWLMF5LCXCEWI",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MRMRPP21m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MRMRPP21m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005233407/https://www.eia.gov/dnav/pet/hist_xls/MRMRPP21m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MRMRPP21m.xls:OTB4BRLNZ37VDAL3YNXCJLYQUB33JFU4",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MRXIM_NUS-NCA_2m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MRXIM_NUS-NCA_2m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006074524/https://www.eia.gov/dnav/pet/hist_xls/MRXIM_NUS-NCA_2m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MRXIM_NUS-NCA_2m.xls:FMZ3C7B3ENALPRSLOFUHMAI5JKDWNHLX",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MRZIMP11m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MRZIMP11m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006121927/https://www.eia.gov/dnav/pet/hist_xls/MRZIMP11m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MRZIMP11m.xls:O7RTK73WDMYHHQP4Q456QPTARJOYHGGD",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MRZIMP52m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MRZIMP52m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010180034/https://www.eia.gov/dnav/pet/hist_xls/MRZIMP52m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MRZIMP52m.xls:RIP5LANIY66FXCVBOS25EFGVNY5RY3AM",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MTPSCP42a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MTPSCP42a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009151404/https://www.eia.gov/dnav/pet/hist_xls/MTPSCP42a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MTPSCP42a.xls:VDLE7ZV5V7S62JYWTPG7QQ2OGXG7YDAR",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MTTIPP3SW1m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MTTIPP3SW1m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005135007/https://www.eia.gov/dnav/pet/hist_xls/MTTIPP3SW1m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MTTIPP3SW1m.xls:BLZLXQ4ISGZCLBZLZOSFD7D63X4DQ4UU",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MTTIP_R40-NRS_1m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MTTIP_R40-NRS_1m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010042148/https://www.eia.gov/dnav/pet/hist_xls/MTTIP_R40-NRS_1m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MTTIP_R40-NRS_1m.xls:DO5DARLQ2OUSOJJFFVEOLUP4B3IAQSVO",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MTTNRP21m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MTTNRP21m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005095742/https://www.eia.gov/dnav/pet/hist_xls/MTTNRP21m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MTTNRP21m.xls:QRXKPWONGG4IQDBAKPBEXES7P57F47DF",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MWXEXUY2m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MWXEXUY2m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008204325/https://www.eia.gov/dnav/pet/hist_xls/MWXEXUY2m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MWXEXUY2m.xls:7656WZUWUBXTBGNBLVU4OXFSS36QKIL3",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/MWXRPP12m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/MWXRPP12m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009064420/https://www.eia.gov/dnav/pet/hist_xls/MWXRPP12m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/MWXRPP12m.xls:PIROFDEGXHJOASUVNFNDWRBITS2523L4",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPDXL0_EEX_NUS-NNZ_MBBLa.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPDXL0_EEX_NUS-NNZ_MBBLa.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006074156/https://www.eia.gov/dnav/pet/hist_xls/M_EPDXL0_EEX_NUS-NNZ_MBBLa.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPDXL0_EEX_NUS-NNZ_MBBLa.xls:AAXSL2NFFE2M4Y3LDGNMGLV46HYLLC3J",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPDXL0_EEX_NUS-NSF_MBBLa.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPDXL0_EEX_NUS-NSF_MBBLa.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005072242/https://www.eia.gov/dnav/pet/hist_xls/M_EPDXL0_EEX_NUS-NSF_MBBLa.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPDXL0_EEX_NUS-NSF_MBBLa.xls:IPFPVRKVKAXMGQSCL367ZUUTX7NUJLUL",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPDXL0_YNP_R30_MBBLDm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPDXL0_YNP_R30_MBBLDm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007050137/https://www.eia.gov/dnav/pet/hist_xls/M_EPDXL0_YNP_R30_MBBLDm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPDXL0_YNP_R30_MBBLDm.xls:GPW6F5WQCKJK67RVGX5KUSLACXQ4HRDN",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPL2_EEX_NUS-NFJ_MBBLDm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_EEX_NUS-NFJ_MBBLDm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009095627/https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_EEX_NUS-NFJ_MBBLDm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_EEX_NUS-NFJ_MBBLDm.xls:WNJAAJSG2DZ4Q4NKWI53N36L4X3UFASA",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPL2_FPF_R50_MBBLDa.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_FPF_R50_MBBLDa.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010030243/https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_FPF_R50_MBBLDa.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_FPF_R50_MBBLDa.xls:YVWPDYJ6CSJHPWVBECHWZFGIWWNJCGHI",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPL2_IM0_R20-NCA_MBBLa.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_IM0_R20-NCA_MBBLa.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005175853/https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_IM0_R20-NCA_MBBLa.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_IM0_R20-NCA_MBBLa.xls:WSTONBJNAYO7AP6HJ2SWXZYX4WACLVUG",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPL2_YPR_RAP_MBBLDa.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_YPR_RAP_MBBLDa.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006073723/https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_YPR_RAP_MBBLDa.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPL2_YPR_RAP_MBBLDa.xls:RSLFPJJLQUYLMRM5Y5CPSMTQATHYY35P",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPLLBAI_EEX_NUS-NSP_1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPLLBAI_EEX_NUS-NSP_1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009064605/https://www.eia.gov/dnav/pet/hist_xls/M_EPLLBAI_EEX_NUS-NSP_1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPLLBAI_EEX_NUS-NSP_1a.xls:CSXO4KFKVCC2EVW3E3DKBZPE2WXML5TE",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPLL_EEX_NUS-NGV_2m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPLL_EEX_NUS-NGV_2m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005072419/https://www.eia.gov/dnav/pet/hist_xls/M_EPLL_EEX_NUS-NGV_2m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPLL_EEX_NUS-NGV_2m.xls:2PQ6ZFXYUOYKMAHQ6UALHWGB6C5LO3OU",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPOORDB_IM0_NUS-NSP_MBBLDm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPOORDB_IM0_NUS-NSP_MBBLDm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009211446/https://www.eia.gov/dnav/pet/hist_xls/M_EPOORDB_IM0_NUS-NSP_MBBLDm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPOORDB_IM0_NUS-NSP_MBBLDm.xls:YIUUAQ7Z5DEVL5F6N35NFLX2YFK7UWIB",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPOORDB_VNR_R10-Z0P_MBBLm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPOORDB_VNR_R10-Z0P_MBBLm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005065753/https://www.eia.gov/dnav/pet/hist_xls/M_EPOORDB_VNR_R10-Z0P_MBBLm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPOORDB_VNR_R10-Z0P_MBBLm.xls:SIGNFLUA65KHLQ5JYHOX6NXRYTFKUJ7E",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPOORDB_VPP_R30_MBBLDm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPOORDB_VPP_R30_MBBLDm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009092130/https://www.eia.gov/dnav/pet/hist_xls/M_EPOORDB_VPP_R30_MBBLDm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPOORDB_VPP_R30_MBBLDm.xls:SW5J6WZYCGRBDEB447BCZIDAYVGSWE6C",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPOORDO_YIR_R20_MBBLDm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPOORDO_YIR_R20_MBBLDm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006124614/https://www.eia.gov/dnav/pet/hist_xls/M_EPOORDO_YIR_R20_MBBLDm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPOORDO_YIR_R20_MBBLDm.xls:E7MWREBZJRMETCCDHWXHBABABGIE3VQ3",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPOORO_EEX_R20-Z00_MBBLa.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPOORO_EEX_R20-Z00_MBBLa.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006115123/https://www.eia.gov/dnav/pet/hist_xls/M_EPOORO_EEX_R20-Z00_MBBLa.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPOORO_EEX_R20-Z00_MBBLa.xls:DISYY4YGMESGUD4ZJBRXYPWGHKJWE7PY",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPOORO_YIR_R50_MBBLDm.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPOORO_YIR_R50_MBBLDm.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006001634/https://www.eia.gov/dnav/pet/hist_xls/M_EPOORO_YIR_R50_MBBLDm.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPOORO_YIR_R50_MBBLDm.xls:L5FCW7MT5KETQ2MU7PTUAB2QFBBKMH6D",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPOOXE_EEX_NUS-NEN_MBBLDa.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPOOXE_EEX_NUS-NEN_MBBLDa.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008073332/https://www.eia.gov/dnav/pet/hist_xls/M_EPOOXE_EEX_NUS-NEN_MBBLDa.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPOOXE_EEX_NUS-NEN_MBBLDa.xls:FENEJWFUARBNGE52QE77CD6CDKBMHMJ3",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPPRH_IM0_NUS-NGM_2a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPPRH_IM0_NUS-NGM_2a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007145335/https://www.eia.gov/dnav/pet/hist_xls/M_EPPRH_IM0_NUS-NGM_2a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPPRH_IM0_NUS-NGM_2a.xls:5DSILHXKSSCJJUBIQZ5XVOBCJEN2ITDB",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/M_EPPW_EEX_NUS-NST_2m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/M_EPPW_EEX_NUS-NST_2m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008102648/https://www.eia.gov/dnav/pet/hist_xls/M_EPPW_EEX_NUS-NST_2m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/M_EPPW_EEX_NUS-NST_2m.xls:2IYYH5TZ2WOFTKSEZHCZOJYT5MSGM2GQ",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/R0020____3m.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/R0020____3m.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006110459/https://www.eia.gov/dnav/pet/hist_xls/R0020____3m.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/R0020____3m.xls:RJ22WTTTVOCTLFXOEF65WUPDOLZIEFP2",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/RCRR02SUT_1a.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/RCRR02SUT_1a.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009062247/https://www.eia.gov/dnav/pet/hist_xls/RCRR02SUT_1a.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/RCRR02SUT_1a.xls:VO42H2T6VWUWQCNPJHBZEV3UFEWR6JW2",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/WD0ST_NUS_1w.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/WD0ST_NUS_1w.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008064459/https://www.eia.gov/dnav/pet/hist_xls/WD0ST_NUS_1w.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/WD0ST_NUS_1w.xls:RBLCIAZBYHJCLS3H336RBM35YIXBKVRY",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/WDIST1B1w.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/WDIST1B1w.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008203333/https://www.eia.gov/dnav/pet/hist_xls/WDIST1B1w.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/WDIST1B1w.xls:ES4QDPGNRAMTHZ54JPKOTWCQG42KFEUZ",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/WO3IM_R20-Z00_2w.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/WO3IM_R20-Z00_2w.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261011: https://web.archive.org/web/20261011004403/https://www.eia.gov/dnav/pet/hist_xls/WO3IM_R20-Z00_2w.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/WO3IM_R20-Z00_2w.xls:ITKQQRI4PJCZGOFIVE25C67L4CHITRAD",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/WO7ST_NUS_1w.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/WO7ST_NUS_1w.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010011217/https://www.eia.gov/dnav/pet/hist_xls/WO7ST_NUS_1w.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/WO7ST_NUS_1w.xls:LBSH3UFUIMOIVEU5TMBQAJEXRWFGGTJ4",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/W_EPLLPA_PRS_SOH_DPGw.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/W_EPLLPA_PRS_SOH_DPGw.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006105747/https://www.eia.gov/dnav/pet/hist_xls/W_EPLLPA_PRS_SOH_DPGw.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/W_EPLLPA_PRS_SOH_DPGw.xls:K7CMP6N3SXQISUCCTW2GT4C4C7ABUZZD",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "dnav/pet/hist_xls/W_EPLLPA_PRS_SPA_DPGw.xls",
+   "url": "https://www.eia.gov/dnav/pet/hist_xls/W_EPLLPA_PRS_SPA_DPGw.xls",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005053848/https://www.eia.gov/dnav/pet/hist_xls/W_EPLLPA_PRS_SPA_DPGw.xls",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/dnav/pet/hist_xls/W_EPLLPA_PRS_SPA_DPGw.xls:EIVZBS463SP7Y7RRP4D4KTBWCHDJR7NW",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2011/2011_12_14/pdf/table3.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2011/2011_12_14/pdf/table3.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008090357/https://www.eia.gov/petroleum/supply/weekly/archive/2011/2011_12_14/pdf/table3.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2011/2011_12_14/pdf/table3.pdf:MME33RNBOYY5MJ76BH5CTYVKJRTT6TFS",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2012/2012_05_09/csv/table5.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_05_09/csv/table5.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006043633/https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_05_09/csv/table5.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_05_09/csv/table5.csv:HCJJ3HM2TEGIQ4IJZUIIUMRSUUG6OYVL",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2012/2012_05_09/pdf/figure1.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_05_09/pdf/figure1.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009225954/https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_05_09/pdf/figure1.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_05_09/pdf/figure1.pdf:O7DEJWE3KZQV6VISZYF2F5UDWBY33VJF",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2012/2012_07_11/pdf/table4.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_07_11/pdf/table4.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008021650/https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_07_11/pdf/table4.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_07_11/pdf/table4.pdf:WXNJN5SKVT7HJXG3UJQWUPMOHIOBLEJO",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2012/2012_11_15/csv/table3.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_11_15/csv/table3.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006230612/https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_11_15/csv/table3.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_11_15/csv/table3.csv:6KW7NNGZB6PEPPKB4EMIOOMM4G4SXYKE",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2012/2012_11_15/pdf/appendixb.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_11_15/pdf/appendixb.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006061633/https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_11_15/pdf/appendixb.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_11_15/pdf/appendixb.pdf:CJD3YELLS56EKK5TZ6HQLOACRT3TU7ES",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2012/2012_11_21/csv/table14.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_11_21/csv/table14.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009233621/https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_11_21/csv/table14.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2012/2012_11_21/csv/table14.csv:4IH67RL4CVPPDSBEPJFITQYZLH5K35XY",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2014/2014_11_05/csv/table5a.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2014/2014_11_05/csv/table5a.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008100724/https://www.eia.gov/petroleum/supply/weekly/archive/2014/2014_11_05/csv/table5a.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2014/2014_11_05/csv/table5a.csv:ZCOIJ56API4MGD6CLQ5FILXGDG62PNRE",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2014/2014_11_26/pdf/appendixc.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2014/2014_11_26/pdf/appendixc.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007115300/https://www.eia.gov/petroleum/supply/weekly/archive/2014/2014_11_26/pdf/appendixc.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2014/2014_11_26/pdf/appendixc.pdf:I76TEVERFQ634IJXG6PTSRHNZXICJTK6",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2015/2015_03_18/csv/table1.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2015/2015_03_18/csv/table1.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005052747/https://www.eia.gov/petroleum/supply/weekly/archive/2015/2015_03_18/csv/table1.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2015/2015_03_18/csv/table1.csv:AGV33F27HKN6NB3PANHXBBO4TE2WWK4Y",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2015/2015_04_15/pdf/table5.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2015/2015_04_15/pdf/table5.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005122944/https://www.eia.gov/petroleum/supply/weekly/archive/2015/2015_04_15/pdf/table5.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2015/2015_04_15/pdf/table5.pdf:UGESQADMG7HW3DTCNAAJHAJWMFRZ4LXU",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2015/2015_11_18/pdf/table6.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2015/2015_11_18/pdf/table6.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007113500/https://www.eia.gov/petroleum/supply/weekly/archive/2015/2015_11_18/pdf/table6.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2015/2015_11_18/pdf/table6.pdf:QXET3JWIYGJU5DBQ3Y4FLOE2FQGK42RT",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2016/2016_01_27/csv/table1.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2016/2016_01_27/csv/table1.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007135920/https://www.eia.gov/petroleum/supply/weekly/archive/2016/2016_01_27/csv/table1.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2016/2016_01_27/csv/table1.csv:ZSR3MOWE6SKT4JHYJTVUTS36LUOTZWWN",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2016/2016_08_10/csv/table3.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2016/2016_08_10/csv/table3.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009110031/https://www.eia.gov/petroleum/supply/weekly/archive/2016/2016_08_10/csv/table3.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2016/2016_08_10/csv/table3.csv:PLWU4JMOLVZGMMSXZT5QFM4ASBLM62P7",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2017/2017_03_08/csv/table10.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_03_08/csv/table10.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010172221/https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_03_08/csv/table10.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_03_08/csv/table10.csv:LIRJVEPX62BVNFANIDGJCXULRVB7KMO7",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2017/2017_06_07/csv/table5a.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_06_07/csv/table5a.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006201918/https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_06_07/csv/table5a.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_06_07/csv/table5a.csv:YT7JRDWTA3N2U566ME4YI6VHJGSUJL3E",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2017/2017_06_21/pdf/table6.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_06_21/pdf/table6.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009183237/https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_06_21/pdf/table6.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_06_21/pdf/table6.pdf:YGJNFSM2MKHEQ57ZW2ZRMY2V4EJQSCII",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2017/2017_09_20/pdf/table3.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_09_20/pdf/table3.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007001200/https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_09_20/pdf/table3.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_09_20/pdf/table3.pdf:5JHUGFNF5E66PYJOQGZAPSPD74BZ4XAH",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2017/2017_10_04/pdf/table8.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_10_04/pdf/table8.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005154627/https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_10_04/pdf/table8.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2017/2017_10_04/pdf/table8.pdf:VJLTXZ53URTJP6CLN5VJBSHDO4ZKAGTR",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2018/2018_02_07/csv/table3.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2018/2018_02_07/csv/table3.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006013130/https://www.eia.gov/petroleum/supply/weekly/archive/2018/2018_02_07/csv/table3.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2018/2018_02_07/csv/table3.csv:FU73JKO7JU64ULBXQXAK5LGPY4Z4GFCJ",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2018/2018_05_31/csv/table12.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2018/2018_05_31/csv/table12.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008211948/https://www.eia.gov/petroleum/supply/weekly/archive/2018/2018_05_31/csv/table12.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2018/2018_05_31/csv/table12.csv:D5KGL33G25O3KST3ZKMXBEXPRSKH5MB5",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2019/2019_01_24/pdf/highlights.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_01_24/pdf/highlights.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010203517/https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_01_24/pdf/highlights.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_01_24/pdf/highlights.pdf:VULP52KOQMLQHWEQRPSDZGXAIKSP25F4",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2019/2019_01_24/pdf/table7.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_01_24/pdf/table7.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009115357/https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_01_24/pdf/table7.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_01_24/pdf/table7.pdf:2GQLA5YTAEML7LUGD2FNMFMMFCVCBNLR",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2019/2019_03_27/pdf/figure4.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_03_27/pdf/figure4.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009082440/https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_03_27/pdf/figure4.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_03_27/pdf/figure4.pdf:XPDYC25HCXO2YSE44GKWCKNW2OBQ372B",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2019/2019_03_27/pdf/table3.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_03_27/pdf/table3.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261011: https://web.archive.org/web/20261011014059/https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_03_27/pdf/table3.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_03_27/pdf/table3.pdf:77DWASN3XJWSPN2QES7QEEPDVQHYOXHN",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2019/2019_04_03/pdf/appendixc.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_04_03/pdf/appendixc.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005153206/https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_04_03/pdf/appendixc.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_04_03/pdf/appendixc.pdf:RQENNXKNY3LWRVYIE3CZKAEK5DK57MYC",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2019/2019_06_12/pdf/table3.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_06_12/pdf/table3.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009135724/https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_06_12/pdf/table3.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_06_12/pdf/table3.pdf:XYJISOTFYANAFBTWGCARFMBO334FYUA3",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2019/2019_08_21/pdf/appendixd.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_08_21/pdf/appendixd.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261011: https://web.archive.org/web/20261011011609/https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_08_21/pdf/appendixd.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2019/2019_08_21/pdf/appendixd.pdf:ZO4R24H5HVPITZ6CTCUHWSYQ6XNYYRTL",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2020/2020_06_17/pdf/appendixc.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2020/2020_06_17/pdf/appendixc.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007003056/https://www.eia.gov/petroleum/supply/weekly/archive/2020/2020_06_17/pdf/appendixc.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2020/2020_06_17/pdf/appendixc.pdf:5IWNREIQ5ULPF542ZOQDPLUEUOMJPD65",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2020/2020_12_02/pdf/figure7_8.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2020/2020_12_02/pdf/figure7_8.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010042314/https://www.eia.gov/petroleum/supply/weekly/archive/2020/2020_12_02/pdf/figure7_8.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2020/2020_12_02/pdf/figure7_8.pdf:ASZMFVWYAW2GBX3EPATJY2K6XBDVH2QP",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2021/2021_02_24/pdf/appendixc.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_02_24/pdf/appendixc.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261007: https://web.archive.org/web/20261007101130/https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_02_24/pdf/appendixc.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_02_24/pdf/appendixc.pdf:C42UXETTSYQ57AEU5GGX4JKMVOPUD223",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2021/2021_06_30/pdf/table8.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_06_30/pdf/table8.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006034500/https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_06_30/pdf/table8.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_06_30/pdf/table8.pdf:HNYD37YIOH5UGYAURO6AR5IMC73ARJDN",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2021/2021_11_10/pdf/sources.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_11_10/pdf/sources.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005051329/https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_11_10/pdf/sources.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_11_10/pdf/sources.pdf:NFGOL3YVEFJM4G2GNDCVVH4H2N4XVJWB",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2021/2021_11_10/pdf/table12.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_11_10/pdf/table12.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008211135/https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_11_10/pdf/table12.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_11_10/pdf/table12.pdf:7PPO2527GXMOIN2ONUSF3GOY5WQXDPMA",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2021/2021_11_17/pdf/table12.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_11_17/pdf/table12.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010142857/https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_11_17/pdf/table12.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2021/2021_11_17/pdf/table12.pdf:KNNTWH6RMQPHY47VAZHBYOSZKEWUOBAG",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2022/2022_08_24/pdf/highlights.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_08_24/pdf/highlights.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009235240/https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_08_24/pdf/highlights.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_08_24/pdf/highlights.pdf:ZINJOL5X57FXXKCF3LRUW7GAECKNPRT4",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2022/2022_10_05/csv/table12.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_05/csv/table12.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005201209/https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_05/csv/table12.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_05/csv/table12.csv:BGAGLPPLQZA5GM2PL6HVXZVJZ6M5SHUI",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2022/2022_10_13/csv/table12.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_13/csv/table12.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010150810/https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_13/csv/table12.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_13/csv/table12.csv:YOQSM2NOKQ2ZAW3KE5A6XYOTXYAUWD5Y",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2022/2022_10_13/pdf/appendixd.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_13/pdf/appendixd.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008201836/https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_13/pdf/appendixd.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_13/pdf/appendixd.pdf:3HF56VJDPQF5HTU7O6XZUKGZ4HRVT56H",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2022/2022_10_13/pdf/glossary.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_13/pdf/glossary.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009220955/https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_13/pdf/glossary.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_10_13/pdf/glossary.pdf:3LDL5RJ3RC3SP33M3H7NXTDYTUCGQ7RY",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2023/2023_04_19/pdf/figure6.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_04_19/pdf/figure6.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261009: https://web.archive.org/web/20261009112521/https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_04_19/pdf/figure6.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_04_19/pdf/figure6.pdf:YFETN6GVJTQH7JYLCWVYZ54ZOLLNNUHP",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2023/2023_04_19/pdf/table14.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_04_19/pdf/table14.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006165942/https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_04_19/pdf/table14.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_04_19/pdf/table14.pdf:EOL7LJDVWJJ55LRPC66U6CQLJT6FVCQ5",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2023/2023_07_06/pdf/table13.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_07_06/pdf/table13.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261010: https://web.archive.org/web/20261010224221/https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_07_06/pdf/table13.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_07_06/pdf/table13.pdf:SBW2YQZRIUDASWUK6PLKQTJENCJTOY34",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2023/2023_09_20/pdf/figure7_8.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_09_20/pdf/figure7_8.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006094405/https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_09_20/pdf/figure7_8.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_09_20/pdf/figure7_8.pdf:MC44UMVM6SH56RMALACU4APDS2PU2C2D",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2024/2024_03_20/pdf/table6.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_03_20/pdf/table6.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008231757/https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_03_20/pdf/table6.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_03_20/pdf/table6.pdf:SYOSOIAEWXKAW24J5QAT2OTTPJQVQEF3",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2024/2024_05_30/csv/table8.csv",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_30/csv/table8.csv",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006231143/https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_30/csv/table8.csv",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_30/csv/table8.csv:66LWWWPJLQJK3EGKCD2ZSTGG23WQCZTD",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2024/2024_05_30/pdf/highlights.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_30/pdf/highlights.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006212622/https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_30/pdf/highlights.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_30/pdf/highlights.pdf:HVCESFVXZHRRKOYQ5JASVKR4QXT7ZQV7",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2024/2024_05_30/pdf/table4.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_30/pdf/table4.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008222617/https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_30/pdf/table4.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_30/pdf/table4.pdf:XH67OSDHAFYPMDQABHTQOG6NEIXQ5NMS",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2024/2024_11_20/pdf/table14.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_11_20/pdf/table14.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261005: https://web.archive.org/web/20261005185344/https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_11_20/pdf/table14.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_11_20/pdf/table14.pdf:H5HGTRHXM5OLQFQV3EWFFNL3PEIAYRAE",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/archive/2024/2024_12_18/pdf/figure3.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_12_18/pdf/figure3.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261006: https://web.archive.org/web/20261006105700/https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_12_18/pdf/figure3.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_12_18/pdf/figure3.pdf:4GRVPNGUMZ3WC6WMOEEOY6YOTQCLPFRF",
+   "new": true
+  },
+  {
+   "kind": "agency-file",
+   "title": "petroleum/supply/weekly/pdf/table1.pdf",
+   "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/table1.pdf",
+   "score": 9,
+   "why": "new file on www.eia.gov, captured 20261008: https://web.archive.org/web/20261008140306/https://www.eia.gov/petroleum/supply/weekly/pdf/table1.pdf",
+   "source": "wayback_cdx",
+   "id": "cdx:https://www.eia.gov/petroleum/supply/weekly/pdf/table1.pdf:D62CE3WQE6MAYV72VQIOGQWE3CD3FVM7",
+   "new": true
+  },
+  {
+   "kind": "paper",
+   "title": "Execution-Feasible Dispatch of LLM Pre-training Loads for Renewable-Dominant AI Data Centers",
+   "url": "http://arxiv.org/abs/2610.13047v1",
+   "score": 6,
+   "why": "arXiv 2026-10-09: AI data centers (AIDCs) are emerging as large power-system loads, making their operational flexibility increas",
+   "source": "arxiv",
+   "id": "arxiv:2610.13047",
+   "new": true
+  },
+  {
+   "kind": "paper",
+   "title": "Kuration SDK: Addressing the Virtual2Real Gap via Data Curation",
+   "url": "http://arxiv.org/abs/2610.09305v1",
+   "score": 6,
+   "why": "arXiv 2026-10-07: Benchmarks for measuring the quality of action-conditioned world models are still evolving and shifting away f",
+   "source": "arxiv",
+   "id": "arxiv:2610.09305",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Mikrozensus",
+   "url": "https://data.europa.eu/data/datasets/https-metaver-de-search-st-opensearch-query-format-rdf-h-100-mikrozensus",
    "score": 5,
-   "why": "new on data.europa.eu (2026-10-03), query 'gas storage'",
+   "why": "new on data.europa.eu (2026-10-10), query 'energy'",
    "source": "ckan",
-   "id": "ckan:data.europa.eu:https-metaver-de-search-st-opensearch-query-format-rdf-h-100-monatsstatistik-im-gastgewerbeaa5db",
-   "new": false
+   "id": "ckan:data.europa.eu:https-metaver-de-search-st-opensearch-query-format-rdf-h-100-mikrozensus",
+   "new": true
   },
   {
    "kind": "dataset",
-   "title": "2026, Taqa Bratani Ltd, Braemar, East Brae, and Devenick; Blocks 16 & 9, Site Survey, DECC Reference Number GS_2043",
-   "url": "https://www.data.gov.uk/dataset/2026-taqa-bratani-ltd-braemar-east-brae-and-devenick-blocks-16-9-site-survey-decc-referenc-2043",
+   "title": "Energiebilanzen",
+   "url": "https://data.europa.eu/data/datasets/https-metaver-de-search-st-opensearch-query-format-rdf-h-100-energiebilanzen",
    "score": 5,
-   "why": "new on data.gov.uk (2026-10-02), query 'oil'",
+   "why": "new on data.europa.eu (2026-10-10), query 'energy'",
    "source": "ckan",
-   "id": "ckan:data.gov.uk:27a7c812-4c37-4d23-92c0-c7bdb31be472",
-   "new": false
+   "id": "ckan:data.europa.eu:https-metaver-de-search-st-opensearch-query-format-rdf-h-100-energiebilanzen",
+   "new": true
   },
   {
    "kind": "dataset",
-   "title": "2026, Taqa Bratani Ltd, Central Brae, West Brae, and Brae Alpha; Block 16, Site Survey, DECC Reference Number GS_2042",
-   "url": "https://www.data.gov.uk/dataset/2026-taqa-bratani-ltd-central-brae-west-brae-and-brae-alpha-block-16-site-survey-decc-refe-2042",
+   "title": "Zusatzprogramm des Mikrozensus",
+   "url": "https://data.europa.eu/data/datasets/https-metaver-de-search-st-opensearch-query-format-rdf-h-100-zusatzprogramm-des-mikrozensus",
    "score": 5,
-   "why": "new on data.gov.uk (2026-10-02), query 'oil'",
+   "why": "new on data.europa.eu (2026-10-10), query 'energy'",
    "source": "ckan",
-   "id": "ckan:data.gov.uk:7c3b164f-6b00-4a3f-a30f-2ce07f4004fa",
-   "new": false
+   "id": "ckan:data.europa.eu:https-metaver-de-search-st-opensearch-query-format-rdf-h-100-zusatzprogramm-des-mikrozensus",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Entnahme",
+   "url": "https://data.europa.eu/data/datasets/https-metaver-de-search-st-opensearch-query-format-rdf-h-100-entnahme4f82e",
+   "score": 5,
+   "why": "new on data.europa.eu (2026-10-10), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:https-metaver-de-search-st-opensearch-query-format-rdf-h-100-entnahme4f82e",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "",
+   "url": "https://data.europa.eu/data/datasets/5578f7dd-6919-4b50-b369-11295c313133",
+   "score": 5,
+   "why": "new on data.europa.eu (2026-10-11), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:5578f7dd-6919-4b50-b369-11295c313133",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "",
+   "url": "https://data.europa.eu/data/datasets/36ab1806-1271-43ad-bbff-c314052f9788",
+   "score": 5,
+   "why": "new on data.europa.eu (2026-10-09), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:36ab1806-1271-43ad-bbff-c314052f9788",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Güterverkehrsstatistik der Binnenschifffahrt",
+   "url": "https://data.europa.eu/data/datasets/https-metaver-de-search-st-opensearch-query-format-rdf-h-100-guterverkehrsstatistik-der-binnenschifffahrt",
+   "score": 5,
+   "why": "new on data.europa.eu (2026-10-05), query 'shipping'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:https-metaver-de-search-st-opensearch-query-format-rdf-h-100-guterverkehrsstatistik-der-binnenschifffahrt",
+   "new": true
   }
  ]
 }
