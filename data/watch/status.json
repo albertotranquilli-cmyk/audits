@@ -1,6 +1,8 @@
 {
  "portwatch_hormuz": {
-  "consecutive_failures": 0
+  "consecutive_failures": 1,
+  "last_failure_utc": "2026-10-13T12:54:18Z",
+  "last_error": "API error: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6839 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}"
  },
  "jodi_china_crude": {
   "consecutive_failures": 0
