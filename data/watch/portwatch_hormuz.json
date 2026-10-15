@@ -1,19 +1,19 @@
 {
  "source": "IMF PortWatch, Daily Chokepoints Data, Strait of Hormuz (chokepoint6)",
  "source_url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
- "publisher_last_edit": "2026-10-06T12:09:01Z",
- "checked_at_utc": "2026-10-06T12:11:14Z",
- "n_periods": 2834,
+ "publisher_last_edit": "2026-10-14T12:39:44Z",
+ "checked_at_utc": "2026-10-15T10:15:11Z",
+ "n_periods": 2841,
  "first_date": "2019-01-01",
- "latest_date": "2026-10-04",
+ "latest_date": "2026-10-11",
  "latest": {
-  "n_tanker": 0,
-  "capacity_tanker": 0,
-  "n_total": 4,
-  "capacity": 81884
+  "n_tanker": 1,
+  "capacity_tanker": 4636,
+  "n_total": 2,
+  "capacity": 77388
  },
- "raw_sha256": "5556a8b9c71d7fa7fed68addd8c902eeb58658da2d1dbc9bf64cb345deaddddb",
- "series_sha256": "1f2be912278cf66d77b6a1ee919def04fae68f79e213209a132d6340acba73f1",
+ "raw_sha256": "57b4b27f09b455f465998209be77be43275ff4b473eb406117475139d008c997",
+ "series_sha256": "d3ad59cf0ba3b557f6c93428dcad31d6f02ee9e9f878a63769ce665ae1a1e6fa",
  "year_sha256": {
   "2019": "67f97e51ab661a2290bbce1a2cd23c1f085a3f511917fe918a3389a62555a8b9",
   "2020": "be375fcd76c187d91f4648663e55d7a8802fcfcc826b73676cf1fbb097583d21",
@@ -22,58 +22,9 @@
   "2023": "dc62a20043842aa45032b8cc6f811947990debfee1a193e74d191394fa84f153",
   "2024": "47d3b39ca7da82d58cd00972734e19847cf5a56207ecc9cf9dca7da18239c995",
   "2025": "8eac5a59d41d17f635a2de5a8648a730b495ec134ade6f4e6b4255890574c1bf",
-  "2026": "41494080159f093abb59e4b54b5c0d35b86706b2c06dde6778811ad1ac327130"
+  "2026": "ec60702e6d3a9cbb84a1ecb9085c1e3d48141db042086802363619a5666c0e16"
  },
  "recent": [
-  {
-   "date": "2026-09-07",
-   "n_tanker": 2,
-   "capacity_tanker": 4758,
-   "n_total": 5,
-   "capacity": 70380
-  },
-  {
-   "date": "2026-09-08",
-   "n_tanker": 2,
-   "capacity_tanker": 0,
-   "n_total": 6,
-   "capacity": 390320
-  },
-  {
-   "date": "2026-09-09",
-   "n_tanker": 0,
-   "capacity_tanker": 0,
-   "n_total": 3,
-   "capacity": 0
-  },
-  {
-   "date": "2026-09-10",
-   "n_tanker": 1,
-   "capacity_tanker": 0,
-   "n_total": 5,
-   "capacity": 30768
-  },
-  {
-   "date": "2026-09-11",
-   "n_tanker": 3,
-   "capacity_tanker": 81604,
-   "n_total": 8,
-   "capacity": 96001
-  },
-  {
-   "date": "2026-09-12",
-   "n_tanker": 1,
-   "capacity_tanker": 4771,
-   "n_total": 2,
-   "capacity": 84568
-  },
-  {
-   "date": "2026-09-13",
-   "n_tanker": 1,
-   "capacity_tanker": 0,
-   "n_total": 8,
-   "capacity": 71701
-  },
   {
    "date": "2026-09-14",
    "n_tanker": 0,
@@ -220,16 +171,66 @@
    "capacity_tanker": 0,
    "n_total": 4,
    "capacity": 81884
+  },
+  {
+   "date": "2026-10-05",
+   "n_tanker": 1,
+   "capacity_tanker": 4771,
+   "n_total": 8,
+   "capacity": 439887
+  },
+  {
+   "date": "2026-10-06",
+   "n_tanker": 1,
+   "capacity_tanker": 119052,
+   "n_total": 2,
+   "capacity": 119052
+  },
+  {
+   "date": "2026-10-07",
+   "n_tanker": 1,
+   "capacity_tanker": 40860,
+   "n_total": 6,
+   "capacity": 127964
+  },
+  {
+   "date": "2026-10-08",
+   "n_tanker": 0,
+   "capacity_tanker": 0,
+   "n_total": 4,
+   "capacity": 73111
+  },
+  {
+   "date": "2026-10-09",
+   "n_tanker": 0,
+   "capacity_tanker": 0,
+   "n_total": 3,
+   "capacity": 41992
+  },
+  {
+   "date": "2026-10-10",
+   "n_tanker": 0,
+   "capacity_tanker": 0,
+   "n_total": 4,
+   "capacity": 50421
+  },
+  {
+   "date": "2026-10-11",
+   "n_tanker": 1,
+   "capacity_tanker": 4636,
+   "n_total": 2,
+   "capacity": 77388
   }
  ],
  "wayback": [
   {
    "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0?f=json",
-   "archive": "https://web.archive.org/web/20261006121211/https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0?f=json"
+   "archive": "https://web.archive.org/web/20261015101630/https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0?f=json"
   },
   {
    "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query?f=json&returnGeometry=false&where=portid%3D%27chokepoint6%27&outFields=date%2Cn_tanker%2Ccapacity_tanker%2Cn_total%2Ccapacity&orderByFields=date&resultOffset=0&resultRecordCount=1000",
-   "archive": "https://web.archive.org/web/20261006121556/https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query?f=json&returnGeometry=false&where=portid%3D%27chokepoint6%27&outFields=date%2Cn_tanker%2Ccapacity_tanker%2Cn_total%2Ccapacity&orderByFields=date&resultOffset=0&resultRecordCount=1000"
+   "archive": null,
+   "error": "<urlopen error [Errno 111] Connection refused>"
   }
  ]
 }
