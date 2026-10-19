@@ -1,7 +1,9 @@
 {
 "commoncrawl": [],
 "ia": [
+"fliarbi-oil-prices-news-2019-2026",
 "jme-vol-1.-issue-1.-2026.009",
+"place-419235986-innovation-inc-uranium-refinery-2",
 "refined-soyabean-oil-uses-buying-guide-common-pack-sizes",
 "tank_20261001"
 ],
@@ -20,7 +22,7 @@
 "https://www.eia.gov/opendata/bulk/AEO2025.zip#2025-06-04T20:56:41-04:00",
 "https://www.eia.gov/opendata/bulk/AEO2026.zip#2026-03-26T17:48:03-04:00",
 "https://www.eia.gov/opendata/bulk/COAL.zip#2026-09-28T16:28:08-04:00",
-"https://www.eia.gov/opendata/bulk/EBA.zip#2026-10-12T05:04:08-04:00",
+"https://www.eia.gov/opendata/bulk/EBA.zip#2026-10-19T05:04:18-04:00",
 "https://www.eia.gov/opendata/bulk/ELEC.zip#2026-09-23T17:01:12-04:00",
 "https://www.eia.gov/opendata/bulk/EMISS.zip#2023-07-12T08:06:37-04:00",
 "https://www.eia.gov/opendata/bulk/IEO.zip#2026-09-25T18:29:56-04:00",
@@ -29,9 +31,9 @@
 "https://www.eia.gov/opendata/bulk/IEO2021.zip#2026-09-25T18:29:56-04:00",
 "https://www.eia.gov/opendata/bulk/IEO2023.zip#2023-08-29T08:49:47-04:00",
 "https://www.eia.gov/opendata/bulk/INTL.zip#2026-09-30T21:20:54-04:00",
-"https://www.eia.gov/opendata/bulk/NG.zip#2026-10-08T15:05:12-04:00",
-"https://www.eia.gov/opendata/bulk/NUC_STATUS.zip#2026-10-12T08:06:08-04:00",
-"https://www.eia.gov/opendata/bulk/PET.zip#2026-10-07T17:59:25-04:00",
+"https://www.eia.gov/opendata/bulk/NG.zip#2026-10-15T18:43:40-04:00",
+"https://www.eia.gov/opendata/bulk/NUC_STATUS.zip#2026-10-16T10:05:48-04:00",
+"https://www.eia.gov/opendata/bulk/PET.zip#2026-10-15T18:43:40-04:00",
 "https://www.eia.gov/opendata/bulk/PET_IMPORTS.zip#2026-09-29T19:32:50-04:00",
 "https://www.eia.gov/opendata/bulk/SEDS.zip#2026-06-26T15:32:24-04:00",
 "https://www.eia.gov/opendata/bulk/STEO.zip#2026-10-06T16:02:16-04:00",
