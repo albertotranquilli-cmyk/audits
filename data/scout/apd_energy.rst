@@ -10,6 +10,8 @@
         
 * |OK_ICON| `DBFC - Direct Borohydride Fuel Cell (DBFC) Dataset <https://github.com/ECSIM/dbfc-dataset>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/DBFC.yml>`_]
         
+* |OK_ICON| `DC Hub US Grid Infrastructure Extracts (Substations, Transmission Lines, Gas Pipelines) - [...] <https://dchub.cloud/api/v1/odbl/manifest.json>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/DC-Hub-US-Grid-Infrastructure-OSM-Extracts.yml>`_]
+        
 * |OK_ICON| `DEL - Domestic Electrical Load study datsets for South Africa (1994 - 2014) <https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/DELS>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/DEL.yml>`_]
         
 * |FIXME_ICON| `ECO - The ECO data set is a comprehensive data set for non-intrusive load monitoring and [...] <http://www.vs.inf.ethz.ch/res/show.html?what=eco-data>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/ECO.yml>`_]

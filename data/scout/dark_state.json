@@ -23,7 +23,7 @@
 "https://www.eia.gov/opendata/bulk/AEO2025.zip#2025-06-04T20:56:41-04:00",
 "https://www.eia.gov/opendata/bulk/AEO2026.zip#2026-03-26T17:48:03-04:00",
 "https://www.eia.gov/opendata/bulk/COAL.zip#2026-09-28T16:28:08-04:00",
-"https://www.eia.gov/opendata/bulk/EBA.zip#2026-10-26T05:04:09-04:00",
+"https://www.eia.gov/opendata/bulk/EBA.zip#2026-11-02T05:03:57-05:00",
 "https://www.eia.gov/opendata/bulk/ELEC.zip#2026-10-22T18:26:13-04:00",
 "https://www.eia.gov/opendata/bulk/EMISS.zip#2023-07-12T08:06:37-04:00",
 "https://www.eia.gov/opendata/bulk/IEO.zip#2026-09-25T18:29:56-04:00",
@@ -32,13 +32,13 @@
 "https://www.eia.gov/opendata/bulk/IEO2021.zip#2026-09-25T18:29:56-04:00",
 "https://www.eia.gov/opendata/bulk/IEO2023.zip#2023-08-29T08:49:47-04:00",
 "https://www.eia.gov/opendata/bulk/INTL.zip#2026-10-16T16:55:00-04:00",
-"https://www.eia.gov/opendata/bulk/NG.zip#2026-10-22T15:11:49-04:00",
-"https://www.eia.gov/opendata/bulk/NUC_STATUS.zip#2026-10-23T08:06:08-04:00",
-"https://www.eia.gov/opendata/bulk/PET.zip#2026-10-21T17:51:02-04:00",
-"https://www.eia.gov/opendata/bulk/PET_IMPORTS.zip#2026-09-29T19:32:50-04:00",
+"https://www.eia.gov/opendata/bulk/NG.zip#2026-10-30T15:43:30-04:00",
+"https://www.eia.gov/opendata/bulk/NUC_STATUS.zip#2026-11-02T08:06:20-05:00",
+"https://www.eia.gov/opendata/bulk/PET.zip#2026-10-30T15:43:30-04:00",
+"https://www.eia.gov/opendata/bulk/PET_IMPORTS.zip#2026-10-30T12:50:26-04:00",
 "https://www.eia.gov/opendata/bulk/SEDS.zip#2026-06-26T15:32:24-04:00",
 "https://www.eia.gov/opendata/bulk/STEO.zip#2026-10-06T16:02:16-04:00",
-"https://www.eia.gov/opendata/bulk/TOTAL.zip#2026-09-30T18:31:50-04:00"
+"https://www.eia.gov/opendata/bulk/TOTAL.zip#2026-10-29T15:04:29-04:00"
 ],
 "https://www.entsoe.eu/data/": [
 "https://eepublicdownloads.azureedge.net/clean-documents/LRG/Privacy%20policy/210617_Newsletter%20services%20data%20protection%20policy%20(clean)%20.pdf"
