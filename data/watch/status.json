@@ -1,8 +1,8 @@
 {
  "portwatch_hormuz": {
-  "consecutive_failures": 1,
-  "last_failure_utc": "2026-11-02T13:46:16Z",
-  "last_error": "API error: {'code': 400, 'message': 'Invalid URL', 'details': ['Invalid URL']}"
+  "consecutive_failures": 2,
+  "last_failure_utc": "2026-11-03T12:57:47Z",
+  "last_error": "API error: {'code': 400, 'message': 'Object reference not set to an instance of an object.', 'details': []}"
  },
  "jodi_china_crude": {
   "consecutive_failures": 0
