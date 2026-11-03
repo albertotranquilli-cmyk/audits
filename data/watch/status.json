@@ -1,8 +1,8 @@
 {
  "portwatch_hormuz": {
-  "consecutive_failures": 3,
-  "last_failure_utc": "2026-11-03T20:38:42Z",
-  "last_error": "API error: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}"
+  "consecutive_failures": 4,
+  "last_failure_utc": "2026-11-03T23:43:08Z",
+  "last_error": "API error: {'code': 400, 'message': 'Invalid URL', 'details': ['Invalid URL']}"
  },
  "jodi_china_crude": {
   "consecutive_failures": 0
