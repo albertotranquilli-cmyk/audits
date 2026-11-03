@@ -1,8 +1,8 @@
 {
  "portwatch_hormuz": {
-  "consecutive_failures": 2,
-  "last_failure_utc": "2026-11-03T12:57:47Z",
-  "last_error": "API error: {'code': 400, 'message': 'Object reference not set to an instance of an object.', 'details': []}"
+  "consecutive_failures": 3,
+  "last_failure_utc": "2026-11-03T20:38:42Z",
+  "last_error": "API error: {'code': 499, 'message': 'Token Required', 'messageCode': 'GWM_0003', 'details': ['Token Required']}"
  },
  "jodi_china_crude": {
   "consecutive_failures": 0
