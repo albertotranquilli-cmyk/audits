@@ -1,8 +1,8 @@
 {
  "portwatch_hormuz": {
-  "consecutive_failures": 6,
-  "last_failure_utc": "2026-11-05T13:26:54Z",
-  "last_error": "API error: {'code': 400, 'message': 'Invalid URL', 'details': ['Invalid URL']}"
+  "consecutive_failures": 7,
+  "last_failure_utc": "2026-11-06T13:10:32Z",
+  "last_error": "API error: {'code': 429, 'message': 'Unable to perform query. Too many requests.', 'details': ['API calls quota exceeded (6521 request units)! maximum allowed request units (6000) per Minute. Retry after 60 sec.']}"
  },
  "jodi_china_crude": {
   "consecutive_failures": 0
