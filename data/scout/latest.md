@@ -1,27 +1,26 @@
-# Weekly scout: new free tools & data (2026-W45)
+# Weekly scout: new free tools & data (2026-W46)
 
-Top 15 new items, week 2026-W45 (scored by stars/points + keyword matches; deduped against `data/scout/seen.json`).
+Top 15 new items, week 2026-W46 (scored by stars/points + keyword matches; deduped against `data/scout/seen.json`).
 
-1. [alchaincyf/huashu-bird-sticker](https://github.com/alchaincyf/huashu-bird-sticker) (repo): ★558, topic open-data: 花叔开源的全球鸟类贴纸库 · Stickers for all 11,064 living bird species, with names in 43 languages and structured data
-2. [Electrification Could Cut Global Energy Use in Half](https://fullycharged.show/podcasts/podcast-361-why-electrification-could-cut-global-energy-use-in-half/) (hn): HN 217 points, 220 comments (https://news.ycombinator.com/item?id=50319110)
-3. [phishdestroy/TgWitness](https://github.com/phishdestroy/TgWitness) (repo): ★207, topic osint: Open-source Telegram chat exporter, deleted & edited message logger, and OSINT forensics archiver. Save chat history, ca
-4. [test-bit-sys/algeria-geo](https://github.com/test-bit-sys/algeria-geo) (repo): ★175, topic open-data: Algeria's 69 wilayas, 538 dairas and 1,541 communes with Arabic/French search and historical administrative boundaries. 
-5. [Blazenumenhir/scam-story-checker](https://github.com/Blazenumenhir/scam-story-checker) (repo): ★169, topic osint: Does their story hold up? Paste what a seller, recruiter or landlord told you and check it against public records in thi
-6. [Show HN: NES Contra (1987) port (ASM –> C and then C –> WebAssembly)](https://epoyraz.github.io/nes-contra-us/) (hn): HN 90 points, 80 comments (https://news.ycombinator.com/item?id=50319169)
-7. [U.S. Oil Industry Earned over $130B in Profit During Iran War](https://www.nytimes.com/2026/10/30/business/energy-environment/exxon-chevron-oil-profits-iran-war.html) (hn): HN 42 points, 6 comments (https://news.ycombinator.com/item?id=50306581)
-8. [Trump says he's ending restrictions on climate-warming methane from oil drilling](https://www.npr.org/2026/10/28/g-s1-150299/trump-methane-restrictions) (hn): HN 33 points, 3 comments (https://news.ycombinator.com/item?id=50275081)
-9. [DC Hub US Grid Infrastructure Extracts (Substations, Transmission Lines, Gas Pipelines) - [...]](https://dchub.cloud/api/v1/odbl/manifest.json) (dataset): new or changed entry in awesome-public-datasets, Energy section
-10. [Dataset for: Machine learning prediction of the effect of geographical conditions and climate parameters on animal-based biogas energy potential and methane emissions: A case study of Türkiye](https://zenodo.org/records/23843445) (dataset): Zenodo dataset, published 2026-10-31
-11. [Analysis of Uncertain GARCH Model with the application of crude oil future prices](http://arxiv.org/abs/2610.37071v1) (paper): arXiv 2026-10-27: Time series data often exhibit variation, clustering, and persistence in uncertain environments. Based on an u
-12. [Replication Package: Global Supply Chain Pressure and Reported Revenue in Liner Shipping](https://zenodo.org/records/23876535) (dataset): Zenodo dataset, published 2026-11-02
-13. [ERP Quality and ERP Performance in the Indonesian Palm Oil Industry: The Moderating Role of Operational Performance for Sustainable Industrial Innovation](https://zenodo.org/records/23861300) (dataset): Zenodo dataset, published 2026-11-01
-14. [Car–Parrinello Molecular Dynamics Trajectory and Energy Data for Aqueous Solvation of Neutral Indole-3-Acetic Acid](https://zenodo.org/records/23697904) (dataset): Zenodo dataset, published 2026-10-27
-15. [Length-Preserving Vessel Trajectory Simplification With Controllable Compression-Precision Bound](http://arxiv.org/abs/2610.38295v1) (paper): arXiv 2026-10-28: Vessel trajectory data from the Automatic Identification System (AIS) is important for a wide range of maritim
+1. [1337isnot1337/DOPPLERGEIST](https://github.com/1337isnot1337/DOPPLERGEIST) (repo): ★512, topic osint: Python tool for aircraft Doppler audio geolocation using historical ADS-B flight data (Source-available)
+2. [PatchBuilderAmplify/stolen-crypto-tracer](https://github.com/PatchBuilderAmplify/stolen-crypto-tracer) (repo): ★390, topic osint: Paste a wallet or a transaction hash and follow stolen crypto to the exchange that can freeze it. Works across Bitcoin, 
+3. [Tropicaldrescoop/discord-id-osint-checker](https://github.com/Tropicaldrescoop/discord-id-osint-checker) (repo): ★381, topic osint: Free OSINT app for Discord IDs: paste a user, server or invite and see when it was made and who it copies.
+4. [arnold117/iOS-NOIR](https://github.com/arnold117/iOS-NOIR) (repo): ★311, topic osint: No-jailbreak iOS privacy, entitlement, sandbox & telemetry forensic auditor (inspired by Verlintas/NOIR)
+5. [Anthropic strikes $3.4B deal to generate gas-fired power for data centres](https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0) (hn): HN 41 points, 29 comments (https://news.ycombinator.com/item?id=50412760)
+6. [Only 16% of U.S. fast-charging stations meet federal NEVI standards (open data)](https://chargingnear.me/data) (hn): HN 33 points, 11 comments (https://news.ycombinator.com/item?id=50394771)
+7. [MODERN TRENDS IN THE USE OF ARTIFICIAL INTELLIGENCE TECHNOLOGIES IN THE OIL AND GAS INDUSTRY](https://zenodo.org/records/24078335) (dataset): Zenodo dataset, published 2026-11-09
+8. [Dataset for Bilateral Trade Palm Oil Indonesia and India 2021-2025](https://zenodo.org/records/24071774) (dataset): Zenodo dataset, published 2026-11-09
+9. [Code, Data and Per-Seed Results for Analogue-Anchored Crude Oil Price Forecasting (FTGN-A2)](https://zenodo.org/records/24050393) (dataset): Zenodo dataset, published 2026-11-08
+10. [Data package for the paper "Data package for the paper "Reassessing the EU's LNG expansion strategy: Geopolitical dependencies, energy security, and climate goals after the Russian invasion of Ukraine""](https://zenodo.org/records/23978050) (dataset): Zenodo dataset, published 2026-11-05
+11. [Pakistan Fuel Prices - Pakistan's notified petrol, diesel and kerosene prices since 2006, and [...]](https://eklitre.pk/data/) (dataset): new or changed entry in awesome-public-datasets, Energy section
+12. [US Power Outage Burden by State 2013-2025 - State-by-year customer-weighted SAIDI and SAIFI [...]](https://doi.org/10.5281/zenodo.23548861) (dataset): new or changed entry in awesome-public-datasets, Energy section
+13. [Renewable electricity – best buffer against gas price volatility](https://www.eea.europa.eu/en/analysis/publications/renewable-electricity-buffering-gas-prices) (hn): HN 13 points, 4 comments (https://news.ycombinator.com/item?id=50363882)
+14. [I converted 661M rows of Texas oil and gas data from mainframe dumps](https://texasrrcapi.com/) (hn): HN 3 points, 1 comments (https://news.ycombinator.com/item?id=50365698)
+15. [Telecoms AI synthetic datasets for Energy Optimisation in Smart Factory private 5G networks](https://www.data.gov.uk/dataset/telecoms-ai-synthetic-datasets-for-energy-optimisation-in-smart-factory-private-5g-networks) (dataset): new on data.gov.uk (2026-11-04), query 'energy'
 
-**Dark corners** (6 findings, full list in `data/scout/latest.json`):
-- [https://www.eia.gov/opendata/bulk/EBA.zip](https://www.eia.gov/opendata/bulk/EBA.zip) (listings): EIA bulk dataset updated (2026-11-02T05:03:57-05:00) [archive](https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/EBA.zip)
-- [https://www.eia.gov/opendata/bulk/NG.zip](https://www.eia.gov/opendata/bulk/NG.zip) (listings): EIA bulk dataset updated (2026-10-30T15:43:30-04:00) [archive](https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/NG.zip)
-- [https://www.eia.gov/opendata/bulk/NUC_STATUS.zip](https://www.eia.gov/opendata/bulk/NUC_STATUS.zip) (listings): EIA bulk dataset updated (2026-11-02T08:06:20-05:00) [archive](https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/NUC_STATUS.zip)
-- [https://www.eia.gov/opendata/bulk/PET.zip](https://www.eia.gov/opendata/bulk/PET.zip) (listings): EIA bulk dataset updated (2026-10-30T15:43:30-04:00) [archive](https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/PET.zip)
-- [https://www.eia.gov/opendata/bulk/PET_IMPORTS.zip](https://www.eia.gov/opendata/bulk/PET_IMPORTS.zip) (listings): EIA bulk dataset updated (2026-10-30T12:50:26-04:00) [archive](https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/PET_IMPORTS.zip)
-- [https://www.eia.gov/opendata/bulk/TOTAL.zip](https://www.eia.gov/opendata/bulk/TOTAL.zip) (listings): EIA bulk dataset updated (2026-10-29T15:04:29-04:00) [archive](https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/TOTAL.zip)
+**Dark corners** (5 findings, full list in `data/scout/latest.json`):
+- [https://www.eia.gov/opendata/bulk/EBA.zip](https://www.eia.gov/opendata/bulk/EBA.zip) (listings): EIA bulk dataset updated (2026-11-09T05:04:05-05:00) [archive](https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/EBA.zip)
+- [https://www.eia.gov/opendata/bulk/NG.zip](https://www.eia.gov/opendata/bulk/NG.zip) (listings): EIA bulk dataset updated (2026-11-05T16:09:59-05:00) [archive](https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/NG.zip)
+- [https://www.eia.gov/opendata/bulk/NUC_STATUS.zip](https://www.eia.gov/opendata/bulk/NUC_STATUS.zip) (listings): EIA bulk dataset updated (2026-11-09T08:06:17-05:00) [archive](https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/NUC_STATUS.zip)
+- [https://www.eia.gov/opendata/bulk/PET.zip](https://www.eia.gov/opendata/bulk/PET.zip) (listings): EIA bulk dataset updated (2026-11-04T18:44:40-05:00) [archive](https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/PET.zip)
+- [https://archive.org/details/royalty-clerk-texas-oil-gas-data-1993-2026](https://archive.org/details/royalty-clerk-texas-oil-gas-data-1993-2026) (ia): Internet Archive data upload 2026-11-06, 0 downloads, described: Texas Oil & Gas Production and County Mineral Appraisal Summary (1993–2026) [archive](https://archive.org/download/royalty-clerk-texas-oil-gas-data-1993-2026)

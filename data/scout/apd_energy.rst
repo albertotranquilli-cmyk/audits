@@ -36,6 +36,8 @@
         
 * |OK_ICON| `The Public Utility Data Liberation Project (PUDL) - PUDL makes US energy data easier to [...] <https://github.com/catalyst-cooperative/pudl>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/PUDL.yml>`_]
         
+* |OK_ICON| `Pakistan Fuel Prices - Pakistan's notified petrol, diesel and kerosene prices since 2006, and [...] <https://eklitre.pk/data/>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/Pakistan-Fuel-Prices.yml>`_]
+        
 * |OK_ICON| `Pakistan Fuel Prices - Retail fuel prices for Pakistan as notified by the Oil and Gas [...] <https://github.com/quantanow/pakistan-fuel-prices>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/PakistanFuelPrices.yml>`_]
         
 * |OK_ICON| `Publicly Available Datasets For Electric Load Forecasting - Contains an active maintained [...] <https://github.com/LSB-dev/Publicly-Available-Datasets-For-Electric-Load-Forecasting/>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/PubliclyAvailableLoadForecastingDatasets.yml>`_]
@@ -49,6 +51,8 @@
 * |OK_ICON| `UK-DALE - UK Domestic Appliance-Level Electricity <https://jack-kelly.com/data>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/UK-DALE.yml>`_]
         
 * |OK_ICON| `US Plug-In / Balcony Solar Legality (50 States) - Free, no-auth JSON dataset of plug-in / [...] <https://pluginsolarhub.org/developers/>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/US-Plug-In-Solar-Legality.yml>`_]
+        
+* |OK_ICON| `US Power Outage Burden by State 2013-2025 - State-by-year customer-weighted SAIDI and SAIFI [...] <https://doi.org/10.5281/zenodo.23548861>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/US-Power-Outage-Burden-by-State.yml>`_]
         
 * |OK_ICON| `WHITED (A Worldwide Household and Industry Transient Energy Dataset) <https://huggingface.co/datasets/maduschek/WHITED>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/WHITED.yml>`_]
         
