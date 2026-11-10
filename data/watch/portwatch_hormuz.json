@@ -1,19 +1,19 @@
 {
  "source": "IMF PortWatch, Daily Chokepoints Data, Strait of Hormuz (chokepoint6)",
  "source_url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query",
- "publisher_last_edit": "2026-10-28T07:51:08Z",
- "checked_at_utc": "2026-10-28T11:32:10Z",
- "n_periods": 2855,
+ "publisher_last_edit": "2026-11-10T11:17:02Z",
+ "checked_at_utc": "2026-11-10T13:43:22Z",
+ "n_periods": 2869,
  "first_date": "2019-01-01",
- "latest_date": "2026-10-25",
+ "latest_date": "2026-11-08",
  "latest": {
   "n_tanker": 1,
   "capacity_tanker": 0,
-  "n_total": 2,
-  "capacity": 0
+  "n_total": 3,
+  "capacity": 792
  },
- "raw_sha256": "53264ea2a34a3e760d7072f9b3669f89fed6e51b214509d6e2b66a604a3d4f5e",
- "series_sha256": "9c046314e3f34b34508da9b746ddade4fa2761eb7a9a8090d763bb8fc16c87ce",
+ "raw_sha256": "97ec081dcfbfcc2decca83e7a1d585aea574b548feb8946c4fb456895fb77c39",
+ "series_sha256": "da344c25d015537a6b23ff9ee47e817c01790e138c033fcec9aa6bff969c4c30",
  "year_sha256": {
   "2019": "62540a380b9d24d7095f28da4fa193fb930d5bdce40743ed8ffb8481a64cc9d9",
   "2020": "98c785574463fba7ccf4b043c53a658a3ba54d6abdc4e70880a3f190bb8b8c4f",
@@ -22,107 +22,9 @@
   "2023": "d4f1d1f0f3d71eb6a5470743753aa1fb53eb6f3437cdf5479c53b19db4b60c16",
   "2024": "6fab59aa60b234be24d3068a53d6294510e4f2dbae2d9a701c2462a108ce0d37",
   "2025": "544161411c04bc47851f8175a8948cd00f4c1d25abf29228c08392c545460950",
-  "2026": "9edf59787e2f5607eb9a37dd9aa11cd1a67608a9699c6751a75c7b1374f153c9"
+  "2026": "1a2b72a597db65a986a13922c5080fc7c0fc21a0c19808187e191856b6474853"
  },
  "recent": [
-  {
-   "date": "2026-09-28",
-   "n_tanker": 2,
-   "capacity_tanker": 19870,
-   "n_total": 4,
-   "capacity": 34506
-  },
-  {
-   "date": "2026-09-29",
-   "n_tanker": 0,
-   "capacity_tanker": 0,
-   "n_total": 1,
-   "capacity": 71715
-  },
-  {
-   "date": "2026-09-30",
-   "n_tanker": 4,
-   "capacity_tanker": 94024,
-   "n_total": 4,
-   "capacity": 94024
-  },
-  {
-   "date": "2026-10-01",
-   "n_tanker": 0,
-   "capacity_tanker": 0,
-   "n_total": 0,
-   "capacity": 0
-  },
-  {
-   "date": "2026-10-02",
-   "n_tanker": 0,
-   "capacity_tanker": 0,
-   "n_total": 4,
-   "capacity": 214811
-  },
-  {
-   "date": "2026-10-03",
-   "n_tanker": 0,
-   "capacity_tanker": 0,
-   "n_total": 2,
-   "capacity": 83315
-  },
-  {
-   "date": "2026-10-04",
-   "n_tanker": 0,
-   "capacity_tanker": 0,
-   "n_total": 4,
-   "capacity": 81884
-  },
-  {
-   "date": "2026-10-05",
-   "n_tanker": 1,
-   "capacity_tanker": 4771,
-   "n_total": 8,
-   "capacity": 439887
-  },
-  {
-   "date": "2026-10-06",
-   "n_tanker": 1,
-   "capacity_tanker": 119052,
-   "n_total": 2,
-   "capacity": 119052
-  },
-  {
-   "date": "2026-10-07",
-   "n_tanker": 1,
-   "capacity_tanker": 40860,
-   "n_total": 6,
-   "capacity": 127964
-  },
-  {
-   "date": "2026-10-08",
-   "n_tanker": 0,
-   "capacity_tanker": 0,
-   "n_total": 4,
-   "capacity": 73111
-  },
-  {
-   "date": "2026-10-09",
-   "n_tanker": 0,
-   "capacity_tanker": 0,
-   "n_total": 3,
-   "capacity": 41992
-  },
-  {
-   "date": "2026-10-10",
-   "n_tanker": 0,
-   "capacity_tanker": 0,
-   "n_total": 4,
-   "capacity": 50421
-  },
-  {
-   "date": "2026-10-11",
-   "n_tanker": 1,
-   "capacity_tanker": 4636,
-   "n_total": 2,
-   "capacity": 77388
-  },
   {
    "date": "2026-10-12",
    "n_tanker": 0,
@@ -220,17 +122,115 @@
    "capacity_tanker": 0,
    "n_total": 2,
    "capacity": 0
+  },
+  {
+   "date": "2026-10-26",
+   "n_tanker": 2,
+   "capacity_tanker": 0,
+   "n_total": 5,
+   "capacity": 55078
+  },
+  {
+   "date": "2026-10-27",
+   "n_tanker": 0,
+   "capacity_tanker": 0,
+   "n_total": 4,
+   "capacity": 13505
+  },
+  {
+   "date": "2026-10-28",
+   "n_tanker": 2,
+   "capacity_tanker": 13569,
+   "n_total": 3,
+   "capacity": 13569
+  },
+  {
+   "date": "2026-10-29",
+   "n_tanker": 1,
+   "capacity_tanker": 0,
+   "n_total": 3,
+   "capacity": 78111
+  },
+  {
+   "date": "2026-10-30",
+   "n_tanker": 0,
+   "capacity_tanker": 0,
+   "n_total": 7,
+   "capacity": 165069
+  },
+  {
+   "date": "2026-10-31",
+   "n_tanker": 4,
+   "capacity_tanker": 85882,
+   "n_total": 8,
+   "capacity": 100503
+  },
+  {
+   "date": "2026-11-01",
+   "n_tanker": 1,
+   "capacity_tanker": 0,
+   "n_total": 1,
+   "capacity": 0
+  },
+  {
+   "date": "2026-11-02",
+   "n_tanker": 1,
+   "capacity_tanker": 0,
+   "n_total": 2,
+   "capacity": 0
+  },
+  {
+   "date": "2026-11-03",
+   "n_tanker": 2,
+   "capacity_tanker": 1728,
+   "n_total": 4,
+   "capacity": 74839
+  },
+  {
+   "date": "2026-11-04",
+   "n_tanker": 0,
+   "capacity_tanker": 0,
+   "n_total": 5,
+   "capacity": 97939
+  },
+  {
+   "date": "2026-11-05",
+   "n_tanker": 1,
+   "capacity_tanker": 4771,
+   "n_total": 5,
+   "capacity": 168171
+  },
+  {
+   "date": "2026-11-06",
+   "n_tanker": 1,
+   "capacity_tanker": 15038,
+   "n_total": 6,
+   "capacity": 94508
+  },
+  {
+   "date": "2026-11-07",
+   "n_tanker": 1,
+   "capacity_tanker": 0,
+   "n_total": 2,
+   "capacity": 0
+  },
+  {
+   "date": "2026-11-08",
+   "n_tanker": 1,
+   "capacity_tanker": 0,
+   "n_total": 3,
+   "capacity": 792
   }
  ],
  "wayback": [
   {
    "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0?f=json",
-   "archive": "https://web.archive.org/web/20261028113223/https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0?f=json"
+   "archive": "https://web.archive.org/web/20261110134341/https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0?f=json"
   },
   {
    "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query?f=json&returnGeometry=false&where=portid%3D%27chokepoint6%27&outFields=date%2Cn_tanker%2Ccapacity_tanker%2Cn_total%2Ccapacity&orderByFields=date&resultOffset=0&resultRecordCount=1000",
    "archive": null,
-   "error": "<urlopen error [Errno 110] Connection timed out>"
+   "error": "<urlopen error [Errno 111] Connection refused>"
   }
  ]
 }
