@@ -1,7 +1,7 @@
 {
- "generated_at_utc": "2026-11-09T14:15:10Z",
- "week": "2026-W46",
- "window_start": "2026-11-02",
+ "generated_at_utc": "2026-11-16T13:56:22Z",
+ "week": "2026-W47",
+ "window_start": "2026-11-09",
  "sources": {
   "github_repos": {
    "ok": true,
@@ -21,11 +21,11 @@
   },
   "arxiv": {
    "ok": true,
-   "items": 3
+   "items": 4
   },
   "ckan": {
    "ok": true,
-   "items": 13
+   "items": 26
   },
   "wayback_cdx": {
    "ok": true,
@@ -33,17 +33,17 @@
   },
   "awesome_public_datasets": {
    "ok": true,
-   "items": 2
+   "items": 1
   }
  },
  "dark_corners_sources": {
   "listings": {
    "ok": true,
-   "items": 4
+   "items": 6
   },
   "ia": {
    "ok": true,
-   "items": 1
+   "items": 0
   },
   "commoncrawl": {
    "ok": true,
@@ -58,800 +58,916 @@
   {
    "module": "listings",
    "url": "https://www.eia.gov/opendata/bulk/EBA.zip",
-   "why": "EIA bulk dataset updated (2026-11-09T05:04:05-05:00)",
+   "why": "EIA bulk dataset updated (2026-11-16T05:04:01-05:00)",
    "archive": "https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/EBA.zip"
   },
   {
    "module": "listings",
+   "url": "https://www.eia.gov/opendata/bulk/INTL.zip",
+   "why": "EIA bulk dataset updated (2026-11-09T19:39:36-05:00)",
+   "archive": "https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/INTL.zip"
+  },
+  {
+   "module": "listings",
    "url": "https://www.eia.gov/opendata/bulk/NG.zip",
-   "why": "EIA bulk dataset updated (2026-11-05T16:09:59-05:00)",
+   "why": "EIA bulk dataset updated (2026-11-13T16:09:49-05:00)",
    "archive": "https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/NG.zip"
   },
   {
    "module": "listings",
    "url": "https://www.eia.gov/opendata/bulk/NUC_STATUS.zip",
-   "why": "EIA bulk dataset updated (2026-11-09T08:06:17-05:00)",
+   "why": "EIA bulk dataset updated (2026-11-16T08:06:35-05:00)",
    "archive": "https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/NUC_STATUS.zip"
   },
   {
    "module": "listings",
    "url": "https://www.eia.gov/opendata/bulk/PET.zip",
-   "why": "EIA bulk dataset updated (2026-11-04T18:44:40-05:00)",
+   "why": "EIA bulk dataset updated (2026-11-12T19:38:31-05:00)",
    "archive": "https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/PET.zip"
   },
   {
-   "module": "ia",
-   "url": "https://archive.org/details/royalty-clerk-texas-oil-gas-data-1993-2026",
-   "archive": "https://archive.org/download/royalty-clerk-texas-oil-gas-data-1993-2026",
-   "why": "Internet Archive data upload 2026-11-06, 0 downloads, described: Texas Oil & Gas Production and County Mineral Appraisal Summary (1993–2026)"
+   "module": "listings",
+   "url": "https://www.eia.gov/opendata/bulk/STEO.zip",
+   "why": "EIA bulk dataset updated (2026-11-10T17:02:09-05:00)",
+   "archive": "https://web.archive.org/web/2/https://www.eia.gov/opendata/bulk/STEO.zip"
   }
  ],
  "top": [
   {
-   "kind": "repo",
-   "title": "1337isnot1337/DOPPLERGEIST",
-   "url": "https://github.com/1337isnot1337/DOPPLERGEIST",
-   "score": 517,
-   "why": "★512, topic osint: Python tool for aircraft Doppler audio geolocation using historical ADS-B flight data (Source-available)",
-   "source": "github_repos",
-   "id": "gh:1337isnot1337/DOPPLERGEIST"
+   "kind": "hn",
+   "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+   "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+   "score": 591,
+   "why": "HN 586 points, 254 comments (https://news.ycombinator.com/item?id=50509411)",
+   "source": "hn",
+   "id": "hn:50509411"
   },
   {
    "kind": "repo",
-   "title": "PatchBuilderAmplify/stolen-crypto-tracer",
-   "url": "https://github.com/PatchBuilderAmplify/stolen-crypto-tracer",
-   "score": 395,
-   "why": "★390, topic osint: Paste a wallet or a transaction hash and follow stolen crypto to the exchange that can freeze it. Works across Bitcoin, ",
+   "title": "StormBrawlerSack/legwork-osint-ai-investigator",
+   "url": "https://github.com/StormBrawlerSack/legwork-osint-ai-investigator",
+   "score": 340,
+   "why": "★335, topic osint: AI OSINT investigator for Windows: ask a question in plain words and get an answer built from public sources, with a sou",
    "source": "github_repos",
-   "id": "gh:PatchBuilderAmplify/stolen-crypto-tracer"
-  },
-  {
-   "kind": "repo",
-   "title": "Tropicaldrescoop/discord-id-osint-checker",
-   "url": "https://github.com/Tropicaldrescoop/discord-id-osint-checker",
-   "score": 386,
-   "why": "★381, topic osint: Free OSINT app for Discord IDs: paste a user, server or invite and see when it was made and who it copies.",
-   "source": "github_repos",
-   "id": "gh:Tropicaldrescoop/discord-id-osint-checker"
-  },
-  {
-   "kind": "repo",
-   "title": "arnold117/iOS-NOIR",
-   "url": "https://github.com/arnold117/iOS-NOIR",
-   "score": 316,
-   "why": "★311, topic osint: No-jailbreak iOS privacy, entitlement, sandbox & telemetry forensic auditor (inspired by Verlintas/NOIR)",
-   "source": "github_repos",
-   "id": "gh:arnold117/iOS-NOIR"
+   "id": "gh:StormBrawlerSack/legwork-osint-ai-investigator"
   },
   {
    "kind": "hn",
-   "title": "Anthropic strikes $3.4B deal to generate gas-fired power for data centres",
-   "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
-   "score": 46,
-   "why": "HN 41 points, 29 comments (https://news.ycombinator.com/item?id=50412760)",
+   "title": "Ukraine knocks out 36% of Russia's oil refining capacity in under two weeks",
+   "url": "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html",
+   "score": 334,
+   "why": "HN 329 points, 247 comments (https://news.ycombinator.com/item?id=50492456)",
    "source": "hn",
-   "id": "hn:50412760"
+   "id": "hn:50492456"
   },
   {
    "kind": "hn",
-   "title": "Only 16% of U.S. fast-charging stations meet federal NEVI standards (open data)",
-   "url": "https://chargingnear.me/data",
-   "score": 38,
-   "why": "HN 33 points, 11 comments (https://news.ycombinator.com/item?id=50394771)",
+   "title": "Generative AI uses more energy on non-English text",
+   "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
+   "score": 236,
+   "why": "HN 231 points, 128 comments (https://news.ycombinator.com/item?id=50441444)",
    "source": "hn",
-   "id": "hn:50394771"
+   "id": "hn:50441444"
+  },
+  {
+   "kind": "repo",
+   "title": "memoryswordsmanlaud/fieldkit-awesome-osint-list",
+   "url": "https://github.com/memoryswordsmanlaud/fieldkit-awesome-osint-list",
+   "score": 211,
+   "why": "★206, topic osint: A curated list of 22 OSINT tools for Windows — one for every kind of clue: nickname, photo, domain, wallet, company.",
+   "source": "github_repos",
+   "id": "gh:memoryswordsmanlaud/fieldkit-awesome-osint-list"
+  },
+  {
+   "kind": "repo",
+   "title": "solderpupabridge/mutuals-osint-social-connections",
+   "url": "https://github.com/solderpupabridge/mutuals-osint-social-connections",
+   "score": 191,
+   "why": "★186, topic osint: OSINT tool for Windows: enter two public accounts and see everyone who links them.",
+   "source": "github_repos",
+   "id": "gh:solderpupabridge/mutuals-osint-social-connections"
+  },
+  {
+   "kind": "repo",
+   "title": "tabookhandawn/interchange-osint-cross-chain-tracing",
+   "url": "https://github.com/tabookhandawn/interchange-osint-cross-chain-tracing",
+   "score": 183,
+   "why": "★178, topic osint: OSINT tracing of crypto funds across blockchains.",
+   "source": "github_repos",
+   "id": "gh:tabookhandawn/interchange-osint-cross-chain-tracing"
   },
   {
    "kind": "dataset",
-   "title": "MODERN TRENDS IN THE USE OF ARTIFICIAL INTELLIGENCE TECHNOLOGIES IN THE OIL AND GAS INDUSTRY",
-   "url": "https://zenodo.org/records/24078335",
+   "title": "ARTIFICIAL INTELLIGENCE AND BIG DATA IN THE OIL AND GAS INDUSTRY: SEISMIC INTERPRETATION, DRILLING-RISK PREDICTION, DIGITAL TWINS, AND PREDICTIVE MAINTENANCE",
+   "url": "https://zenodo.org/records/24275975",
    "score": 20,
-   "why": "Zenodo dataset, published 2026-11-09",
+   "why": "Zenodo dataset, published 2026-11-16",
    "source": "zenodo",
-   "id": "zenodo:24078335"
+   "id": "zenodo:24275975"
   },
   {
    "kind": "dataset",
-   "title": "Dataset for Bilateral Trade Palm Oil Indonesia and India 2021-2025",
-   "url": "https://zenodo.org/records/24071774",
+   "title": "Coupled BOG Recovery and Speed Control in LNG Carrier Operations: Supporting Simulation Dataset",
+   "url": "https://zenodo.org/records/24274075",
    "score": 20,
-   "why": "Zenodo dataset, published 2026-11-09",
+   "why": "Zenodo dataset, published 2026-11-16",
    "source": "zenodo",
-   "id": "zenodo:24071774"
+   "id": "zenodo:24274075"
   },
   {
    "kind": "dataset",
-   "title": "Code, Data and Per-Seed Results for Analogue-Anchored Crude Oil Price Forecasting (FTGN-A2)",
-   "url": "https://zenodo.org/records/24050393",
+   "title": "Missouri oil and gas wells (Missouri Department of Natural Resources): headers, location and status, standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24107339",
    "score": 20,
-   "why": "Zenodo dataset, published 2026-11-08",
+   "why": "Zenodo dataset, published 2026-11-16",
    "source": "zenodo",
-   "id": "zenodo:24050393"
+   "id": "zenodo:24107339"
   },
   {
    "kind": "dataset",
-   "title": "Data package for the paper \"Data package for the paper \"Reassessing the EU's LNG expansion strategy: Geopolitical dependencies, energy security, and climate goals after the Russian invasion of Ukraine\"\"",
-   "url": "https://zenodo.org/records/23978050",
+   "title": "Alabama oil and gas wells (State of Alabama Oil and Gas Board): headers, location and status, standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24107335",
    "score": 20,
-   "why": "Zenodo dataset, published 2026-11-05",
+   "why": "Zenodo dataset, published 2026-11-16",
    "source": "zenodo",
-   "id": "zenodo:23978050"
+   "id": "zenodo:24107335"
   },
   {
    "kind": "dataset",
-   "title": "Pakistan Fuel Prices - Pakistan's notified petrol, diesel and kerosene prices since 2006, and [...]",
-   "url": "https://eklitre.pk/data/",
+   "title": "Small Modular Reactor Projects (SMRMap) - Source-linked small modular reactor project, [...]",
+   "url": "https://smrmap.com/downloads.html",
    "score": 20,
    "why": "new or changed entry in awesome-public-datasets, Energy section",
    "source": "awesome_public_datasets",
-   "id": "apd:https://eklitre.pk/data/"
-  },
-  {
-   "kind": "dataset",
-   "title": "US Power Outage Burden by State 2013-2025 - State-by-year customer-weighted SAIDI and SAIFI [...]",
-   "url": "https://doi.org/10.5281/zenodo.23548861",
-   "score": 20,
-   "why": "new or changed entry in awesome-public-datasets, Energy section",
-   "source": "awesome_public_datasets",
-   "id": "apd:https://doi.org/10.5281/zenodo.23548861"
+   "id": "apd:https://smrmap.com/downloads.html"
   },
   {
    "kind": "hn",
-   "title": "Renewable electricity – best buffer against gas price volatility",
-   "url": "https://www.eea.europa.eu/en/analysis/publications/renewable-electricity-buffering-gas-prices",
-   "score": 18,
-   "why": "HN 13 points, 4 comments (https://news.ycombinator.com/item?id=50363882)",
+   "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/microsoft-365-outage-leads-to-chlorine-gas-poisoning-of-15-hotel-guests-email-warning-system-fails-40-first-responders-deployed-for-triage-four-hospitalized",
+   "score": 16,
+   "why": "HN 11 points, 4 comments (https://news.ycombinator.com/item?id=50512299)",
    "source": "hn",
-   "id": "hn:50363882"
-  },
-  {
-   "kind": "hn",
-   "title": "I converted 661M rows of Texas oil and gas data from mainframe dumps",
-   "url": "https://texasrrcapi.com/",
-   "score": 13,
-   "why": "HN 3 points, 1 comments (https://news.ycombinator.com/item?id=50365698)",
-   "source": "hn",
-   "id": "hn:50365698"
+   "id": "hn:50512299"
   },
   {
    "kind": "dataset",
-   "title": "Telecoms AI synthetic datasets for Energy Optimisation in Smart Factory private 5G networks",
-   "url": "https://www.data.gov.uk/dataset/telecoms-ai-synthetic-datasets-for-energy-optimisation-in-smart-factory-private-5g-networks",
-   "score": 10,
-   "why": "new on data.gov.uk (2026-11-04), query 'energy'",
+   "title": "C12085 - ENERGRID HOLDINGS/TRADEINV GAS & ENERGY",
+   "url": "https://data.europa.eu/data/datasets/p26433",
+   "score": 15,
+   "why": "new on data.europa.eu (2026-11-16), query 'gas storage'",
    "source": "ckan",
-   "id": "ckan:data.gov.uk:ded0939c-a510-49c6-b9ad-661384c509c9"
+   "id": "ckan:data.europa.eu:p26433"
+  },
+  {
+   "kind": "dataset",
+   "title": "C12130 - GREEN NETWORK/RAMI DI AZIENDA DI ENERGRID, TRADEINV GAS & ENERGY E ENERGIA E TERRITORIO",
+   "url": "https://data.europa.eu/data/datasets/p26872",
+   "score": 15,
+   "why": "new on data.europa.eu (2026-11-16), query 'gas storage'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p26872"
   }
  ],
  "candidates": [
   {
-   "kind": "repo",
-   "title": "1337isnot1337/DOPPLERGEIST",
-   "url": "https://github.com/1337isnot1337/DOPPLERGEIST",
-   "score": 517,
-   "why": "★512, topic osint: Python tool for aircraft Doppler audio geolocation using historical ADS-B flight data (Source-available)",
-   "source": "github_repos",
-   "id": "gh:1337isnot1337/DOPPLERGEIST",
+   "kind": "hn",
+   "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+   "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+   "score": 591,
+   "why": "HN 586 points, 254 comments (https://news.ycombinator.com/item?id=50509411)",
+   "source": "hn",
+   "id": "hn:50509411",
    "new": true
   },
   {
    "kind": "repo",
-   "title": "PatchBuilderAmplify/stolen-crypto-tracer",
-   "url": "https://github.com/PatchBuilderAmplify/stolen-crypto-tracer",
-   "score": 395,
-   "why": "★390, topic osint: Paste a wallet or a transaction hash and follow stolen crypto to the exchange that can freeze it. Works across Bitcoin, ",
+   "title": "StormBrawlerSack/legwork-osint-ai-investigator",
+   "url": "https://github.com/StormBrawlerSack/legwork-osint-ai-investigator",
+   "score": 340,
+   "why": "★335, topic osint: AI OSINT investigator for Windows: ask a question in plain words and get an answer built from public sources, with a sou",
    "source": "github_repos",
-   "id": "gh:PatchBuilderAmplify/stolen-crypto-tracer",
-   "new": true
-  },
-  {
-   "kind": "repo",
-   "title": "Tropicaldrescoop/discord-id-osint-checker",
-   "url": "https://github.com/Tropicaldrescoop/discord-id-osint-checker",
-   "score": 386,
-   "why": "★381, topic osint: Free OSINT app for Discord IDs: paste a user, server or invite and see when it was made and who it copies.",
-   "source": "github_repos",
-   "id": "gh:Tropicaldrescoop/discord-id-osint-checker",
-   "new": true
-  },
-  {
-   "kind": "repo",
-   "title": "arnold117/iOS-NOIR",
-   "url": "https://github.com/arnold117/iOS-NOIR",
-   "score": 316,
-   "why": "★311, topic osint: No-jailbreak iOS privacy, entitlement, sandbox & telemetry forensic auditor (inspired by Verlintas/NOIR)",
-   "source": "github_repos",
-   "id": "gh:arnold117/iOS-NOIR",
-   "new": true
-  },
-  {
-   "kind": "repo",
-   "title": "supercli-site/awesome-coding-plan",
-   "url": "https://github.com/supercli-site/awesome-coding-plan",
-   "score": 190,
-   "why": "★190, topic open-data: TokenPlan：AI 编程套餐与 API 价格对比，涵盖云厂商 Coding / Token Plan、缓存与峰谷计费、模型性价比及官方购买入口。 / AI coding plans, API pricing and model val",
-   "source": "github_repos",
-   "id": "gh:supercli-site/awesome-coding-plan",
-   "new": true
-  },
-  {
-   "kind": "repo",
-   "title": "yorkeccak/globalhackmap",
-   "url": "https://github.com/yorkeccak/globalhackmap",
-   "score": 142,
-   "why": "★137, topic osint: Every hack, exploit and breach, live: new vulnerabilities, active exploits and breaches on one globe, with sources and o",
-   "source": "github_repos",
-   "id": "gh:yorkeccak/globalhackmap",
-   "new": true
-  },
-  {
-   "kind": "repo",
-   "title": "Championvuseam/pirate-chest-drop-counter",
-   "url": "https://github.com/Championvuseam/pirate-chest-drop-counter",
-   "score": 67,
-   "why": "★67, topic open-data: Community chest counter for the Treasure Hunters season: log what you open, see the honest drop rate with its range.",
-   "source": "github_repos",
-   "id": "gh:Championvuseam/pirate-chest-drop-counter",
-   "new": true
-  },
-  {
-   "kind": "repo",
-   "title": "TyrantShadowfellangel/repdix-rpocket-team",
-   "url": "https://github.com/TyrantShadowfellangel/repdix-rpocket-team",
-   "score": 63,
-   "why": "★58, topic osint: Универсальный Telegram-бот-оркестратор для общения с базами данных (MySQL, PostgreSQL, SQLite) на естественном языке. Ис",
-   "source": "github_repos",
-   "id": "gh:TyrantShadowfellangel/repdix-rpocket-team",
-   "new": true
-  },
-  {
-   "kind": "repo",
-   "title": "hexsyro/HonestyPipeline",
-   "url": "https://github.com/hexsyro/HonestyPipeline",
-   "score": 57,
-   "why": "★52, topic data-quality: Orchestrate 8 data-quality audits into one pipeline and package the results with a data-health score, datasheet, and rep",
-   "source": "github_repos",
-   "id": "gh:hexsyro/HonestyPipeline",
+   "id": "gh:StormBrawlerSack/legwork-osint-ai-investigator",
    "new": true
   },
   {
    "kind": "hn",
-   "title": "Anthropic strikes $3.4B deal to generate gas-fired power for data centres",
-   "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
-   "score": 46,
-   "why": "HN 41 points, 29 comments (https://news.ycombinator.com/item?id=50412760)",
+   "title": "Ukraine knocks out 36% of Russia's oil refining capacity in under two weeks",
+   "url": "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html",
+   "score": 334,
+   "why": "HN 329 points, 247 comments (https://news.ycombinator.com/item?id=50492456)",
    "source": "hn",
-   "id": "hn:50412760",
-   "new": true
-  },
-  {
-   "kind": "repo",
-   "title": "Dicklesworthstone/franken_doppler_finder",
-   "url": "https://github.com/Dicklesworthstone/franken_doppler_finder",
-   "score": 45,
-   "why": "★40, topic osint: Locate an audio or video recording from the Doppler curves of propeller aircraft, matched against archived ADS-B flight ",
-   "source": "github_repos",
-   "id": "gh:Dicklesworthstone/franken_doppler_finder",
+   "id": "hn:50492456",
    "new": true
   },
   {
    "kind": "hn",
-   "title": "Only 16% of U.S. fast-charging stations meet federal NEVI standards (open data)",
-   "url": "https://chargingnear.me/data",
-   "score": 38,
-   "why": "HN 33 points, 11 comments (https://news.ycombinator.com/item?id=50394771)",
+   "title": "Generative AI uses more energy on non-English text",
+   "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
+   "score": 236,
+   "why": "HN 231 points, 128 comments (https://news.ycombinator.com/item?id=50441444)",
    "source": "hn",
-   "id": "hn:50394771",
+   "id": "hn:50441444",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "memoryswordsmanlaud/fieldkit-awesome-osint-list",
+   "url": "https://github.com/memoryswordsmanlaud/fieldkit-awesome-osint-list",
+   "score": 211,
+   "why": "★206, topic osint: A curated list of 22 OSINT tools for Windows — one for every kind of clue: nickname, photo, domain, wallet, company.",
+   "source": "github_repos",
+   "id": "gh:memoryswordsmanlaud/fieldkit-awesome-osint-list",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "solderpupabridge/mutuals-osint-social-connections",
+   "url": "https://github.com/solderpupabridge/mutuals-osint-social-connections",
+   "score": 191,
+   "why": "★186, topic osint: OSINT tool for Windows: enter two public accounts and see everyone who links them.",
+   "source": "github_repos",
+   "id": "gh:solderpupabridge/mutuals-osint-social-connections",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "tabookhandawn/interchange-osint-cross-chain-tracing",
+   "url": "https://github.com/tabookhandawn/interchange-osint-cross-chain-tracing",
+   "score": 183,
+   "why": "★178, topic osint: OSINT tracing of crypto funds across blockchains.",
+   "source": "github_repos",
+   "id": "gh:tabookhandawn/interchange-osint-cross-chain-tracing",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "IceBricklayer4/exposure-osint-digital-footprint",
+   "url": "https://github.com/IceBricklayer4/exposure-osint-digital-footprint",
+   "score": 181,
+   "why": "★176, topic osint: Self-OSINT scanner for Windows: look yourself up the way a stranger would, see every public fact about you, then close w",
+   "source": "github_repos",
+   "id": "gh:IceBricklayer4/exposure-osint-digital-footprint",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "JouninGlide65/assay-osint-crypto-aml-check",
+   "url": "https://github.com/JouninGlide65/assay-osint-crypto-aml-check",
+   "score": 172,
+   "why": "★167, topic osint: no description",
+   "source": "github_repos",
+   "id": "gh:JouninGlide65/assay-osint-crypto-aml-check",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "rivetternregard/acid-test-osint-scam-checker",
+   "url": "https://github.com/rivetternregard/acid-test-osint-scam-checker",
+   "score": 169,
+   "why": "★164, topic osint: OSINT website checker for Windows: paste a link to a shop, site or project and get 23 checks and one plain answer before",
+   "source": "github_repos",
+   "id": "gh:rivetternregard/acid-test-osint-scam-checker",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "tempobouldercharm74/redstring-osint-link-analysis",
+   "url": "https://github.com/tempobouldercharm74/redstring-osint-link-analysis",
+   "score": 164,
+   "why": "★159, topic osint: OSINT link analysis for Windows: accounts, companies, domains and wallets on one board, with a string for every public l",
+   "source": "github_repos",
+   "id": "gh:tempobouldercharm74/redstring-osint-link-analysis",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "RouteInferno/shamus-osint-ai-agent",
+   "url": "https://github.com/RouteInferno/shamus-osint-ai-agent",
+   "score": 162,
+   "why": "★157, topic osint: Command-line AI agent for OSINT: one command, it picks the tools, runs them and writes the case file.",
+   "source": "github_repos",
+   "id": "gh:RouteInferno/shamus-osint-ai-agent",
+   "new": true
+  },
+  {
+   "kind": "repo",
+   "title": "Hunterforemedy/aka-osint-username-search",
+   "url": "https://github.com/Hunterforemedy/aka-osint-username-search",
+   "score": 161,
+   "why": "★156, topic osint: OSINT username search for Windows: every public mention of a nickname, year by year, back to the first one, and the othe",
+   "source": "github_repos",
+   "id": "gh:Hunterforemedy/aka-osint-username-search",
    "new": true
   },
   {
    "kind": "dataset",
-   "title": "MODERN TRENDS IN THE USE OF ARTIFICIAL INTELLIGENCE TECHNOLOGIES IN THE OIL AND GAS INDUSTRY",
-   "url": "https://zenodo.org/records/24078335",
+   "title": "ARTIFICIAL INTELLIGENCE AND BIG DATA IN THE OIL AND GAS INDUSTRY: SEISMIC INTERPRETATION, DRILLING-RISK PREDICTION, DIGITAL TWINS, AND PREDICTIVE MAINTENANCE",
+   "url": "https://zenodo.org/records/24275975",
    "score": 20,
-   "why": "Zenodo dataset, published 2026-11-09",
+   "why": "Zenodo dataset, published 2026-11-16",
    "source": "zenodo",
-   "id": "zenodo:24078335",
+   "id": "zenodo:24275975",
    "new": true
   },
   {
    "kind": "dataset",
-   "title": "Dataset for Bilateral Trade Palm Oil Indonesia and India 2021-2025",
-   "url": "https://zenodo.org/records/24071774",
+   "title": "Coupled BOG Recovery and Speed Control in LNG Carrier Operations: Supporting Simulation Dataset",
+   "url": "https://zenodo.org/records/24274075",
    "score": 20,
-   "why": "Zenodo dataset, published 2026-11-09",
+   "why": "Zenodo dataset, published 2026-11-16",
    "source": "zenodo",
-   "id": "zenodo:24071774",
+   "id": "zenodo:24274075",
    "new": true
   },
   {
    "kind": "dataset",
-   "title": "Code, Data and Per-Seed Results for Analogue-Anchored Crude Oil Price Forecasting (FTGN-A2)",
-   "url": "https://zenodo.org/records/24050393",
+   "title": "Missouri oil and gas wells (Missouri Department of Natural Resources): headers, location and status, standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24107339",
    "score": 20,
-   "why": "Zenodo dataset, published 2026-11-08",
+   "why": "Zenodo dataset, published 2026-11-16",
    "source": "zenodo",
-   "id": "zenodo:24050393",
+   "id": "zenodo:24107339",
    "new": true
   },
   {
    "kind": "dataset",
-   "title": "Data package for the paper \"Data package for the paper \"Reassessing the EU's LNG expansion strategy: Geopolitical dependencies, energy security, and climate goals after the Russian invasion of Ukraine\"\"",
-   "url": "https://zenodo.org/records/23978050",
+   "title": "Alabama oil and gas wells (State of Alabama Oil and Gas Board): headers, location and status, standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24107335",
    "score": 20,
-   "why": "Zenodo dataset, published 2026-11-05",
+   "why": "Zenodo dataset, published 2026-11-16",
    "source": "zenodo",
-   "id": "zenodo:23978050",
+   "id": "zenodo:24107335",
    "new": true
   },
   {
    "kind": "dataset",
-   "title": "Pakistan Fuel Prices - Pakistan's notified petrol, diesel and kerosene prices since 2006, and [...]",
-   "url": "https://eklitre.pk/data/",
+   "title": "Montana oil and gas wells (Montana Board of Oil and Gas Conservation): headers, location and status, standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24107341",
+   "score": 20,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24107341",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "ViDEPI: well logs of relinquished Italian oil and gas permits (LAS), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24271865",
+   "score": 20,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24271865",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Idaho oil and gas wells: formation tops of the Idaho Geological Survey (DD-3 version 2.2026), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24271030",
+   "score": 20,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24271030",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Small Modular Reactor Projects (SMRMap) - Source-linked small modular reactor project, [...]",
+   "url": "https://smrmap.com/downloads.html",
    "score": 20,
    "why": "new or changed entry in awesome-public-datasets, Energy section",
    "source": "awesome_public_datasets",
-   "id": "apd:https://eklitre.pk/data/",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "US Power Outage Burden by State 2013-2025 - State-by-year customer-weighted SAIDI and SAIFI [...]",
-   "url": "https://doi.org/10.5281/zenodo.23548861",
-   "score": 20,
-   "why": "new or changed entry in awesome-public-datasets, Energy section",
-   "source": "awesome_public_datasets",
-   "id": "apd:https://doi.org/10.5281/zenodo.23548861",
+   "id": "apd:https://smrmap.com/downloads.html",
    "new": true
   },
   {
    "kind": "hn",
-   "title": "Renewable electricity – best buffer against gas price volatility",
-   "url": "https://www.eea.europa.eu/en/analysis/publications/renewable-electricity-buffering-gas-prices",
-   "score": 18,
-   "why": "HN 13 points, 4 comments (https://news.ycombinator.com/item?id=50363882)",
+   "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+   "url": "https://www.tomshardware.com/tech-industry/data-centers/microsoft-365-outage-leads-to-chlorine-gas-poisoning-of-15-hotel-guests-email-warning-system-fails-40-first-responders-deployed-for-triage-four-hospitalized",
+   "score": 16,
+   "why": "HN 11 points, 4 comments (https://news.ycombinator.com/item?id=50512299)",
    "source": "hn",
-   "id": "hn:50363882",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Input and output data for \"A framework linking project-level greenhouse gas emissions to additional climate extreme exposure and multi-century committed change\" (Laridon et al., 2026)",
-   "url": "https://zenodo.org/records/23062151",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-11-09",
-   "source": "zenodo",
-   "id": "zenodo:23062151",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Dataset and simulation model for \"A Dynamic Material Flow Analysis–System Dynamics Model of Japan's Special Steel Supply Chain: Toward Decision Support for Critical Mineral Supply Resilience\"",
-   "url": "https://zenodo.org/records/23901718",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-11-07",
-   "source": "zenodo",
-   "id": "zenodo:23901718",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "On a critical acceleration scale of dark matter in ΛCDM and dynamical dark energy: data and manuscript",
-   "url": "https://zenodo.org/records/23963170",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-11-05",
-   "source": "zenodo",
-   "id": "zenodo:23963170",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Replication package for \"The Gateway Gap: Port Entry, Transshipment Reallocation and Liner Connectivity in Peru\"",
-   "url": "https://zenodo.org/records/23989304",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-11-05",
-   "source": "zenodo",
-   "id": "zenodo:23989304",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Data and code for \"Service definition drives reported mitigation in a multiproduct oil palm supply chain model\"",
-   "url": "https://zenodo.org/records/23989536",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-11-05",
-   "source": "zenodo",
-   "id": "zenodo:23989536",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Sea Shipping Disruption (2019–2026): Research Data",
-   "url": "https://zenodo.org/records/23984882",
-   "score": 15,
-   "why": "Zenodo dataset, published 2026-11-05",
-   "source": "zenodo",
-   "id": "zenodo:23984882",
+   "id": "hn:50512299",
    "new": true
   },
   {
    "kind": "hn",
-   "title": "I converted 661M rows of Texas oil and gas data from mainframe dumps",
-   "url": "https://texasrrcapi.com/",
+   "title": "Tanker collides with river cruiser near Port of New Orleans",
+   "url": "https://www.cnn.com/2026/11/13/us/live-news/new-orleans-cruise-ship-crash",
+   "score": 15,
+   "why": "HN 5 points, 0 comments (https://news.ycombinator.com/item?id=50490745)",
+   "source": "hn",
+   "id": "hn:50490745",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Dataset Split Identifiers for MethaFormer: Methane Plume Monitoring Across Multiple Imaging Spectrometers",
+   "url": "https://zenodo.org/records/24281102",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24281102",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Charge-engineered cellulose membranes from wood waste for ionic thermoelectric energy conversion",
+   "url": "https://zenodo.org/records/24279584",
+   "score": 15,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24279584",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "C12085 - ENERGRID HOLDINGS/TRADEINV GAS & ENERGY",
+   "url": "https://data.europa.eu/data/datasets/p26433",
+   "score": 15,
+   "why": "new on data.europa.eu (2026-11-16), query 'gas storage'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p26433",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "C12130 - GREEN NETWORK/RAMI DI AZIENDA DI ENERGRID, TRADEINV GAS & ENERGY E ENERGIA E TERRITORIO",
+   "url": "https://data.europa.eu/data/datasets/p26872",
+   "score": 15,
+   "why": "new on data.europa.eu (2026-11-16), query 'gas storage'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p26872",
+   "new": true
+  },
+  {
+   "kind": "hn",
+   "title": "NRC Issues First Construction Permit in Nearly 60 Years for Gas-Cooled Reactor",
+   "url": "https://www.nrc.gov/about-nrc/news-releases/2026/26-083",
    "score": 13,
-   "why": "HN 3 points, 1 comments (https://news.ycombinator.com/item?id=50365698)",
+   "why": "HN 8 points, 0 comments (https://news.ycombinator.com/item?id=50462758)",
    "source": "hn",
-   "id": "hn:50365698",
+   "id": "hn:50462758",
    "new": true
   },
   {
    "kind": "hn",
-   "title": "Protesters across Europe to call for freeze on energy hungry data centres",
-   "url": "https://www.euronews.com/2026/11/05/protesters-across-europe-to-call-for-freeze-on-energy-hungry-data-centres",
+   "title": "High oil prices have led to a dip in global carbon emissions",
+   "url": "https://arstechnica.com/science/2026/11/carbon-emissions-are-down-this-year-but-that-probably-wont-last/",
    "score": 12,
-   "why": "HN 7 points, 0 comments (https://news.ycombinator.com/item?id=50383562)",
+   "why": "HN 7 points, 0 comments (https://news.ycombinator.com/item?id=50443433)",
    "source": "hn",
-   "id": "hn:50383562",
+   "id": "hn:50443433",
    "new": true
   },
   {
    "kind": "hn",
-   "title": "AI Needed to Produce More Gas to Power More AI, Tech Firm Cohere Says",
-   "url": "https://www.desmog.com/2026/11/04/ai-needed-to-produce-more-gas-to-power-more-ai-tech-firm-cohere-says/",
+   "title": "Anthropic joins AI's natural gas frenzy, buys $3.4B worth of turbines",
+   "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
    "score": 11,
-   "why": "HN 6 points, 0 comments (https://news.ycombinator.com/item?id=50391269)",
+   "why": "HN 6 points, 3 comments (https://news.ycombinator.com/item?id=50436103)",
    "source": "hn",
-   "id": "hn:50391269",
+   "id": "hn:50436103",
    "new": true
   },
   {
-   "kind": "hn",
-   "title": "Wind and Solar Power Production Dataset for the Contiguous United States",
-   "url": "https://www.nature.com/articles/s41597-024-03894-w",
+   "kind": "paper",
+   "title": "Pairing AIS with RF: Analysis of a Markovian Approach for Maritime Data Fusion",
+   "url": "http://arxiv.org/abs/2611.18563v1",
    "score": 11,
-   "why": "HN 6 points, 1 comments (https://news.ycombinator.com/item?id=50370757)",
-   "source": "hn",
-   "id": "hn:50370757",
+   "why": "arXiv 2026-11-13: Monitoring maritime activities is important for safety and security, particularly for detecting illegal activi",
+   "source": "arxiv",
+   "id": "arxiv:2611.18563",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Hydraulic Fracturing Test Site 2 (HFTS-2), Delaware Basin: wireline logs of the Boxwood test wells (NETL EDX), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24274933",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24274933",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "South Georgia Rift Basin CO2 storage characterization: well logs (ARRA, South Carolina Research Foundation; NETL EDX), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24274306",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24274306",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Illinois Basin - Decatur Project (IBDP): core analyses, directional surveys and formation tops (ISGS; NETL EDX), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24274154",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24274154",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Illinois Basin - Decatur Project (IBDP): well information, logs and sample analyses (ISGS; NETL EDX), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24273883",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24273883",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "SECARB Cranfield CO2 injection site: well logs (NETL EDX), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24273755",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24273755",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Drill stem test (DST) data for Sweetwater County, Wyoming (NETL EDX), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24273255",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24273255",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Rocky Mountain region CO2 sequestration formations: well logs (ARRA, University of Utah; NETL EDX), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24273187",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24273187",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Black Warrior Basin, Alabama: well logs of the CO2 storage characterization (ARRA, University of Alabama; NETL EDX), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24273126",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24273126",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Newark Basin, New York and New Jersey: well logs of the CO2 storage characterization (ARRA, Sandia Technologies; NETL EDX), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24273071",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24273071",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Wilmington Graben (offshore Los Angeles) CO2 storage characterization, well SFI #3: conventional core analysis (ARRA, GeoMechanics Technologies; NETL EDX), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24271808",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24271808",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "South Georgia Rift Basin CO2 storage characterization, Rizer #1 test borehole: core analyses and rock mechanics (ARRA, South Carolina Research Foundation; NETL EDX), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24271678",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24271678",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Newark Basin CO2 storage characterization, NYSTA Tandem Lot No. 1 and LDEO Test Well No. 4: core analyses, rock mechanics and MDT formation pressures (ARRA, Sandia Technologies; NETL EDX), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24271598",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24271598",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "SECARB Cranfield CO2 injection: pressure monitoring data, standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24271181",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24271181",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Illinois Basin - Decatur Project (IBDP): CO2 injection monitoring data, DTS and well monitoring (ISGS; NETL EDX), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24270979",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24270979",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Wyoming wells (WOGCC): directional surveys from text reports, standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24270733",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24270733",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Gulf of Mexico Miocene CO2 site characterization mega transect: well logs (ARRA, University of Texas at Austin; NETL EDX), standardized (Open Well Data)",
+   "url": "https://zenodo.org/records/24270417",
+   "score": 10,
+   "why": "Zenodo dataset, published 2026-11-16",
+   "source": "zenodo",
+   "id": "zenodo:24270417",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "C12208 - AXPO ITALIA/RAMO DI AZIENDA DI BP ENERGY EUROPE",
+   "url": "https://data.europa.eu/data/datasets/p27487",
+   "score": 10,
+   "why": "new on data.europa.eu (2026-11-16), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p27487",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "C12198 - A2A ENERGIA/RAMO DI AZIENDA DI X3 ENERGY",
+   "url": "https://data.europa.eu/data/datasets/p27419",
+   "score": 10,
+   "why": "new on data.europa.eu (2026-11-16), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p27419",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "C11906 - ENERGY GROUP-COOP ESTENSE/ENERGY ESTENSE",
+   "url": "https://data.europa.eu/data/datasets/p24323",
+   "score": 10,
+   "why": "new on data.europa.eu (2026-11-16), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p24323",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "C11880 - CEF WIND ENERGY/PIANO SAN BIAGIO WIND FARM",
+   "url": "https://data.europa.eu/data/datasets/p24185",
+   "score": 10,
+   "why": "new on data.europa.eu (2026-11-16), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p24185",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "C12155 - SNAM/TEP ENERGY SOLUTION",
+   "url": "https://data.europa.eu/data/datasets/p27119",
+   "score": 10,
+   "why": "new on data.europa.eu (2026-11-16), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p27119",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "C12186 - IREN/SPEZIA ENERGY TRADING",
+   "url": "https://data.europa.eu/data/datasets/p27308",
+   "score": 10,
+   "why": "new on data.europa.eu (2026-11-16), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p27308",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "C12071 - HII/ENERGRID-ENERGIA E TERRITORIO-SERVIZI ITALIANA GAS",
+   "url": "https://data.europa.eu/data/datasets/p26264",
+   "score": 10,
+   "why": "new on data.europa.eu (2026-11-16), query 'gas storage'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p26264",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "C11970 - IREN ACQUA GAS/SOCIETÀ MULTI SERVIZI ACQUA E GAS- S.M.A.G.",
+   "url": "https://data.europa.eu/data/datasets/p25219",
+   "score": 10,
+   "why": "new on data.europa.eu (2026-11-16), query 'gas storage'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p25219",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "C11946 - SOCIETÀ ITALIANA PER IL GAS/AES TORINO",
+   "url": "https://data.europa.eu/data/datasets/p24895",
+   "score": 10,
+   "why": "new on data.europa.eu (2026-11-16), query 'gas storage'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p24895",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "C11878 - ITALGAS - ACEGAS-APS/ISONTINA RETI GAS",
+   "url": "https://data.europa.eu/data/datasets/p24320",
+   "score": 10,
+   "why": "new on data.europa.eu (2026-11-16), query 'gas storage'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p24320",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "C12125 - 2I RETE GAS/NEDGIA",
+   "url": "https://data.europa.eu/data/datasets/p26957",
+   "score": 10,
+   "why": "new on data.europa.eu (2026-11-16), query 'gas storage'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p26957",
    "new": true
   },
   {
    "kind": "hn",
-   "title": "Less coal, less oil: China's emissions fall sharply",
-   "url": "https://www.heise.de/en/news/Less-coal-less-oil-China-s-emissions-fall-sharply-11514905.html",
-   "score": 10,
-   "why": "HN 5 points, 1 comments (https://news.ycombinator.com/item?id=50414789)",
-   "source": "hn",
-   "id": "hn:50414789",
-   "new": true
-  },
-  {
-   "kind": "hn",
-   "title": "Few Repercussions for Continued Gas Leaks After Couple's Death",
-   "url": "https://insideclimatenews.org/news/03112026/few-repercussions-for-oil-firms-continued-leaks-after-couples-death-from-toxic-gas/",
-   "score": 10,
-   "why": "HN 5 points, 0 comments (https://news.ycombinator.com/item?id=50395660)",
-   "source": "hn",
-   "id": "hn:50395660",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "PQ-NEXT: MAYO Secret Linear Map on Cortex-M4: Profiled Deep-Learning Side-Channel Analysis, Exact Key Rank and Masking Evaluation — Processed Results, Firmware and Analysis Code",
-   "url": "https://zenodo.org/records/24083918",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-09",
-   "source": "zenodo",
-   "id": "zenodo:24083918",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Supporting data for: Contributions of Carbon Species and Multiple Pulsed Fluids to Exceptional Nickel and Cobalt Enrichment",
-   "url": "https://zenodo.org/records/24079724",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-09",
-   "source": "zenodo",
-   "id": "zenodo:24079724",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Suplementary Material",
-   "url": "https://zenodo.org/records/24079978",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-09",
-   "source": "zenodo",
-   "id": "zenodo:24079978",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "UGLEVODORODLARNI QAYTA ISHLASH JARAYONINI MUQOBIL AVTOMATLASHTIRISH USULLARINI TAKOMILLASHTIRISH",
-   "url": "https://zenodo.org/records/24079158",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-09",
-   "source": "zenodo",
-   "id": "zenodo:24079158",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "European methane emissions estimated top-down with the ITMS demonstrator 2026",
-   "url": "https://zenodo.org/records/23953475",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-09",
-   "source": "zenodo",
-   "id": "zenodo:23953475",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Data for \"Bridging Scholarship and Practice in Information Systems Education: A Bibliometric Analysis of JISE and a Research Agenda\"",
-   "url": "https://zenodo.org/records/24063498",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-08",
-   "source": "zenodo",
-   "id": "zenodo:24063498",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Data and code for \"Ground-to-canopy tree methane fluxes: Implications for scaling and forest budgets\"",
-   "url": "https://zenodo.org/records/24061307",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-08",
-   "source": "zenodo",
-   "id": "zenodo:24061307",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Convergence or Resilience? Quality of Government and Regional Convergence in the EU and Ukraine: Replication Data and Code",
-   "url": "https://zenodo.org/records/24057935",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-08",
-   "source": "zenodo",
-   "id": "zenodo:24057935",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "ENGINE ARCHITECTURE, OPERATING LOAD AND FUELEU MARITIME COMPLIANCE OF ALTERNATIVE-FUEL RETROFITS: A SCREENING ASSESSMENT OF 3,740 EU BULK CARRIERS WITH A KAMSARMAX CASE",
-   "url": "https://zenodo.org/records/24057809",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-08",
-   "source": "zenodo",
-   "id": "zenodo:24057809",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Ni–Ru–W thermodynamic assessment: DFT data, cluster expansion, Monte-Carlo integration, σ-phase phonons and scripts",
-   "url": "https://zenodo.org/records/24052886",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-08",
-   "source": "zenodo",
-   "id": "zenodo:24052886",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "HarborLedger close-quarters encounter benchmark (v1): real-traffic collision alerts and outcomes, California ports, 2024-2025",
-   "url": "https://zenodo.org/records/24047861",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-07",
-   "source": "zenodo",
-   "id": "zenodo:24047861",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Data and code for estimating dust column mass and surface PM2.5 over Baghdad using machine learning",
-   "url": "https://zenodo.org/records/24020826",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-06",
-   "source": "zenodo",
-   "id": "zenodo:24020826",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Public disclosure record of the US Section 45Q carbon storage subsidy: subpart RR filings census and IRS aggregate series, and the credit visibility gradient",
-   "url": "https://zenodo.org/records/24011776",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-06",
-   "source": "zenodo",
-   "id": "zenodo:24011776",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Counties being part of a logistics cluster in the US from 1998 to 2022",
-   "url": "https://zenodo.org/records/23993778",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-06",
-   "source": "zenodo",
-   "id": "zenodo:23993778",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Household affordability of sanitary landfilling is governed by cost allocation rather than metropolitan economic capacity",
-   "url": "https://zenodo.org/records/17797092",
-   "score": 10,
-   "why": "Zenodo dataset, published 2026-11-03",
-   "source": "zenodo",
-   "id": "zenodo:17797092",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Telecoms AI synthetic datasets for Energy Optimisation in Smart Factory private 5G networks",
-   "url": "https://www.data.gov.uk/dataset/telecoms-ai-synthetic-datasets-for-energy-optimisation-in-smart-factory-private-5g-networks",
-   "score": 10,
-   "why": "new on data.gov.uk (2026-11-04), query 'energy'",
-   "source": "ckan",
-   "id": "ckan:data.gov.uk:ded0939c-a510-49c6-b9ad-661384c509c9",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Telecoms AI synthetic datasets for Energy Optimisation in Warehouse private 5G networks",
-   "url": "https://www.data.gov.uk/dataset/telecoms-ai-synthetic-datasets-for-energy-optimisation-in-warehouse-private-5g-networks",
-   "score": 10,
-   "why": "new on data.gov.uk (2026-11-04), query 'energy'",
-   "source": "ckan",
-   "id": "ckan:data.gov.uk:23484773-20c4-4f34-8618-386c7f9ded32",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Telecoms AI synthetic datasets for Energy Optimisation in Stadium private 5G networks",
-   "url": "https://www.data.gov.uk/dataset/telecoms-ai-synthetic-datasets-for-energy-optimisation-in-stadium-private-5g-networks",
-   "score": 10,
-   "why": "new on data.gov.uk (2026-11-04), query 'energy'",
-   "source": "ckan",
-   "id": "ckan:data.gov.uk:edc54596-5c60-464b-816f-fc08e4d59884",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Telecoms AI synthetic datasets for Energy Optimisation in Campus private 5G networks",
-   "url": "https://www.data.gov.uk/dataset/telecoms-ai-synthetic-datasets-for-energy-optimisation-in-campus-private-5g-networks",
-   "score": 10,
-   "why": "new on data.gov.uk (2026-11-04), query 'energy'",
-   "source": "ckan",
-   "id": "ckan:data.gov.uk:5610d211-2e9f-4035-8063-02e4cb5fabf8",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Telecoms AI synthetic datasets for Energy Optimisation in Enterprise private 5G networks",
-   "url": "https://www.data.gov.uk/dataset/telecoms-ai-synthetic-datasets-for-energy-optimisation-in-enterprise-private-5g-networks",
-   "score": 10,
-   "why": "new on data.gov.uk (2026-11-04), query 'energy'",
-   "source": "ckan",
-   "id": "ckan:data.gov.uk:3798dab7-2838-420a-8756-9944ee18fe4b",
-   "new": true
-  },
-  {
-   "kind": "hn",
-   "title": "Google energy head: space data centers would cost up to 100x more than on Earth",
-   "url": "https://www.msn.com/en-us/money/general/google-energy-head-claims-data-centers-in-space-would-cost-up-to-100x-more-than-on-earth/ar-AA2gYiXa",
+   "title": "Congress to Vote on Far-Reaching Plan to Speed Up Energy Projects",
+   "url": "https://www.nytimes.com/2026/11/09/climate/congress-energy-permitting-reform-vote.html",
    "score": 9,
-   "why": "HN 4 points, 0 comments (https://news.ycombinator.com/item?id=50413354)",
+   "why": "HN 4 points, 0 comments (https://news.ycombinator.com/item?id=50429263)",
    "source": "hn",
-   "id": "hn:50413354",
+   "id": "hn:50429263",
+   "new": true
+  },
+  {
+   "kind": "hn",
+   "title": "Show HN: Europe's gas storage, updated daily from public GIE and ENTSOG data",
+   "url": "https://gas.beetl.io/",
+   "score": 9,
+   "why": "HN 4 points, 0 comments (https://news.ycombinator.com/item?id=50465345)",
+   "source": "hn",
+   "id": "hn:50465345",
    "new": true
   },
   {
    "kind": "paper",
-   "title": "Grid-Oriented Probabilistic Load Forecasting for AI Data Centers",
-   "url": "http://arxiv.org/abs/2611.08929v1",
+   "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+   "url": "http://arxiv.org/abs/2611.17060v1",
    "score": 6,
-   "why": "arXiv 2026-11-06: Probabilistic load forecasts for AI data centers need to represent both uncertainty under changing workloads a",
+   "why": "arXiv 2026-11-12: Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots di",
    "source": "arxiv",
-   "id": "arxiv:2611.08929",
+   "id": "arxiv:2611.17060",
    "new": true
   },
   {
    "kind": "paper",
-   "title": "Navigational Safety of Marine Surface Vehicles in Restricted Visibility: From Intelligent Vision to Vision-Centered Multi-Sensor Fusion",
-   "url": "http://arxiv.org/abs/2611.05818v1",
+   "title": "Terms of Care: Designing for Participation in Data Governance by Disability Communities",
+   "url": "http://arxiv.org/abs/2611.15720v1",
    "score": 6,
-   "why": "arXiv 2026-11-04: Marine surface vehicles (MSVs) have attracted considerable attention for their commercial, scientific, and mil",
+   "why": "arXiv 2026-11-11: Improving disability representation in AI-generated media requires community-specific datasets, yet openly sha",
    "source": "arxiv",
-   "id": "arxiv:2611.05818",
+   "id": "arxiv:2611.15720",
    "new": true
   },
   {
    "kind": "paper",
-   "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
-   "url": "http://arxiv.org/abs/2611.04408v1",
+   "title": "Decision-Focused Learning via Neural Optimization Layers for Battery-Assisted Grid-Import Smoothing in AI Data Centers",
+   "url": "http://arxiv.org/abs/2611.13694v1",
    "score": 6,
-   "why": "arXiv 2026-11-03: A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicate",
+   "why": "arXiv 2026-11-10: Rapid AI data-center power fluctuations challenge grid integration. Sustained grid-import smoothing requires a",
    "source": "arxiv",
-   "id": "arxiv:2611.04408",
+   "id": "arxiv:2611.13694",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Evolución anual de energía eléctrica a partir de las fuentes de energía renovables, cogeneración y residuos - energía vendida y potencia instalada según la comunidad autónoma.",
+   "url": "https://data.europa.eu/data/datasets/https-catalogodatos-cnmc-es-dataset-ds_24503_1",
+   "score": 5,
+   "why": "new on data.europa.eu (2026-11-14), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:https-catalogodatos-cnmc-es-dataset-ds_24503_1",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Retribución anual total recibida por los productores de energía eléctrica a partir de fuentes de energía renovables, cogeneración y residuos en España según tecnología.",
+   "url": "https://data.europa.eu/data/datasets/https-catalogodatos-cnmc-es-dataset-ds_24501_1",
+   "score": 5,
+   "why": "new on data.europa.eu (2026-11-15), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:https-catalogodatos-cnmc-es-dataset-ds_24501_1",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Evolución mensual de energía eléctrica a partir de las fuentes de energía renovables, cogeneración y residuos en España. Energía vendida y potencia instalada según tecnología.",
+   "url": "https://data.europa.eu/data/datasets/https-catalogodatos-cnmc-es-dataset-ds_24504_1",
+   "score": 5,
+   "why": "new on data.europa.eu (2026-11-15), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:https-catalogodatos-cnmc-es-dataset-ds_24504_1",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Evolución anual de la producción de energía eléctrica a partir de fuentes de energía renovables, cogeneración y residuos en España. Energía vendida, potencia y nº de instalaciones según tecnología.",
+   "url": "https://data.europa.eu/data/datasets/https-catalogodatos-cnmc-es-dataset-ds_24502_1",
+   "score": 5,
+   "why": "new on data.europa.eu (2026-11-15), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:https-catalogodatos-cnmc-es-dataset-ds_24502_1",
    "new": true
   },
   {
    "kind": "dataset",
    "title": "",
-   "url": "https://data.europa.eu/data/datasets/c3bf6e55-28c5-4488-8ad5-709122f3ebf8",
+   "url": "https://data.europa.eu/data/datasets/b89f869e-d023-433e-aa35-01de3929685c",
    "score": 5,
-   "why": "new on data.europa.eu (2026-11-07), query 'energy'",
+   "why": "new on data.europa.eu (2026-11-15), query 'energy'",
    "source": "ckan",
-   "id": "ckan:data.europa.eu:c3bf6e55-28c5-4488-8ad5-709122f3ebf8",
+   "id": "ckan:data.europa.eu:b89f869e-d023-433e-aa35-01de3929685c",
    "new": true
   },
   {
    "kind": "dataset",
    "title": "",
-   "url": "https://data.europa.eu/data/datasets/2ed07890-dba8-4039-be14-84ed25439860",
+   "url": "https://data.europa.eu/data/datasets/7cb6a73d-69a2-42c1-9d2c-3bcc32bdbdb4",
    "score": 5,
-   "why": "new on data.europa.eu (2026-11-07), query 'energy'",
+   "why": "new on data.europa.eu (2026-11-12), query 'energy'",
    "source": "ckan",
-   "id": "ckan:data.europa.eu:2ed07890-dba8-4039-be14-84ed25439860",
+   "id": "ckan:data.europa.eu:7cb6a73d-69a2-42c1-9d2c-3bcc32bdbdb4",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Estadística Petróleo - 2026 - Consumos mensuales provincial (Tm)",
+   "url": "https://data.europa.eu/data/datasets/https-catalogodatos-cnmc-es-dataset-ds_24500_1",
+   "score": 5,
+   "why": "new on data.europa.eu (2026-11-14), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:https-catalogodatos-cnmc-es-dataset-ds_24500_1",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "Estadística Petróleo - Producción (Tm)",
+   "url": "https://data.europa.eu/data/datasets/https-catalogodatos-cnmc-es-dataset-ds_24499_1",
+   "score": 5,
+   "why": "new on data.europa.eu (2026-11-15), query 'energy'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:https-catalogodatos-cnmc-es-dataset-ds_24499_1",
+   "new": true
+  },
+  {
+   "kind": "dataset",
+   "title": "C11967 - BLACK OILS/EUROPAM",
+   "url": "https://data.europa.eu/data/datasets/p25191",
+   "score": 5,
+   "why": "new on data.europa.eu (2026-11-16), query 'oil'",
+   "source": "ckan",
+   "id": "ckan:data.europa.eu:p25191",
    "new": true
   },
   {
    "kind": "dataset",
    "title": "",
-   "url": "https://data.europa.eu/data/datasets/2f5a5127-51d5-4e10-a163-2e9e15eeaaec",
+   "url": "https://data.europa.eu/data/datasets/ankoe-foia-1548",
    "score": 5,
-   "why": "new on data.europa.eu (2026-11-04), query 'energy'",
+   "why": "new on data.europa.eu (2026-11-14), query 'gas storage'",
    "source": "ckan",
-   "id": "ckan:data.europa.eu:2f5a5127-51d5-4e10-a163-2e9e15eeaaec",
+   "id": "ckan:data.europa.eu:ankoe-foia-1548",
    "new": true
   },
   {
    "kind": "dataset",
    "title": "",
-   "url": "https://data.europa.eu/data/datasets/klima-und-energieleitbild",
+   "url": "https://data.europa.eu/data/datasets/ankoe-foia-1540",
    "score": 5,
-   "why": "new on data.europa.eu (2026-11-04), query 'energy'",
+   "why": "new on data.europa.eu (2026-11-12), query 'gas storage'",
    "source": "ckan",
-   "id": "ckan:data.europa.eu:klima-und-energieleitbild",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "",
-   "url": "https://data.europa.eu/data/datasets/vorsorgecheck-naturgefahren",
-   "score": 5,
-   "why": "new on data.europa.eu (2026-11-04), query 'energy'",
-   "source": "ckan",
-   "id": "ckan:data.europa.eu:vorsorgecheck-naturgefahren",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "",
-   "url": "https://data.europa.eu/data/datasets/https-doi-org-10-5281-zenodo-23920482",
-   "score": 5,
-   "why": "new on data.europa.eu (2026-11-06), query 'oil'",
-   "source": "ckan",
-   "id": "ckan:data.europa.eu:https-doi-org-10-5281-zenodo-23920482",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Marchés publics de formation à l'intelligence artificielle (DECP, depuis 2024)",
-   "url": "https://data.europa.eu/data/datasets/6ae71ebc19d93b22d54a5acd",
-   "score": 5,
-   "why": "new on data.europa.eu (2026-11-04), query 'oil'",
-   "source": "ckan",
-   "id": "ckan:data.europa.eu:6ae71ebc19d93b22d54a5acd",
-   "new": true
-  },
-  {
-   "kind": "dataset",
-   "title": "Variétés de houblon : composition chimique, arômes et culture (listehoublon.fr)",
-   "url": "https://data.europa.eu/data/datasets/6ae1daaaa28258a429567ee9",
-   "score": 5,
-   "why": "new on data.europa.eu (2026-11-03), query 'oil'",
-   "source": "ckan",
-   "id": "ckan:data.europa.eu:6ae1daaaa28258a429567ee9",
+   "id": "ckan:data.europa.eu:ankoe-foia-1540",
    "new": true
   }
  ]

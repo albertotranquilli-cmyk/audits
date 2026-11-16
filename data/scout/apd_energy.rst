@@ -42,6 +42,8 @@
         
 * |OK_ICON| `Publicly Available Datasets For Electric Load Forecasting - Contains an active maintained [...] <https://github.com/LSB-dev/Publicly-Available-Datasets-For-Electric-Load-Forecasting/>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/PubliclyAvailableLoadForecastingDatasets.yml>`_]
         
+* |OK_ICON| `Small Modular Reactor Projects (SMRMap) - Source-linked small modular reactor project, [...] <https://smrmap.com/downloads.html>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/SMRMap-Small-Modular-Reactor-Projects.yml>`_]
+        
 * |OK_ICON| `SYND - A synthetic energy dataset for non-intrusive load monitoring - With SynD, we present a [...] <https://www.nature.com/articles/s41597-020-0434-6>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/SYND.yml>`_]
         
 * |OK_ICON| `Tracebase <https://github.com/areinhardt/tracebase>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/Tracebase.yml>`_]
