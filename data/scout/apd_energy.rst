@@ -18,6 +18,8 @@
         
 * |OK_ICON| `U.S. Energy Information Administration (EIA) <https://www.eia.gov/electricity/data/eia923/>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/EIA.yml>`_]
         
+* |OK_ICON| `France Tempo Days and Winter Electricity Consumption - Daily colour of the French EDF Tempo [...] <https://huggingface.co/datasets/JourTempo/tempo-hivers-france>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/France-Tempo-Days-and-Winter-Consumption.yml>`_]
+        
 * |OK_ICON| `Global Power Plant Database - The Global Power Plant Database is a comprehensive, open source [...] <http://datasets.wri.org/dataset/globalpowerplantdatabase>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/Global Power Plant Database.yml>`_]
         
 * |OK_ICON| `HES - Household Electricity Study, UK <http://randd.defra.gov.uk/Default.aspx?Menu=Menu&Module=More&Location=None&ProjectID=17359&FromSearch=Y&Publisher=1&SearchText=EV0702&SortString=ProjectCode&SortOrder=Asc&Paging=10#Description>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/HES.yml>`_]
@@ -54,7 +56,7 @@
         
 * |OK_ICON| `US Plug-In / Balcony Solar Legality (50 States) - Free, no-auth JSON dataset of plug-in / [...] <https://pluginsolarhub.org/developers/>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/US-Plug-In-Solar-Legality.yml>`_]
         
-* |OK_ICON| `US Power Outage Burden by State 2013-2025 - State-by-year customer-weighted SAIDI and SAIFI [...] <https://doi.org/10.5281/zenodo.23548861>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/US-Power-Outage-Burden-by-State.yml>`_]
+* |FIXME_ICON| `US Power Outage Burden by State 2013-2025 - State-by-year customer-weighted SAIDI and SAIFI [...] <https://doi.org/10.5281/zenodo.23548861>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/US-Power-Outage-Burden-by-State.yml>`_]
         
 * |OK_ICON| `WHITED (A Worldwide Household and Industry Transient Energy Dataset) <https://huggingface.co/datasets/maduschek/WHITED>`_ [`Meta <https://github.com/awesomedata/apd-core/tree/master/core//Energy/WHITED.yml>`_]
         
