@@ -1,16 +1,16 @@
 {
  "source": "EIA weekly US commercial crude stocks excl. SPR (WCESTUS1), kb",
  "source_url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WCESTUS1&f=W",
- "publisher_last_edit": "11/18/2026",
- "checked_at_utc": "2026-11-19T14:38:45Z",
- "n_periods": 2303,
+ "publisher_last_edit": "11/25/2026",
+ "checked_at_utc": "2026-11-26T15:39:57Z",
+ "n_periods": 2304,
  "first_date": "1982-08-20",
- "latest_date": "2026-11-13",
+ "latest_date": "2026-11-20",
  "latest": {
-  "stocks_kbbl": 417797
+  "stocks_kbbl": 418906
  },
- "raw_sha256": "539089717d98465228884992847e5852511e91383026ce598288a4e608bece3f",
- "series_sha256": "2c89d8e539bfb0d413e590bc30240eb218138631bf05c953ea30f85786c7f863",
+ "raw_sha256": "44f96468334a1c1f36c492920503b12e90351e11c08e529cf0892995e33571a0",
+ "series_sha256": "639468d6526f104b13183894f4bcab39eb00bf2aec6046f3df224819814915b1",
  "year_sha256": {
   "1982": "d428318bdd832d66bf2d998b67e6caccae2ba91f68acf7712f13fef9ae9227ac",
   "1983": "c15a92e299eea97c4849ef416fccefb0feac8ff8b65bf5d27d54ebed6e1a5bb8",
@@ -56,13 +56,9 @@
   "2023": "fc215b9e94df9ca61ee9f417b6877889e3c43ec155c259f2106e8e8fe8c44fbc",
   "2024": "b1a62e15a51baf47079867e0c069fad2940f4ba2f3c38faff78d69ba0d9d023c",
   "2025": "15d3b52a9432fc853f6b4d93206014f837db9e31476cb474ca062a40f055581f",
-  "2026": "747dcbaaf4064a0a1554210ec789cdb2bb3cc9880b534a2d3e039f75a26f503a"
+  "2026": "e2d21a4317af8c584ea44dcd575f1407715faf67e0c125d9a0e77e54cda0130a"
  },
  "recent": [
-  {
-   "date": "2026-09-25",
-   "stocks_kbbl": 427320
-  },
   {
    "date": "2026-10-02",
    "stocks_kbbl": 424134
@@ -90,12 +86,16 @@
   {
    "date": "2026-11-13",
    "stocks_kbbl": 417797
+  },
+  {
+   "date": "2026-11-20",
+   "stocks_kbbl": 418906
   }
  ],
  "wayback": [
   {
    "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WCESTUS1&f=W",
-   "archive": "https://web.archive.org/web/20261119144210/https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WCESTUS1&f=W"
+   "archive": "https://web.archive.org/web/20261126154132/https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=WCESTUS1&f=W"
   }
  ]
 }
